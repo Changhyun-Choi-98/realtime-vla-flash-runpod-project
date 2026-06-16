@@ -1,0 +1,22 @@
+{
+  "infer_log_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl"
+  ],
+  "trace_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl"
+  ],
+  "route_counts": {
+    "full": 2,
+    "draft": 19
+  },
+  "flash_full_counts": {
+    "draft": 19,
+    "full": 2
+  },
+  "accepted_prefix_len_mean": 12.0,
+  "accepted_prefix_len_p50": 12.0,
+  "accepted_prefix_len_p95": 12.0,
+  "missing_fields": []
+}

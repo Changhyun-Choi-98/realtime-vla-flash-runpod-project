@@ -1,0 +1,17 @@
+{
+  "stage": "stage3_one_task_closed_loop_smoke",
+  "suite": "libero_goal",
+  "task_id": 0,
+  "num_trials_per_task_first": 2,
+  "num_trials_per_task_optional": 5,
+  "seed": 7,
+  "render_backend": "egl",
+  "camera_resolution": 256,
+  "server_backend": "triton",
+  "config": "pi0_libero",
+  "base_triton_path": "/workspace/realtime_vla_flash_project/converted/base",
+  "draft_triton_path": "/workspace/realtime_vla_flash_project/converted/draft_goal",
+  "video_out_path": "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke",
+  "full_benchmark_allowed": false,
+  "paper_reproduction_claim_allowed": false
+}

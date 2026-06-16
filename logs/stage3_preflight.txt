@@ -1,0 +1,31 @@
+== date UTC ==
+Tue Jun 16 03:00:19 UTC 2026
+
+== repo commit ==
+da6ceccad603695a8a3d6fa14dd410c3aadb536f
+
+== required artifacts ==
+-rw-rw-rw- 1 root root 421M Jun 16 01:45 /workspace/realtime_vla_flash_project/converted/draft_goal/draft_triton.pkl
+/workspace/realtime_vla_flash_project/converted/base/base_weights.pkl
+
+== GPU ==
+Tue Jun 16 03:00:21 2026
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.159.03             Driver Version: 580.159.03     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    On  |   00000000:C3:00.0 Off |                    0 |
+| N/A   37C    P8             37W /  262W |       0MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

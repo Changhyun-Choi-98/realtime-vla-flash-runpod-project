@@ -1,0 +1,92 @@
+INFO:root:Norm stats not found in /workspace/realtime_vla_flash_project/repos/realtime-vla-flash/assets/pi0_libero/physical-intelligence/libero, skipping.
+INFO:root:Loaded norm stats from /workspace/realtime_vla_flash_project/converted/base/assets/physical-intelligence/libero
+INFO:root:Loaded 10 LIBERO prompts from local BDDL files for libero_goal
+INFO:root:Creating Triton server (host: redacted, ip: redacted, port: 8000)
+INFO:websockets.server:server listening on 0.0.0.0:8000
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 51840) opened
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=79244.85 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.25 prefill=15.56 draft=0.00 verify=0.00 denoise=13.23 total=33.04
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=17390.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=6149.57 verify=11062.26 denoise=0.00 total=17216.04
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.44 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.25 prefill=0.00 draft=1.06 verify=2.16 denoise=0.00 total=7.46
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.18 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.12 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.20 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.05 verify=2.15 denoise=0.00 total=7.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.03 verify=2.14 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.88 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.54 draft=0.00 verify=0.00 denoise=12.64 total=32.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.94 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.98 verify=2.13 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.35
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 51840) closed

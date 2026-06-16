@@ -1,0 +1,11 @@
+{
+  "server_policy_time_ms_p50": 10.804571000335272,
+  "server_policy_time_ms_p95": 17393.080326997733,
+  "serve_time_ms_p50": 10.93137200223282,
+  "serve_time_ms_p95": 17393.294999004866,
+  "client_roundtrip_ms_p50": 12.288726000406314,
+  "client_roundtrip_ms_p95": 17394.629373004136,
+  "sample_count": 21,
+  "missing_fields": [],
+  "caveat": "Stage 3 smoke timing is preliminary and not paper-level latency reproduction."
+}

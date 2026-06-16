@@ -1,0 +1,25 @@
+{
+  "suite": "libero_goal",
+  "task_id": 0,
+  "episodes_requested": 2,
+  "episodes_completed": 2,
+  "success_count": 2,
+  "success_rate": 1.0,
+  "client_exit_status": 0,
+  "server_ready": true,
+  "server_alive_before_cleanup": true,
+  "video_count": 2,
+  "episode_log_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episode_log.json"
+  ],
+  "trace_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl"
+  ],
+  "infer_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage3_closed_loop_smoke/stage3_libero_goal_task0_seed7_n2/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl"
+  ],
+  "failure_reason_if_any": null,
+  "decision": "PROCEED_TO_STAGE4_LIMITED_BASELINE"
+}
