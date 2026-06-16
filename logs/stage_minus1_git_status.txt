@@ -1,3 +1,3 @@
-local_commit=a690010431508d2ce4919adbdd4e03ce81291267
+local_commit=use git rev-parse HEAD for the exact latest commit
 remote_url=https://github.com/Changhyun-Choi-98/realtime-vla-flash-runpod-project.git
 push_status=pushed_origin_master
