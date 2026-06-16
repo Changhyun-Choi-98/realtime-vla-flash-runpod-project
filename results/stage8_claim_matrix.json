@@ -1,0 +1,112 @@
+{
+  "claims": [
+    {
+      "claim_id": "C0",
+      "paper_or_project_claim": "LIBERO/MuJoCo offscreen simulation is feasible on the Runpod pod.",
+      "our_result": "MuJoCo, robosuite, LIBERO, EGL OffScreenRenderEnv reset, rendered observations, and a 20-step dummy rollout passed.",
+      "status": "supported",
+      "evidence_files": ["notes/stage_minus1_report.md", "results/stage_minus1_decision.json"],
+      "caveat": "Simulator gate only; no policy inference in this stage.",
+      "blog_wording": "Runpod L40S 컨테이너에서 LIBERO/MuJoCo EGL simulator gate를 통과했다."
+    },
+    {
+      "claim_id": "C1",
+      "paper_or_project_claim": "Official repo and top-level model environment can be prepared.",
+      "our_result": "Official commit was cloned, uv environment synced, torch/JAX/Triton/transformers/openpi imports passed, and the transformers patch applied.",
+      "status": "supported",
+      "evidence_files": ["notes/stage1_model_env_report.md", "results/stage1_model_env.json"],
+      "caveat": "Environment readiness is not an evaluation result.",
+      "blog_wording": "공식 repo의 모델 환경은 Runpod에서 구성 가능했고 핵심 import smoke가 통과했다."
+    },
+    {
+      "claim_id": "C2",
+      "paper_or_project_claim": "Draft and base artifacts for pi0_libero can be resolved and converted.",
+      "our_result": "draft_libero_goal.pt loaded and converted; gs://openpi-assets/checkpoints/pi0_libero was resolved, downloaded locally, and converted to Triton base artifacts.",
+      "status": "supported",
+      "evidence_files": ["notes/stage2_checkpoint_conversion_report.md", "notes/stage2b_base_checkpoint_resolution_report.md"],
+      "caveat": "Converted weights are local-only and excluded from git.",
+      "blog_wording": "public checkpoint 기반으로 draft/base conversion까지 진행할 수 있었다."
+    },
+    {
+      "claim_id": "C3",
+      "paper_or_project_claim": "The policy server can boot with converted base and draft artifacts.",
+      "our_result": "Bounded server boot smoke reached readiness on port 8000.",
+      "status": "supported",
+      "evidence_files": ["notes/stage2b_base_checkpoint_resolution_report.md", "results/stage2b_server_boot_smoke.json"],
+      "caveat": "Server boot alone is not closed-loop success.",
+      "blog_wording": "converted base/draft를 연결한 policy server가 readiness까지 올라왔다."
+    },
+    {
+      "claim_id": "C4",
+      "paper_or_project_claim": "End-to-end server/client/LIBERO integration works for one task.",
+      "our_result": "Stage 3 completed 2/2 task 0 episodes with valid action chunks and local videos/logs.",
+      "status": "supported",
+      "evidence_files": ["notes/stage3_closed_loop_smoke_report.md", "results/stage3_smoke_summary.json"],
+      "caveat": "Only a tiny smoke test.",
+      "blog_wording": "one-task closed-loop smoke에서 server, client, policy, LIBERO rollout이 연결됐다."
+    },
+    {
+      "claim_id": "C5",
+      "paper_or_project_claim": "FLASH+Triton can complete a limited LIBERO Goal baseline.",
+      "our_result": "Stage 4 completed 30/30 measured episodes across tasks 0-2 with 27/30 success.",
+      "status": "supported_limited",
+      "evidence_files": ["notes/stage4_limited_baseline_report.md", "results/stage4_task_summary.csv"],
+      "caveat": "Only LIBERO Goal tasks 0-2, not all suites or full benchmark.",
+      "blog_wording": "limited LIBERO Goal baseline에서는 27/30 success를 얻었다."
+    },
+    {
+      "claim_id": "C6",
+      "paper_or_project_claim": "FLASH latency mechanism can be profiled with synchronized server-side timing.",
+      "our_result": "Stage 6 added torch.cuda.synchronize timing and showed steady-state policy_time_gpu_sync_ms p50 8.083 ms, with draft-route p50 8.067 ms and full-route p50 33.156 ms.",
+      "status": "partially_supported_limited",
+      "evidence_files": ["notes/stage6_synchronized_profiling_report.md", "results/stage6_latency_summary.json", "results/stage6_latency_by_route.json"],
+      "caveat": "Runpod L40S, limited task subset, not hardware-exact paper latency reproduction.",
+      "blog_wording": "limited setting에서 draft route p50가 full route p50보다 낮다는 mechanism-level evidence를 얻었다."
+    },
+    {
+      "claim_id": "C7",
+      "paper_or_project_claim": "Flash route and accepted-prefix behavior can be inspected.",
+      "our_result": "Stage 4 route counts were full=88, draft=276; accepted-prefix mean was 10.074 with p50/p95/p99 at 12.",
+      "status": "supported_limited",
+      "evidence_files": ["results/stage4_route_summary.json", "results/stage5_route_summary.json", "results/stage7_route_summary.json"],
+      "caveat": "Accepted prefix was only a partial uncertainty signal under perturbation.",
+      "blog_wording": "accepted prefix는 관찰 가능했지만 failure detector로는 충분하지 않았다."
+    },
+    {
+      "claim_id": "C8",
+      "paper_or_project_claim": "Wrist-camera dropout robustness can be probed synthetically.",
+      "our_result": "Stage 5 showed strong degradation: wrist_zero_every4 was 4/15 and wrist_zero_all was 0/15.",
+      "status": "negative_limited",
+      "evidence_files": ["notes/stage5_camera_dropout_report.md", "results/stage5_baseline_comparison.json"],
+      "caveat": "Synthetic perturbation only; not a general robustness evaluation.",
+      "blog_wording": "synthetic wrist-camera dropout에는 이 subset에서 매우 민감했다."
+    },
+    {
+      "claim_id": "C9",
+      "paper_or_project_claim": "A minimal local WristHealthGuard extension can recover some intermittent dropout.",
+      "our_result": "Stage 7 improved intermittent dropout from 4/15 to 6/15, while persistent all-zero remained 0/9 with zero cache hits.",
+      "status": "partially_supported_limited",
+      "evidence_files": ["notes/stage7_wrist_health_guard_report.md", "results/stage7_comparison_to_stage5.json", "results/stage7_guard_summary.json"],
+      "caveat": "Minimal local research extension; not a general robustness solution.",
+      "blog_wording": "WristHealthGuard는 intermittent dropout을 조금 회복했지만 persistent all-zero는 해결하지 못했다."
+    },
+    {
+      "claim_id": "C10",
+      "paper_or_project_claim": "Full paper benchmark across all relevant tasks/suites is reproduced.",
+      "our_result": "Not attempted.",
+      "status": "not_claimed",
+      "evidence_files": ["notes/stage8_negative_results_and_caveats.md"],
+      "caveat": "The project deliberately stopped at limited closed-loop baseline, profiling, probing, and a minimal extension.",
+      "blog_wording": "full benchmark는 실행하지 않았다."
+    },
+    {
+      "claim_id": "C11",
+      "paper_or_project_claim": "Real-world conveyor result is reproduced.",
+      "our_result": "Not attempted.",
+      "status": "not_claimed",
+      "evidence_files": ["notes/stage8_negative_results_and_caveats.md"],
+      "caveat": "No real robot or conveyor setup was used.",
+      "blog_wording": "real-world conveyor result는 이 프로젝트 범위 밖이다."
+    }
+  ]
+}

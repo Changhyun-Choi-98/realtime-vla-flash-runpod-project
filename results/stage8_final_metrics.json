@@ -1,0 +1,36 @@
+{
+  "stage4_success": {
+    "task0": "9/10",
+    "task1": "9/10",
+    "task2": "9/10",
+    "aggregate": "27/30",
+    "aggregate_success_rate": 0.9
+  },
+  "stage4_route": {
+    "full": 88,
+    "draft": 276,
+    "draft_ratio": 0.758,
+    "full_ratio": 0.242,
+    "accepted_prefix_mean": 10.074
+  },
+  "stage6_latency": {
+    "policy_time_gpu_sync_ms_p50": 8.083,
+    "policy_time_gpu_sync_ms_p95": 33.501,
+    "full_route_p50": 33.156,
+    "draft_route_p50": 8.067,
+    "client_roundtrip_p50": 11.957,
+    "claim_status": "PARTIALLY_SUPPORTED_LIMITED"
+  },
+  "stage5_robustness": {
+    "clean_stage4": "27/30",
+    "wrist_zero_every4": "4/15",
+    "wrist_zero_all": "0/15",
+    "accepted_prefix_signal": "partial"
+  },
+  "stage7_extension": {
+    "guard_every4": "6/15",
+    "guard_allzero": "0/9",
+    "recovery_every4": 0.133,
+    "recovery_allzero": 0.0
+  }
+}
