@@ -11,6 +11,7 @@
 ./logs/stage2_convert_draft.txt
 ./logs/stage2_draft_download.txt
 ./logs/stage2_draft_load_smoke.txt
+./logs/stage2_git_status.txt
 ./logs/stage2_help_commands.txt
 ./logs/stage2_server_boot_smoke.txt
 ./logs/stage2_server_help.txt
