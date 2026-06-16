@@ -16,6 +16,7 @@ Complete.
 | Main config | `pi0_libero` |
 | Main suite | `libero_goal` |
 | Main tasks | 0, 1, 2 |
+| Project blog | [Realtime-VLA FLASH project page](https://changhyunchoi.com/project/paper-to-prototype-lab/realtime-vla-flash/) |
 | Blog draft | [`notes/stage8_blog_draft.md`](notes/stage8_blog_draft.md) |
 | Final report | [`notes/stage8_final_project_report.md`](notes/stage8_final_project_report.md) |
 | Claim matrix | [`notes/stage8_claim_matrix.md`](notes/stage8_claim_matrix.md) |
@@ -25,6 +26,14 @@ Complete.
 I successfully ran Realtime-VLA FLASH on Runpod L40S through the official repo and public checkpoints, passed a LIBERO/MuJoCo EGL simulator gate, executed a limited LIBERO Goal closed-loop baseline with **27/30 success**, added synchronized server-side latency profiling showing lower p50 draft-route latency than full-route latency in this limited setup, found strong sensitivity to synthetic wrist-camera dropout, and tested a minimal `WristHealthGuard` extension that modestly recovered intermittent dropout but did not solve persistent all-zero dropout.
 
 This is not a full paper reproduction, hardware-exact latency reproduction, or full robustness evaluation.
+
+## Project Blog
+
+Project-related blog posts are published and indexed here:
+
+- [Realtime-VLA FLASH project page](https://changhyunchoi.com/project/paper-to-prototype-lab/realtime-vla-flash/)
+
+The tracked notes in this repository are the public-safe experiment artifacts behind that write-up.
 
 ## Main Results
 
