@@ -1,0 +1,8 @@
+== transformers patch start ==
+transformers_version 4.53.2
+transformers_path /workspace/realtime_vla_flash_project/repos/realtime-vla-flash/.venv/lib/python3.11/site-packages/transformers
+PATCH_SRC=/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/src/openpi/models_pytorch/transformers_replace
+TRANSFORMERS_DIR=/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/.venv/lib/python3.11/site-packages/transformers
+patch_copied=yes
+== transformers import after patch ==
+transformers import after patch ok 4.53.2

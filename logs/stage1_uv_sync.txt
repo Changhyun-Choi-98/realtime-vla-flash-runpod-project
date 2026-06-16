@@ -1,0 +1,2952 @@
+Using CPython 3.11.13 interpreter at: /usr/bin/python3.11
+Creating virtual environment at: .venv
+Resolved 281 packages in 19ms
+   Updating https://github.com/huggingface/lerobot (0cf864870cf29f4738d3ade893e6fd13fbd7cdb5)
+   Building openpi @ file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash
+Downloading numpy (17.4MiB)
+Downloading sympy (6.0MiB)
+Downloading virtualenv (5.8MiB)
+Downloading hf-xet (4.9MiB)
+Downloading pillow (4.4MiB)
+Downloading opencv-python-headless (47.7MiB)
+Downloading nvidia-cuda-cupti-cu12 (8.5MiB)
+Downloading jax-cuda12-pjrt (99.8MiB)
+Downloading tensorstore (17.5MiB)
+Downloading numba (3.7MiB)
+Downloading torchvision (7.1MiB)
+Downloading lxml (4.7MiB)
+Downloading nvidia-nvjitlink-cu12 (18.8MiB)
+Downloading pandas (12.5MiB)
+Downloading diffusers (3.4MiB)
+Downloading imageio-ffmpeg (28.1MiB)
+Downloading opencv-python (60.1MiB)
+Downloading nvidia-nccl-cu12 (192.0MiB)
+Downloading scipy (35.9MiB)
+Downloading triton (148.5MiB)
+Downloading nvidia-cufft-cu12 (190.9MiB)
+Downloading llvmlite (40.4MiB)
+Downloading transformers (10.3MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (22.6MiB)
+Downloading matplotlib (8.2MiB)
+Downloading nvidia-cusparselt-cu12 (149.5MiB)
+Downloading nvidia-cusparse-cu12 (206.5MiB)
+Downloading nvidia-cudnn-cu12 (544.5MiB)
+Downloading nvidia-cusolver-cu12 (150.9MiB)
+Downloading pyarrow (40.3MiB)
+Downloading nvidia-curand-cu12 (53.7MiB)
+Downloading nvidia-cublas-cu12 (374.9MiB)
+Downloading hf-transfer (3.4MiB)
+Downloading fonttools (4.7MiB)
+Downloading ruff (11.0MiB)
+Downloading h5py (4.3MiB)
+Downloading cmake (26.6MiB)
+Downloading labmaze (4.7MiB)
+Downloading jax-cuda12-plugin (15.9MiB)
+Downloading numcodecs (8.4MiB)
+Downloading nvidia-cuda-nvcc-cu12 (38.7MiB)
+Downloading wandb (20.4MiB)
+Downloading polars (34.6MiB)
+Downloading pyopengl (3.0MiB)
+Downloading rerun-sdk (68.1MiB)
+Downloading torch (783.1MiB)
+Downloading dm-control (37.5MiB)
+Downloading mujoco (4.4MiB)
+Downloading jaxlib (100.2MiB)
+Downloading av (33.7MiB)
+    Updated https://github.com/huggingface/lerobot (0cf864870cf29f4738d3ade893e6fd13fbd7cdb5)
+   Building lerobot @ git+https://github.com/huggingface/lerobot@0cf864870cf29f4738d3ade893e6fd13fbd7cdb5
+ Downloading diffusers
+Downloading debugpy (3.0MiB)
+ Downloading hf-transfer
+Downloading tokenizers (2.9MiB)
+ Downloading numba
+Downloading jax (2.3MiB)
+ Downloading pillow
+ Downloading h5py
+Downloading widgetsnbextension (2.1MiB)
+Downloading ml-dtypes (2.1MiB)
+ Downloading mujoco
+Downloading networkx (1.9MiB)
+      Built lerobot @ git+https://github.com/huggingface/lerobot@0cf864870cf29f4738d3ade893e6fd13fbd7cdb5
+ Downloading labmaze
+ Downloading fonttools
+Downloading pydantic-core (1.9MiB)
+Downloading aiohttp (1.6MiB)
+ Downloading lxml
+Downloading jedi (1.5MiB)
+ Downloading hf-xet
+Downloading kiwisolver (1.4MiB)
+ Downloading virtualenv
+Downloading torchcodec (1.3MiB)
+ Downloading tokenizers
+Downloading sentencepiece (1.2MiB)
+ Downloading kiwisolver
+ Downloading debugpy
+Downloading setuptools (1.1MiB)
+Downloading pygments (1.2MiB)
+ Downloading ml-dtypes
+ Downloading aiohttp
+ Downloading widgetsnbextension
+Downloading nvidia-cufile-cu12 (1.1MiB)
+Downloading pymunk (1.0MiB)
+ Downloading pydantic-core
+ Downloading sympy
+ Downloading jax
+ Downloading torchcodec
+ Downloading torchvision
+ Downloading networkx
+ Downloading sentencepiece
+ Downloading nvidia-cufile-cu12
+ Downloading pymunk
+ Downloading matplotlib
+ Downloading nvidia-cuda-cupti-cu12
+ Downloading pygments
+ Downloading numcodecs
+ Downloading setuptools
+ Downloading ruff
+ Downloading transformers
+   Building tree==0.2.4
+   Building evdev==1.9.2
+ Downloading pandas
+      Built openpi @ file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash
+   Building antlr4-python3-runtime==4.9.3
+ Downloading jax-cuda12-plugin
+ Downloading tensorstore
+ Downloading numpy
+ Downloading nvidia-nvjitlink-cu12
+ Downloading pyopengl
+ Downloading jedi
+ Downloading nvidia-cuda-nvrtc-cu12
+      Built tree==0.2.4
+      Built evdev==1.9.2
+      Built antlr4-python3-runtime==4.9.3
+ Downloading wandb
+ Downloading imageio-ffmpeg
+ Downloading polars
+ Downloading av
+ Downloading nvidia-cuda-nvcc-cu12
+ Downloading dm-control
+ Downloading scipy
+ Downloading llvmlite
+ Downloading pyarrow
+ Downloading opencv-python-headless
+ Downloading nvidia-curand-cu12
+ Downloading opencv-python
+ Downloading rerun-sdk
+ Downloading jax-cuda12-pjrt
+ Downloading jaxlib
+ Downloading nvidia-cusparselt-cu12
+ Downloading nvidia-cusolver-cu12
+ Downloading triton
+ Downloading nvidia-cufft-cu12
+ Downloading nvidia-nccl-cu12
+ Downloading nvidia-cusparse-cu12
+ Downloading nvidia-cublas-cu12
+ Downloading nvidia-cudnn-cu12
+ Downloading cmake
+ Downloading torch
+Prepared 241 packages in 5m 37s
+Installed 242 packages in 25.71s
+ + absl-py==2.3.0
+ + aiohappyeyeballs==2.6.1
+ + aiohttp==3.12.4
+ + aiosignal==1.3.2
+ + annotated-types==0.7.0
+ + antlr4-python3-runtime==4.9.3
+ + asttokens==3.0.0
+ + attrs==25.3.0
+ + augmax==0.4.1
+ + av==14.4.0
+ + beartype==0.19.0
+ + beautifulsoup4==4.13.4
+ + blinker==1.9.0
+ + cachetools==5.5.2
+ + certifi==2025.4.26
+ + cffi==1.17.1
+ + cfgv==3.4.0
+ + charset-normalizer==3.4.2
+ + chex==0.1.89
+ + click==8.2.1
+ + cloudpickle==3.1.1
+ + cmake==4.0.2
+ + comm==0.2.2
+ + contourpy==1.3.2
+ + crc32c==2.7.1
+ + cycler==0.12.1
+ + datasets==3.6.0
+ + debugpy==1.8.14
+ + decorator==5.2.1
+ + deepdiff==8.5.0
+ + diffusers==0.33.1
+ + dill==0.3.8
+ + distlib==0.3.9
+ + dm-control==1.0.14
+ + dm-env==1.6
+ + dm-tree==0.1.9
+ + docker-pycreds==0.4.0
+ + docstring-parser==0.16
+ + donfig==0.8.1.post1
+ + draccus==0.10.0
+ + einops==0.8.1
+ + equinox==0.12.2
+ + etils==1.12.2
+ + evdev==1.9.2
+ + executing==2.2.0
+ + farama-notifications==0.0.4
+ + filelock==3.18.0
+ + flask==3.1.1
+ + flatbuffers==25.2.10
+ + flax==0.10.2
+ + fonttools==4.58.1
+ + frozenlist==1.6.0
+ + fsspec==2025.3.0
+ + gcsfs==2025.3.0
+ + gdown==5.2.0
+ + gitdb==4.0.12
+ + gitpython==3.1.44
+ + glfw==2.9.0
+ + google-api-core==2.24.2
+ + google-auth==2.40.2
+ + google-auth-oauthlib==1.2.2
+ + google-cloud-core==2.4.3
+ + google-cloud-storage==3.1.0
+ + google-crc32c==1.7.1
+ + google-resumable-media==2.7.2
+ + googleapis-common-protos==1.70.0
+ + gym-aloha==0.1.1
+ + gymnasium==0.29.1
+ + h5py==3.13.0
+ + hf-transfer==0.1.9
+ + hf-xet==1.1.2
+ + huggingface-hub==0.32.3
+ + humanize==4.12.3
+ + identify==2.6.12
+ + idna==3.10
+ + imageio==2.37.0
+ + imageio-ffmpeg==0.6.0
+ + importlib-metadata==8.7.0
+ + importlib-resources==6.5.2
+ + iniconfig==2.1.0
+ + inquirerpy==0.3.4
+ + ipykernel==6.29.5
+ + ipython==9.2.0
+ + ipython-pygments-lexers==1.1.1
+ + ipywidgets==8.1.7
+ + itsdangerous==2.2.0
+ + jax==0.5.3
+ + jax-cuda12-pjrt==0.5.3
+ + jax-cuda12-plugin==0.5.3
+ + jaxlib==0.5.3
+ + jaxtyping==0.2.36
+ + jedi==0.19.2
+ + jinja2==3.1.6
+ + jsonlines==4.0.0
+ + jupyter-client==8.6.3
+ + jupyter-core==5.8.1
+ + jupyterlab-widgets==3.0.15
+ + kiwisolver==1.4.8
+ + labmaze==1.0.6
+ + lerobot==0.1.0 (from git+https://github.com/huggingface/lerobot@0cf864870cf29f4738d3ade893e6fd13fbd7cdb5)
+ + llvmlite==0.44.0
+ + lxml==5.4.0
+ + markdown-it-py==3.0.0
+ + markupsafe==3.0.2
+ + matplotlib==3.10.3
+ + matplotlib-inline==0.1.7
+ + mdurl==0.1.2
+ + mergedeep==1.3.4
+ + ml-collections==1.0.0
+ + ml-dtypes==0.4.1
+ + mpmath==1.3.0
+ + msgpack==1.1.0
+ + mujoco==2.3.7
+ + multidict==6.4.4
+ + multiprocess==0.70.16
+ + mypy-extensions==1.1.0
+ + nest-asyncio==1.6.0
+ + networkx==3.5
+ + nodeenv==1.9.1
+ + numba==0.61.2
+ + numcodecs==0.16.1
+ + numpy==1.26.4
+ + numpydantic==1.6.9
+ + nvidia-cublas-cu12==12.6.4.1
+ + nvidia-cuda-cupti-cu12==12.6.80
+ + nvidia-cuda-nvcc-cu12==12.9.41
+ + nvidia-cuda-nvrtc-cu12==12.6.77
+ + nvidia-cuda-runtime-cu12==12.6.77
+ + nvidia-cudnn-cu12==9.5.1.17
+ + nvidia-cufft-cu12==11.3.0.4
+ + nvidia-cufile-cu12==1.11.1.6
+ + nvidia-curand-cu12==10.3.7.77
+ + nvidia-cusolver-cu12==11.7.1.2
+ + nvidia-cusparse-cu12==12.5.4.2
+ + nvidia-cusparselt-cu12==0.6.3
+ + nvidia-ml-py==12.575.51
+ + nvidia-nccl-cu12==2.26.2
+ + nvidia-nvjitlink-cu12==12.6.85
+ + nvidia-nvtx-cu12==12.6.77
+ + oauthlib==3.2.2
+ + omegaconf==2.3.0
+ + opencv-python==4.11.0.86
+ + opencv-python-headless==4.11.0.86
+ + openpi==0.1.0 (from file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash)
+ + openpi-client==0.1.0 (from file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash/packages/openpi-client)
+ + opt-einsum==3.4.0
+ + optax==0.2.4
+ + orbax-checkpoint==0.11.13
+ + orderly-set==5.4.1
+ + packaging==25.0
+ + pandas==2.2.3
+ + parso==0.8.4
+ + pexpect==4.9.0
+ + pfzy==0.3.4
+ + pillow==11.2.1
+ + platformdirs==4.3.8
+ + pluggy==1.6.0
+ + polars==1.30.0
+ + pre-commit==4.2.0
+ + prompt-toolkit==3.0.51
+ + propcache==0.3.1
+ + proto-plus==1.26.1
+ + protobuf==4.25.8
+ + psutil==7.0.0
+ + ptyprocess==0.7.0
+ + pure-eval==0.2.3
+ + pyarrow==20.0.0
+ + pyasn1==0.6.1
+ + pyasn1-modules==0.4.2
+ + pycparser==2.22
+ + pydantic==2.11.5
+ + pydantic-core==2.33.2
+ + pygments==2.19.1
+ + pymunk==7.0.0
+ + pynput==1.8.1
+ + pynvml==12.0.0
+ + pyopengl==3.1.9
+ + pyparsing==3.2.3
+ + pysocks==1.7.1
+ + pytest==8.3.5
+ + python-dateutil==2.9.0.post0
+ + python-xlib==0.33
+ + pytz==2025.2
+ + pyyaml==6.0.2
+ + pyyaml-include==1.4.1
+ + pyzmq==26.4.0
+ + regex==2024.11.6
+ + requests==2.32.3
+ + requests-oauthlib==2.0.0
+ + rerun-sdk==0.23.1
+ + rich==14.0.0
+ + rsa==4.9.1
+ + ruff==0.11.12
+ + safetensors==0.5.3
+ + scipy==1.15.3
+ + sentencepiece==0.2.0
+ + sentry-sdk==2.29.1
+ + setproctitle==1.3.6
+ + setuptools==80.9.0
+ + shtab==1.7.2
+ + simplejson==3.20.1
+ + six==1.17.0
+ + smmap==5.0.2
+ + soupsieve==2.7
+ + stack-data==0.6.3
+ + svgwrite==1.4.3
+ + sympy==1.14.0
+ + tensorstore==0.1.74
+ + termcolor==3.1.0
+ + tokenizers==0.21.1
+ + toml==0.10.2
+ + toolz==1.0.0
+ + torch==2.7.1
+ + torchcodec==0.4.0
+ + torchvision==0.22.1
+ + tornado==6.5.1
+ + tqdm==4.67.1
+ + tqdm-loggable==0.2
+ + traitlets==5.14.3
+ + transformers==4.53.2
+ + tree==0.2.4
+ + treescope==0.1.9
+ + triton==3.3.1
+ + typeguard==4.4.2
+ + typing-extensions==4.13.2
+ + typing-inspect==0.9.0
+ + typing-inspection==0.4.1
+ + tyro==0.9.22
+ + tzdata==2025.2
+ + urllib3==2.4.0
+ + virtualenv==20.31.2
+ + wadler-lindig==0.1.6
+ + wandb==0.19.11
+ + wcwidth==0.2.13
+ + websockets==15.0.1
+ + werkzeug==3.1.3
+ + widgetsnbextension==4.0.14
+ + wrapt==1.14.1
+ + xxhash==3.5.0
+ + yarl==1.20.0
+ + zarr==3.0.8
+ + zipp==3.22.0
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Fixing invalid version specifier by inserting missing dot (before: `>=2.7,!=3.0*,!=3.1*,!=3.2*`; after: `>=2.7,!=3.0.*,!=3.1.*,!=3.2.*`)
+WARN Skipping file for pyzmq: pyzmq-13.0.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.0-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.0-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.0-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.0.win-amd64-py2.7.msi
+WARN Skipping file for pyzmq: pyzmq-13.0.0.win-amd64-py3.3.msi
+WARN Skipping file for pyzmq: pyzmq-13.0.0.win32-py2.7.msi
+WARN Skipping file for pyzmq: pyzmq-13.0.0.win32-py3.3.msi
+WARN Skipping file for pyzmq: pyzmq-13.0.1-py2.7-macosx-10.8-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.1-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.2-py2.7-macosx-10.8-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.2-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.2-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.2-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.2-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-13.0.2-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-13.1.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.1.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-13.1.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-13.1.0-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-13.1.0-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-13.1.0-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.0-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.0-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.0-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.1-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.1-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.1-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.1-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.1-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.0.1-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.0-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.0-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.0-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.1-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.1-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.1-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.1-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.1-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.1.1-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.2.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.2.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.2.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.2.0-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.2.0-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.2.0-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.0-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.0-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.0-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.1-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.1-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.1-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.1-py3.3-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.1-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.3.1-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.4.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.4.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.4.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.4.1-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.4.1-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.4.1-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.5.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.5.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.5.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.6.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.6.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-14.6.00-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.7.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-14.7.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-14.7.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-15.0.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-15.0.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-15.0.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-15.1.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-15.1.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-15.1.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-15.2.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-15.2.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-15.2.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-15.3.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-15.4.0-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.10-py2.7-macosx-10.7-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.10-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.10-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.10-py3.2-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.10-py3.2-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.10-py3.2-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.11-py2.6-macosx-10.6-universal.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.11-py2.7-macosx-10.7-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.11-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.11-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.11-py3.2-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.11-py3.2-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.11-py3.2-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py2.5-macosx-10.6-i386.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py2.6-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py2.6-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py2.7-macosx-10.5-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py3.1-macosx-10.4-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py3.1-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py3.2-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.4-py3.2-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.7-py2.6-macosx-10.6-universal.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.7-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.7-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.7-py3.2-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.7-py3.2-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.7.1-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.7.1-py3.2-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.9-py2.6-macosx-10.6-universal.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.9-py2.7-macosx-10.7-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.9-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.9-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.9-py3.2-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.9-py3.2-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.1.9-py3.2-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0-py2.6-macosx-10.6-universal.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0-py2.7-macosx-10.7-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0-py3.2-macosx-10.6-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0-py3.2-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0-py3.2-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py2.7-macosx-10.8-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py2.7-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py2.7-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py3.2-macosx-10.8-intel.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py3.2-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py3.2-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py3.3-win-amd64.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1-py3.3-win32.egg
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1.win-amd64-py3.3.msi
+WARN Skipping file for pyzmq: pyzmq-2.2.0.1.win32-py3.3.msi
+WARN Skipping file for pymunk: pymunk-0.8.1.win32.exe
+WARN Skipping file for pymunk: pymunk-0.8.2.win32.exe
+WARN Skipping file for pymunk: pymunk-0.8.3.win32.exe
+WARN Skipping file for pymunk: pymunk-0.8.win32.exe
+WARN Skipping file for pymunk: pymunk-2.1.0.win32.exe
+WARN Skipping file for pymunk: pymunk-3.0.0.win32.exe
+WARN Skipping file for pymunk: pymunk-4.0.0.win32.exe
+WARN Skipping file for h5py: h5py-2.2.1.win32-py2.6.exe
+WARN Skipping file for h5py: h5py-2.2.1.win32-py2.7.exe
+WARN Skipping file for h5py: h5py-2.2.1.win32-py3.2.exe
+WARN Skipping file for h5py: h5py-2.2.1.win32-py3.3.exe
+WARN Skipping file for h5py: h5py-2.3.0.win32-py2.6.exe
+WARN Skipping file for h5py: h5py-2.3.0.win32-py2.7.exe
+WARN Skipping file for h5py: h5py-2.3.0.win32-py3.2.exe
+WARN Skipping file for h5py: h5py-2.3.0.win32-py3.3.exe
+WARN Skipping file for h5py: h5py-2.3.0b1.win32-py2.6.exe
+WARN Skipping file for h5py: h5py-2.3.0b1.win32-py2.7.exe
+WARN Skipping file for h5py: h5py-2.3.0b1.win32-py3.2.exe
+WARN Skipping file for h5py: h5py-2.3.0b1.win32-py3.3.exe
+WARN Skipping file for h5py: h5py-2.3.1.win32-py2.6.exe
+WARN Skipping file for h5py: h5py-2.3.1.win32-py2.7.exe
+WARN Skipping file for h5py: h5py-2.3.1.win32-py3.2.exe
+WARN Skipping file for h5py: h5py-2.3.1.win32-py3.3.exe
+WARN Skipping file for h5py: h5py-2.4.0.win32-py2.6.exe
+WARN Skipping file for h5py: h5py-2.4.0.win32-py2.7.exe
+WARN Skipping file for h5py: h5py-2.4.0.win32-py3.2.exe
+WARN Skipping file for h5py: h5py-2.4.0.win32-py3.3.exe
+WARN Skipping file for h5py: h5py-2.4.0.win32-py3.4.exe
+WARN Skipping file for h5py: h5py-2.4.0b1.win32-py2.6.exe
+WARN Skipping file for h5py: h5py-2.4.0b1.win32-py2.7.exe
+WARN Skipping file for h5py: h5py-2.4.0b1.win32-py3.2.exe
+WARN Skipping file for h5py: h5py-2.4.0b1.win32-py3.3.exe
+WARN Skipping file for h5py: h5py-2.4.0b1.win32-py3.4.exe
+WARN Skipping file for h5py: h5py-2.5.0.win32-py2.6.exe
+WARN Skipping file for h5py: h5py-2.5.0.win32-py2.7.exe
+WARN Skipping file for h5py: h5py-2.5.0.win32-py3.2.exe
+WARN Skipping file for h5py: h5py-2.5.0.win32-py3.3.exe
+WARN Skipping file for h5py: h5py-2.5.0.win32-py3.4.exe
+WARN Skipping file for sympy: sympy-0.7.0.win32.exe
+WARN Skipping file for sympy: sympy-0.7.1.win32.exe
+WARN Skipping file for sympy: sympy-0.7.2-py3.2.tar.gz
+WARN Skipping file for sympy: sympy-0.7.2-py3.3.tar.gz
+WARN Skipping file for sympy: sympy-0.7.2.win32.exe
+WARN Skipping file for sympy: sympy-0.7.3-py2.5.tar.gz
+WARN Skipping file for sympy: sympy-0.7.3-py2.6.tar.gz
+WARN Skipping file for sympy: sympy-0.7.3-py2.7.tar.gz
+WARN Skipping file for sympy: sympy-0.7.3-py3.2.tar.gz
+WARN Skipping file for sympy: sympy-0.7.3-py3.3.tar.gz
+WARN Skipping file for sympy: sympy-0.7.3.win32.exe
+WARN Skipping file for sympy: sympy-1.0.win32.exe
+WARN Skipping file for networkx: networkx-0.34-py2.4.egg
+WARN Skipping file for networkx: networkx-0.34-py2.5.egg
+WARN Skipping file for networkx: networkx-0.34.win32.exe
+WARN Skipping file for networkx: networkx-0.35-py2.4.egg
+WARN Skipping file for networkx: networkx-0.35-py2.5.egg
+WARN Skipping file for networkx: networkx-0.35.1-py2.4.egg
+WARN Skipping file for networkx: networkx-0.35.1-py2.5.egg
+WARN Skipping file for networkx: networkx-0.35.1.win32.exe
+WARN Skipping file for networkx: networkx-0.35.win32.exe
+WARN Skipping file for networkx: networkx-0.36-py2.4.egg
+WARN Skipping file for networkx: networkx-0.36-py2.5.egg
+WARN Skipping file for networkx: networkx-0.36.win32.exe
+WARN Skipping file for networkx: networkx-0.37-py2.4.egg
+WARN Skipping file for networkx: networkx-0.37-py2.5.egg
+WARN Skipping file for networkx: networkx-0.37.win32.exe
+WARN Skipping file for networkx: networkx-0.99-py2.4.egg
+WARN Skipping file for networkx: networkx-0.99-py2.5.egg
+WARN Skipping file for networkx: networkx-0.99.win32.exe
+WARN Skipping file for networkx: networkx-1.0-py2.6.egg
+WARN Skipping file for networkx: networkx-1.0.1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.0rc1-py2.4.egg
+WARN Skipping file for networkx: networkx-1.0rc1-py2.5.egg
+WARN Skipping file for networkx: networkx-1.0rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.1-py2.5.egg
+WARN Skipping file for networkx: networkx-1.1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.10-py2.7.egg
+WARN Skipping file for networkx: networkx-1.10-py3.4.egg
+WARN Skipping file for networkx: networkx-1.11-py2.7.egg
+WARN Skipping file for networkx: networkx-1.11-py3.4.egg
+WARN Skipping file for networkx: networkx-1.11rc1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.11rc1-py3.4.egg
+WARN Skipping file for networkx: networkx-1.11rc2-py2.7.egg
+WARN Skipping file for networkx: networkx-1.11rc2-py3.4.egg
+WARN Skipping file for networkx: networkx-1.2-py2.6.egg
+WARN Skipping file for networkx: networkx-1.2rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.3-py2.6.egg
+WARN Skipping file for networkx: networkx-1.3-py2.7.egg
+WARN Skipping file for networkx: networkx-1.3-py3.1.egg
+WARN Skipping file for networkx: networkx-1.3-py3.2.egg
+WARN Skipping file for networkx: networkx-1.3rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.3rc1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.3rc1-py3.1.egg
+WARN Skipping file for networkx: networkx-1.4-py2.6.egg
+WARN Skipping file for networkx: networkx-1.4-py2.7.egg
+WARN Skipping file for networkx: networkx-1.4-py3.1.egg
+WARN Skipping file for networkx: networkx-1.4-py3.2.egg
+WARN Skipping file for networkx: networkx-1.4rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.4rc1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.4rc1-py3.1.egg
+WARN Skipping file for networkx: networkx-1.4rc1-py3.2.egg
+WARN Skipping file for networkx: networkx-1.5-py2.6.egg
+WARN Skipping file for networkx: networkx-1.5-py2.7.egg
+WARN Skipping file for networkx: networkx-1.5-py3.1.egg
+WARN Skipping file for networkx: networkx-1.5-py3.2.egg
+WARN Skipping file for networkx: networkx-1.5rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.5rc1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.5rc1-py3.1.egg
+WARN Skipping file for networkx: networkx-1.5rc1-py3.2.egg
+WARN Skipping file for networkx: networkx-1.6-py2.6.egg
+WARN Skipping file for networkx: networkx-1.6-py2.7.egg
+WARN Skipping file for networkx: networkx-1.6-py3.1.egg
+WARN Skipping file for networkx: networkx-1.6-py3.2.egg
+WARN Skipping file for networkx: networkx-1.6rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.6rc1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.6rc1-py3.1.egg
+WARN Skipping file for networkx: networkx-1.6rc1-py3.2.egg
+WARN Skipping file for networkx: networkx-1.7-py2.6.egg
+WARN Skipping file for networkx: networkx-1.7-py2.7.egg
+WARN Skipping file for networkx: networkx-1.7-py3.2.egg
+WARN Skipping file for networkx: networkx-1.7rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.7rc1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.7rc1-py3.2.egg
+WARN Skipping file for networkx: networkx-1.8-py2.6.egg
+WARN Skipping file for networkx: networkx-1.8-py2.7.egg
+WARN Skipping file for networkx: networkx-1.8-py3.2.egg
+WARN Skipping file for networkx: networkx-1.8-py3.3.egg
+WARN Skipping file for networkx: networkx-1.8.1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.8.1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.8.1-py3.2.egg
+WARN Skipping file for networkx: networkx-1.8.1-py3.3.egg
+WARN Skipping file for networkx: networkx-1.8rc1-py2.6.egg
+WARN Skipping file for networkx: networkx-1.8rc1-py2.7.egg
+WARN Skipping file for networkx: networkx-1.8rc1-py3.2.egg
+WARN Skipping file for networkx: networkx-1.8rc1-py3.3.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.4-linux-i686.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.4-linux-x86_64.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.4-macosx-10.3-i386.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.4-win32.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.5-linux-i686.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.5-linux-x86_64.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.5-macosx-10.3-i386.egg
+WARN Skipping file for jinja2: Jinja2-2.0rc1-py2.5-win32.egg
+WARN Skipping file for jinja2: Jinja2-2.1-py2.4-win32.egg
+WARN Skipping file for jinja2: Jinja2-2.1-py2.5-win32.egg
+WARN Skipping file for jinja2: Jinja2-2.1-py2.6-win32.egg
+WARN Skipping file for jinja2: Jinja2-2.1.1-py2.4-win32.egg
+WARN Skipping file for jinja2: Jinja2-2.1.1-py2.5-win32.egg
+WARN Skipping file for jinja2: Jinja2-2.1.1-py2.6-win32.egg
+WARN Skipping file for protobuf: protobuf-2.0.0beta-py2.4.egg
+WARN Skipping file for protobuf: protobuf-2.0.3-py2.4.egg
+WARN Skipping file for protobuf: protobuf-2.3.0-py2.5.egg
+WARN Skipping file for protobuf: protobuf-2.4.1-py2.6.egg
+WARN Skipping file for protobuf: protobuf-2.5.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-2.6.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-2.6.1-py2.6.egg
+WARN Skipping file for protobuf: protobuf-2.6.1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.0.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.0.0a2-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.0.0a3-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.0.0b1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.0.0b1.post2-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.0.0b3-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.0.0b4-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.1.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.1.0.post1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.10.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.10.0rc1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.11.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.11.0rc1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.11.0rc2-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.11.1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.11.2-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.11.3-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.2.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.2.0rc1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.2.0rc1.post1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.2.0rc2-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.4.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.5.0.post1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.5.1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.5.2-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.5.2.post1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.6.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.6.1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.7.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.7.0rc2-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.7.0rc3-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.7.1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.8.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.8.0rc1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.9.0-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.9.0rc1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.9.1-py2.7.egg
+WARN Skipping file for protobuf: protobuf-3.9.2-py2.7.egg
+WARN Skipping file for simplejson: simplejson-1.1-py2.3.egg
+WARN Skipping file for simplejson: simplejson-1.1-py2.4.egg
+WARN Skipping file for simplejson: simplejson-1.3-py2.4.egg
+WARN Skipping file for simplejson: simplejson-1.4-py2.4.egg
+WARN Skipping file for simplejson: simplejson-1.5-py2.4.egg
+WARN Skipping file for simplejson: simplejson-1.6-py2.4.egg
+WARN Skipping file for simplejson: simplejson-1.7-py2.4-freebsd-6.1-RELEASE-p3-i386.egg
+WARN Skipping file for simplejson: simplejson-1.7-py2.4-freebsd-6.2-RELEASE-p3-i386.egg
+WARN Skipping file for simplejson: simplejson-1.7-py2.4-linux-i686.egg
+WARN Skipping file for simplejson: simplejson-1.7-py2.4-macosx-10.3-fat.egg
+WARN Skipping file for simplejson: simplejson-1.7-py2.4.egg
+WARN Skipping file for simplejson: simplejson-1.7-py2.5-macosx-10.3-fat.egg
+WARN Skipping file for simplejson: simplejson-1.7-py2.5.egg
+WARN Skipping file for simplejson: simplejson-1.7.1-py2.4-macosx-10.3-fat.egg
+WARN Skipping file for simplejson: simplejson-1.7.1-py2.4.egg
+WARN Skipping file for simplejson: simplejson-1.7.1-py2.5-macosx-10.3-fat.egg
+WARN Skipping file for simplejson: simplejson-1.7.1-py2.5.egg
+WARN Skipping file for simplejson: simplejson-1.7.2-py2.5-macosx-10.3-fat.egg
+WARN Skipping file for simplejson: simplejson-1.7.3-py2.5-macosx-10.3-fat.egg
+WARN Skipping file for simplejson: simplejson-2.0.5-py2.5-win32.egg
+WARN Skipping file for simplejson: simplejson-2.0.6-py2.5-linux-i686.egg
+WARN Skipping file for simplejson: simplejson-2.0.6-py2.5-win32.egg
+WARN Skipping file for simplejson: simplejson-2.0.7-py2.5-win32.egg
+WARN Skipping file for simplejson: simplejson-2.0.7.win32-py2.5.exe
+WARN Skipping file for simplejson: simplejson-2.0.8-py2.5-win32.egg
+WARN Skipping file for simplejson: simplejson-2.0.8.win32-py2.5.exe
+WARN Skipping file for simplejson: simplejson-2.0.9-py2.5-win32.egg
+WARN Skipping file for simplejson: simplejson-2.1.0-py2.6-linux-x86_64.egg
+WARN Skipping file for simplejson: simplejson-2.1.1-py2.5-win32.egg
+WARN Skipping file for simplejson: simplejson-2.1.1.win32-py2.5.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.10.0.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.11.1.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.12.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.12.0.win-amd64.exe
+WARN Skipping file for simplejson: simplejson-3.12.0.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.12.0.win32.exe
+WARN Skipping file for simplejson: simplejson-3.13.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.13.0.win-amd64-py3.6.exe
+WARN Skipping file for simplejson: simplejson-3.13.0.win-amd64.exe
+WARN Skipping file for simplejson: simplejson-3.13.0.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.13.0.win32.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win-amd64-py3.6.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.13.2.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win-amd64-py3.6.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.14.0.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win-amd64-py3.6.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.15.0.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win-amd64-py3.6.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.16.0.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win-amd64-py3.6.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win-amd64-py3.7.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win32-py3.6.exe
+WARN Skipping file for simplejson: simplejson-3.17.0.win32-py3.7.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.8.2.win32-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win-amd64-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win-amd64-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win-amd64-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win-amd64-py3.5.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win32-py2.7.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win32-py3.3.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win32-py3.4.exe
+WARN Skipping file for simplejson: simplejson-3.9.0.win32-py3.5.exe
+WARN Skipping file for regex: regex-2013-02-16.tar.gz
+WARN Skipping file for regex: regex-2013-02-23.tar.gz
+WARN Skipping file for regex: regex-2013-03-11.tar.gz
+WARN Skipping file for regex: regex-2013-05-21.tar.gz
+WARN Skipping file for regex: regex-2013-06-05.tar.gz
+WARN Skipping file for regex: regex-2013-06-26.tar.gz
+WARN Skipping file for regex: regex-2013-08-04.tar.gz
+WARN Skipping file for regex: regex-2013-10-04.tar.gz
+WARN Skipping file for regex: regex-2013-10-12.tar.gz
+WARN Skipping file for regex: regex-2013-10-21.tar.gz
+WARN Skipping file for regex: regex-2013-10-22.tar.gz
+WARN Skipping file for regex: regex-2013-10-23.tar.gz
+WARN Skipping file for regex: regex-2013-10-24.tar.gz
+WARN Skipping file for regex: regex-2013-10-25.tar.gz
+WARN Skipping file for regex: regex-2013-10-26.tar.gz
+WARN Skipping file for regex: regex-2013-11-29.tar.gz
+WARN Skipping file for regex: regex-2013-12-31.tar.gz
+WARN Skipping file for toml: toml-0.10.0-py2.7.egg
+WARN Skipping file for beautifulsoup4: beautifulsoup4-4.6.1-py2.7.egg
+WARN Skipping file for beautifulsoup4: beautifulsoup4-4.6.1-py3.5.egg
+WARN Skipping file for werkzeug: Werkzeug-0.1-py2.4.egg
+WARN Skipping file for werkzeug: Werkzeug-0.1-py2.5.egg
+WARN Skipping file for werkzeug: Werkzeug-0.2-py2.4.egg
+WARN Skipping file for werkzeug: Werkzeug-0.2-py2.5.egg
+WARN Skipping file for werkzeug: Werkzeug-0.3-py2.3.egg
+WARN Skipping file for werkzeug: Werkzeug-0.3-py2.4.egg
+WARN Skipping file for werkzeug: Werkzeug-0.3-py2.5.egg
+WARN Skipping file for werkzeug: Werkzeug-0.3.1-py2.3.egg
+WARN Skipping file for werkzeug: Werkzeug-0.3.1-py2.4.egg
+WARN Skipping file for werkzeug: Werkzeug-0.3.1-py2.5.egg
+WARN Skipping file for pandas: pandas-0.1.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.10.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.10.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.10.0.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.10.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.10.0.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.10.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.10.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.10.0.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.10.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.10.0.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.10.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.10.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.10.1.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.10.1.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.10.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.10.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.10.1.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.10.1.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.11.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.11.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.11.0.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.11.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.11.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.11.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.11.0.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.11.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.12.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.12.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.12.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.12.0.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.12.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.12.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.12.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.12.0.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.13.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.13.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.13.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.13.0.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.13.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.13.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.13.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.13.0.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.13.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.13.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.13.1.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.13.1.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.13.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.13.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.13.1.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.13.1.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.14.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.14.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.14.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.14.0.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.14.0.win-amd64-py3.4.exe
+WARN Skipping file for pandas: pandas-0.14.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.14.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.14.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.14.0.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.14.0.win32-py3.4.exe
+WARN Skipping file for pandas: pandas-0.14.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.14.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.14.1.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.14.1.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.14.1.win-amd64-py3.4.exe
+WARN Skipping file for pandas: pandas-0.14.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.14.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.14.1.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.14.1.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.14.1.win32-py3.4.exe
+WARN Skipping file for pandas: pandas-0.15.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.15.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.15.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.15.0.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.15.0.win-amd64-py3.4.exe
+WARN Skipping file for pandas: pandas-0.15.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.15.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.15.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.15.0.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.15.0.win32-py3.4.exe
+WARN Skipping file for pandas: pandas-0.15.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.15.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.15.1.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.15.1.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.15.1.win-amd64-py3.4.exe
+WARN Skipping file for pandas: pandas-0.15.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.15.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.15.1.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.15.1.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.15.1.win32-py3.4.exe
+WARN Skipping file for pandas: pandas-0.15.2.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.15.2.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.15.2.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.15.2.win-amd64-py3.3.exe
+WARN Skipping file for pandas: pandas-0.15.2.win-amd64-py3.4.exe
+WARN Skipping file for pandas: pandas-0.15.2.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.15.2.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.15.2.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.15.2.win32-py3.3.exe
+WARN Skipping file for pandas: pandas-0.15.2.win32-py3.4.exe
+WARN Skipping file for pandas: pandas-0.3.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.3.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.3.0.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.3.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.3.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.0.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.4.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.1.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.4.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.2.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.2.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.2.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.4.2.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.2.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.3.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.3.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.3.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.4.3.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.4.3.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.4.3.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.4.3.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.5.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.5.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.5.0.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.5.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.5.0.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.5.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.5.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.5.0.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.5.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.6.0.win-amd64-py2.5.exe
+WARN Skipping file for pandas: pandas-0.6.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.6.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.6.0.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.6.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.6.0.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.6.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.6.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.6.0.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.6.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.6.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.6.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.6.1.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.6.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.6.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.6.1.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.6.1.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.0.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.0.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.7.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.0.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.1.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.1.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.1.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.7.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.1.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.1.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.2.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.2.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.2.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.2.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.2.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.7.2.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.2.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.2.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.2.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.3.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.3.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.3.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.3.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.7.3.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.7.3.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.7.3.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.7.3.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.7.3.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.8.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.8.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.8.0.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.8.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.8.0.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.8.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.8.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.8.0.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.8.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.8.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.8.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.8.1.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.8.1.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.8.1.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.8.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.8.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.8.1.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.8.1.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.9.0.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.9.0.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.9.0.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.9.0.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.9.0.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.9.0.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.9.0.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.9.0.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.9.0.win32-py3.2.exe
+WARN Skipping file for pandas: pandas-0.9.1.win-amd64-py2.6.exe
+WARN Skipping file for pandas: pandas-0.9.1.win-amd64-py2.7.exe
+WARN Skipping file for pandas: pandas-0.9.1.win-amd64-py3.1.exe
+WARN Skipping file for pandas: pandas-0.9.1.win-amd64-py3.2.exe
+WARN Skipping file for pandas: pandas-0.9.1.win32-py2.5.exe
+WARN Skipping file for pandas: pandas-0.9.1.win32-py2.6.exe
+WARN Skipping file for pandas: pandas-0.9.1.win32-py2.7.exe
+WARN Skipping file for pandas: pandas-0.9.1.win32-py3.1.exe
+WARN Skipping file for pandas: pandas-0.9.1.win32-py3.2.exe
+WARN Skipping file for dill: dill-0.2a1.win32.exe
+WARN Skipping file for dill: dill-0.2b1.win32.exe
+WARN Skipping file for antlr4-python3-runtime: antlr4-python3-runtime-4.5.2.1.macosx-10.10-x86_64.exe
+WARN Skipping file for antlr4-python3-runtime: antlr4-python3-runtime-4.5.2.macosx-10.10-x86_64.exe
+WARN Skipping file for antlr4-python3-runtime: antlr4-python3-runtime-4.5.3.macosx-10.10-x86_64.exe
+WARN Skipping file for antlr4-python3-runtime: antlr4-python3-runtime-4.6.macosx-10.10-x86_64.exe
+WARN Skipping file for antlr4-python3-runtime: antlr4-python3-runtime-4.7.macosx-10.6-x86_64.exe
+WARN Skipping file for pytz: pytz-2004d.tar.gz
+WARN Skipping file for pytz: pytz-2005e.tar.gz
+WARN Skipping file for pytz: pytz-2005i.tar.gz
+WARN Skipping file for pytz: pytz-2005k.tar.bz2
+WARN Skipping file for pytz: pytz-2005k.tar.gz
+WARN Skipping file for pytz: pytz-2005k.zip
+WARN Skipping file for pytz: pytz-2005m.tar.bz2
+WARN Skipping file for pytz: pytz-2005m.tar.gz
+WARN Skipping file for pytz: pytz-2005m.zip
+WARN Skipping file for pytz: pytz-2006g-py2.4.egg
+WARN Skipping file for pytz: pytz-2006g.tar.bz2
+WARN Skipping file for pytz: pytz-2006g.tar.gz
+WARN Skipping file for pytz: pytz-2006g.zip
+WARN Skipping file for pytz: pytz-2006j-py2.4.egg
+WARN Skipping file for pytz: pytz-2006j.tar.bz2
+WARN Skipping file for pytz: pytz-2006j.tar.gz
+WARN Skipping file for pytz: pytz-2006j.zip
+WARN Skipping file for pytz: pytz-2006p-py2.4.egg
+WARN Skipping file for pytz: pytz-2006p-py2.5.egg
+WARN Skipping file for pytz: pytz-2006p.tar.bz2
+WARN Skipping file for pytz: pytz-2006p.tar.gz
+WARN Skipping file for pytz: pytz-2006p.zip
+WARN Skipping file for pytz: pytz-2007c-py2.4.egg
+WARN Skipping file for pytz: pytz-2007c-py2.5.egg
+WARN Skipping file for pytz: pytz-2007d-py2.3.egg
+WARN Skipping file for pytz: pytz-2007d-py2.4.egg
+WARN Skipping file for pytz: pytz-2007d-py2.5.egg
+WARN Skipping file for pytz: pytz-2007d.tar.bz2
+WARN Skipping file for pytz: pytz-2007d.tar.gz
+WARN Skipping file for pytz: pytz-2007d.zip
+WARN Skipping file for pytz: pytz-2007f-py2.3.egg
+WARN Skipping file for pytz: pytz-2007f-py2.4.egg
+WARN Skipping file for pytz: pytz-2007f-py2.5.egg
+WARN Skipping file for pytz: pytz-2007f.tar.bz2
+WARN Skipping file for pytz: pytz-2007f.tar.gz
+WARN Skipping file for pytz: pytz-2007f.zip
+WARN Skipping file for pytz: pytz-2007g-py2.3.egg
+WARN Skipping file for pytz: pytz-2007g-py2.4.egg
+WARN Skipping file for pytz: pytz-2007g-py2.5.egg
+WARN Skipping file for pytz: pytz-2007g.tar.bz2
+WARN Skipping file for pytz: pytz-2007g.tar.gz
+WARN Skipping file for pytz: pytz-2007g.zip
+WARN Skipping file for pytz: pytz-2007i-py2.3.egg
+WARN Skipping file for pytz: pytz-2007i-py2.4.egg
+WARN Skipping file for pytz: pytz-2007i-py2.5.egg
+WARN Skipping file for pytz: pytz-2007i.tar.bz2
+WARN Skipping file for pytz: pytz-2007i.tar.gz
+WARN Skipping file for pytz: pytz-2007i.zip
+WARN Skipping file for pytz: pytz-2007k-py2.3.egg
+WARN Skipping file for pytz: pytz-2007k-py2.4.egg
+WARN Skipping file for pytz: pytz-2007k-py2.5.egg
+WARN Skipping file for pytz: pytz-2007k.tar.bz2
+WARN Skipping file for pytz: pytz-2007k.tar.gz
+WARN Skipping file for pytz: pytz-2007k.zip
+WARN Skipping file for pytz: pytz-2008a-py2.3.egg
+WARN Skipping file for pytz: pytz-2008a-py2.4.egg
+WARN Skipping file for pytz: pytz-2008a-py2.5.egg
+WARN Skipping file for pytz: pytz-2008b-py2.3.egg
+WARN Skipping file for pytz: pytz-2008b-py2.4.egg
+WARN Skipping file for pytz: pytz-2008b-py2.5.egg
+WARN Skipping file for pytz: pytz-2008c-py2.3.egg
+WARN Skipping file for pytz: pytz-2008c-py2.4.egg
+WARN Skipping file for pytz: pytz-2008c-py2.5.egg
+WARN Skipping file for pytz: pytz-2008g-py2.3.egg
+WARN Skipping file for pytz: pytz-2008g-py2.4.egg
+WARN Skipping file for pytz: pytz-2008g-py2.5.egg
+WARN Skipping file for pytz: pytz-2008g-py2.6.egg
+WARN Skipping file for pytz: pytz-2008g.tar.bz2
+WARN Skipping file for pytz: pytz-2008g.tar.gz
+WARN Skipping file for pytz: pytz-2008g.zip
+WARN Skipping file for pytz: pytz-2008h-py2.3.egg
+WARN Skipping file for pytz: pytz-2008h-py2.4.egg
+WARN Skipping file for pytz: pytz-2008h-py2.5.egg
+WARN Skipping file for pytz: pytz-2008h-py2.6.egg
+WARN Skipping file for pytz: pytz-2008h.tar.bz2
+WARN Skipping file for pytz: pytz-2008h.tar.gz
+WARN Skipping file for pytz: pytz-2008h.zip
+WARN Skipping file for pytz: pytz-2008i-py2.3.egg
+WARN Skipping file for pytz: pytz-2008i-py2.4.egg
+WARN Skipping file for pytz: pytz-2008i-py2.5.egg
+WARN Skipping file for pytz: pytz-2008i-py2.6.egg
+WARN Skipping file for pytz: pytz-2008i.tar.bz2
+WARN Skipping file for pytz: pytz-2008i.tar.gz
+WARN Skipping file for pytz: pytz-2008i.zip
+WARN Skipping file for pytz: pytz-2009a-py2.3.egg
+WARN Skipping file for pytz: pytz-2009a-py2.4.egg
+WARN Skipping file for pytz: pytz-2009a-py2.5.egg
+WARN Skipping file for pytz: pytz-2009a-py2.6.egg
+WARN Skipping file for pytz: pytz-2009d-py2.3.egg
+WARN Skipping file for pytz: pytz-2009d-py2.4.egg
+WARN Skipping file for pytz: pytz-2009d-py2.5.egg
+WARN Skipping file for pytz: pytz-2009d-py2.6.egg
+WARN Skipping file for pytz: pytz-2009d.tar.bz2
+WARN Skipping file for pytz: pytz-2009d.tar.gz
+WARN Skipping file for pytz: pytz-2009d.zip
+WARN Skipping file for pytz: pytz-2009e-py2.3.egg
+WARN Skipping file for pytz: pytz-2009e-py2.4.egg
+WARN Skipping file for pytz: pytz-2009e-py2.5.egg
+WARN Skipping file for pytz: pytz-2009e-py2.6.egg
+WARN Skipping file for pytz: pytz-2009e.tar.bz2
+WARN Skipping file for pytz: pytz-2009e.tar.gz
+WARN Skipping file for pytz: pytz-2009e.zip
+WARN Skipping file for pytz: pytz-2009f-py2.3.egg
+WARN Skipping file for pytz: pytz-2009f-py2.4.egg
+WARN Skipping file for pytz: pytz-2009f-py2.5.egg
+WARN Skipping file for pytz: pytz-2009f-py2.6.egg
+WARN Skipping file for pytz: pytz-2009f.tar.bz2
+WARN Skipping file for pytz: pytz-2009f.tar.gz
+WARN Skipping file for pytz: pytz-2009f.zip
+WARN Skipping file for pytz: pytz-2009g-py2.3.egg
+WARN Skipping file for pytz: pytz-2009g-py2.4.egg
+WARN Skipping file for pytz: pytz-2009g-py2.5.egg
+WARN Skipping file for pytz: pytz-2009g-py2.6.egg
+WARN Skipping file for pytz: pytz-2009g.tar.bz2
+WARN Skipping file for pytz: pytz-2009g.tar.gz
+WARN Skipping file for pytz: pytz-2009g.zip
+WARN Skipping file for pytz: pytz-2009i-py2.3.egg
+WARN Skipping file for pytz: pytz-2009i-py2.4.egg
+WARN Skipping file for pytz: pytz-2009i-py2.5.egg
+WARN Skipping file for pytz: pytz-2009i-py2.6.egg
+WARN Skipping file for pytz: pytz-2009i.tar.bz2
+WARN Skipping file for pytz: pytz-2009i.tar.gz
+WARN Skipping file for pytz: pytz-2009i.zip
+WARN Skipping file for pytz: pytz-2009j-py2.3.egg
+WARN Skipping file for pytz: pytz-2009j-py2.4.egg
+WARN Skipping file for pytz: pytz-2009j-py2.5.egg
+WARN Skipping file for pytz: pytz-2009j-py2.6.egg
+WARN Skipping file for pytz: pytz-2009j.tar.bz2
+WARN Skipping file for pytz: pytz-2009j.tar.gz
+WARN Skipping file for pytz: pytz-2009j.zip
+WARN Skipping file for pytz: pytz-2009l-py2.3.egg
+WARN Skipping file for pytz: pytz-2009l-py2.4.egg
+WARN Skipping file for pytz: pytz-2009l-py2.5.egg
+WARN Skipping file for pytz: pytz-2009l-py2.6.egg
+WARN Skipping file for pytz: pytz-2009l.tar.bz2
+WARN Skipping file for pytz: pytz-2009l.tar.gz
+WARN Skipping file for pytz: pytz-2009l.zip
+WARN Skipping file for pytz: pytz-2009n-py2.3.egg
+WARN Skipping file for pytz: pytz-2009n-py2.4.egg
+WARN Skipping file for pytz: pytz-2009n-py2.5.egg
+WARN Skipping file for pytz: pytz-2009n-py2.6.egg
+WARN Skipping file for pytz: pytz-2009n.tar.bz2
+WARN Skipping file for pytz: pytz-2009n.tar.gz
+WARN Skipping file for pytz: pytz-2009n.zip
+WARN Skipping file for pytz: pytz-2009p-py2.3.egg
+WARN Skipping file for pytz: pytz-2009p-py2.4.egg
+WARN Skipping file for pytz: pytz-2009p-py2.5.egg
+WARN Skipping file for pytz: pytz-2009p-py2.6.egg
+WARN Skipping file for pytz: pytz-2009p.tar.bz2
+WARN Skipping file for pytz: pytz-2009p.tar.gz
+WARN Skipping file for pytz: pytz-2009p.zip
+WARN Skipping file for pytz: pytz-2009r-py2.3.egg
+WARN Skipping file for pytz: pytz-2009r-py2.4.egg
+WARN Skipping file for pytz: pytz-2009r-py2.5.egg
+WARN Skipping file for pytz: pytz-2009r-py2.6.egg
+WARN Skipping file for pytz: pytz-2009u-py2.3.egg
+WARN Skipping file for pytz: pytz-2009u-py2.4.egg
+WARN Skipping file for pytz: pytz-2009u-py2.5.egg
+WARN Skipping file for pytz: pytz-2009u-py2.6.egg
+WARN Skipping file for pytz: pytz-2009u.tar.bz2
+WARN Skipping file for pytz: pytz-2009u.tar.gz
+WARN Skipping file for pytz: pytz-2009u.zip
+WARN Skipping file for pytz: pytz-2010b-py2.3.egg
+WARN Skipping file for pytz: pytz-2010b-py2.4.egg
+WARN Skipping file for pytz: pytz-2010b-py2.5.egg
+WARN Skipping file for pytz: pytz-2010b-py2.6.egg
+WARN Skipping file for pytz: pytz-2010e-py2.3.egg
+WARN Skipping file for pytz: pytz-2010e-py2.4.egg
+WARN Skipping file for pytz: pytz-2010e-py2.5.egg
+WARN Skipping file for pytz: pytz-2010e-py2.6.egg
+WARN Skipping file for pytz: pytz-2010e.tar.bz2
+WARN Skipping file for pytz: pytz-2010e.tar.gz
+WARN Skipping file for pytz: pytz-2010e.zip
+WARN Skipping file for pytz: pytz-2010g-py2.3.egg
+WARN Skipping file for pytz: pytz-2010g-py2.4.egg
+WARN Skipping file for pytz: pytz-2010g-py2.5.egg
+WARN Skipping file for pytz: pytz-2010g-py2.6.egg
+WARN Skipping file for pytz: pytz-2010g.tar.bz2
+WARN Skipping file for pytz: pytz-2010g.tar.gz
+WARN Skipping file for pytz: pytz-2010g.zip
+WARN Skipping file for pytz: pytz-2010h-py2.3.egg
+WARN Skipping file for pytz: pytz-2010h-py2.4.egg
+WARN Skipping file for pytz: pytz-2010h-py2.5.egg
+WARN Skipping file for pytz: pytz-2010h-py2.6.egg
+WARN Skipping file for pytz: pytz-2010h.tar.bz2
+WARN Skipping file for pytz: pytz-2010h.tar.gz
+WARN Skipping file for pytz: pytz-2010h.zip
+WARN Skipping file for pytz: pytz-2010k-py2.3.egg
+WARN Skipping file for pytz: pytz-2010k-py2.4.egg
+WARN Skipping file for pytz: pytz-2010k-py2.5.egg
+WARN Skipping file for pytz: pytz-2010k-py2.6.egg
+WARN Skipping file for pytz: pytz-2010k.tar.bz2
+WARN Skipping file for pytz: pytz-2010k.tar.gz
+WARN Skipping file for pytz: pytz-2010k.zip
+WARN Skipping file for pytz: pytz-2010l-py2.3.egg
+WARN Skipping file for pytz: pytz-2010l-py2.4.egg
+WARN Skipping file for pytz: pytz-2010l-py2.5.egg
+WARN Skipping file for pytz: pytz-2010l-py2.6.egg
+WARN Skipping file for pytz: pytz-2010l.tar.bz2
+WARN Skipping file for pytz: pytz-2010l.tar.gz
+WARN Skipping file for pytz: pytz-2010l.zip
+WARN Skipping file for pytz: pytz-2010o-py2.3.egg
+WARN Skipping file for pytz: pytz-2010o-py2.4.egg
+WARN Skipping file for pytz: pytz-2010o-py2.5.egg
+WARN Skipping file for pytz: pytz-2010o-py2.6.egg
+WARN Skipping file for pytz: pytz-2010o-py2.7.egg
+WARN Skipping file for pytz: pytz-2010o.tar.bz2
+WARN Skipping file for pytz: pytz-2010o.tar.gz
+WARN Skipping file for pytz: pytz-2010o.zip
+WARN Skipping file for pytz: pytz-2011b-py2.4.egg
+WARN Skipping file for pytz: pytz-2011b-py2.5.egg
+WARN Skipping file for pytz: pytz-2011b-py2.6.egg
+WARN Skipping file for pytz: pytz-2011b-py2.7.egg
+WARN Skipping file for pytz: pytz-2011b-py3.1.egg
+WARN Skipping file for pytz: pytz-2011c-py2.4.egg
+WARN Skipping file for pytz: pytz-2011c-py2.5.egg
+WARN Skipping file for pytz: pytz-2011c-py2.6.egg
+WARN Skipping file for pytz: pytz-2011c-py2.7.egg
+WARN Skipping file for pytz: pytz-2011c-py3.1.egg
+WARN Skipping file for pytz: pytz-2011c-py3.2.egg
+WARN Skipping file for pytz: pytz-2011d-py2.4.egg
+WARN Skipping file for pytz: pytz-2011d-py2.5.egg
+WARN Skipping file for pytz: pytz-2011d-py2.6.egg
+WARN Skipping file for pytz: pytz-2011d-py2.7.egg
+WARN Skipping file for pytz: pytz-2011d-py3.1.egg
+WARN Skipping file for pytz: pytz-2011d-py3.2.egg
+WARN Skipping file for pytz: pytz-2011d.tar.bz2
+WARN Skipping file for pytz: pytz-2011d.tar.gz
+WARN Skipping file for pytz: pytz-2011d.zip
+WARN Skipping file for pytz: pytz-2011e-py2.4.egg
+WARN Skipping file for pytz: pytz-2011e-py2.5.egg
+WARN Skipping file for pytz: pytz-2011e-py2.6.egg
+WARN Skipping file for pytz: pytz-2011e-py2.7.egg
+WARN Skipping file for pytz: pytz-2011e-py3.1.egg
+WARN Skipping file for pytz: pytz-2011e-py3.2.egg
+WARN Skipping file for pytz: pytz-2011e.tar.bz2
+WARN Skipping file for pytz: pytz-2011e.tar.gz
+WARN Skipping file for pytz: pytz-2011e.zip
+WARN Skipping file for pytz: pytz-2011g-py2.4.egg
+WARN Skipping file for pytz: pytz-2011g-py2.5.egg
+WARN Skipping file for pytz: pytz-2011g-py2.6.egg
+WARN Skipping file for pytz: pytz-2011g-py2.7.egg
+WARN Skipping file for pytz: pytz-2011g-py3.1.egg
+WARN Skipping file for pytz: pytz-2011g-py3.2.egg
+WARN Skipping file for pytz: pytz-2011g.tar.bz2
+WARN Skipping file for pytz: pytz-2011g.tar.gz
+WARN Skipping file for pytz: pytz-2011g.zip
+WARN Skipping file for pytz: pytz-2011h-py2.4.egg
+WARN Skipping file for pytz: pytz-2011h-py2.5.egg
+WARN Skipping file for pytz: pytz-2011h-py2.6.egg
+WARN Skipping file for pytz: pytz-2011h-py2.7.egg
+WARN Skipping file for pytz: pytz-2011h-py3.1.egg
+WARN Skipping file for pytz: pytz-2011h-py3.2.egg
+WARN Skipping file for pytz: pytz-2011h.tar.bz2
+WARN Skipping file for pytz: pytz-2011h.tar.gz
+WARN Skipping file for pytz: pytz-2011h.zip
+WARN Skipping file for pytz: pytz-2011j-py2.4.egg
+WARN Skipping file for pytz: pytz-2011j-py2.5.egg
+WARN Skipping file for pytz: pytz-2011j-py2.6.egg
+WARN Skipping file for pytz: pytz-2011j-py2.7.egg
+WARN Skipping file for pytz: pytz-2011j-py3.1.egg
+WARN Skipping file for pytz: pytz-2011j-py3.2.egg
+WARN Skipping file for pytz: pytz-2011j.tar.bz2
+WARN Skipping file for pytz: pytz-2011j.tar.gz
+WARN Skipping file for pytz: pytz-2011j.zip
+WARN Skipping file for pytz: pytz-2011k-py2.4.egg
+WARN Skipping file for pytz: pytz-2011k-py2.5.egg
+WARN Skipping file for pytz: pytz-2011k-py2.6.egg
+WARN Skipping file for pytz: pytz-2011k-py2.7.egg
+WARN Skipping file for pytz: pytz-2011k-py3.1.egg
+WARN Skipping file for pytz: pytz-2011k-py3.2.egg
+WARN Skipping file for pytz: pytz-2011k.tar.bz2
+WARN Skipping file for pytz: pytz-2011k.tar.gz
+WARN Skipping file for pytz: pytz-2011k.zip
+WARN Skipping file for pytz: pytz-2011n-py2.4.egg
+WARN Skipping file for pytz: pytz-2011n-py2.5.egg
+WARN Skipping file for pytz: pytz-2011n-py2.6.egg
+WARN Skipping file for pytz: pytz-2011n-py2.7.egg
+WARN Skipping file for pytz: pytz-2011n-py3.1.egg
+WARN Skipping file for pytz: pytz-2011n-py3.2.egg
+WARN Skipping file for pytz: pytz-2011n.tar.bz2
+WARN Skipping file for pytz: pytz-2011n.tar.gz
+WARN Skipping file for pytz: pytz-2011n.zip
+WARN Skipping file for pytz: pytz-2012b-py2.4.egg
+WARN Skipping file for pytz: pytz-2012b-py2.5.egg
+WARN Skipping file for pytz: pytz-2012b-py2.6.egg
+WARN Skipping file for pytz: pytz-2012b-py2.7.egg
+WARN Skipping file for pytz: pytz-2012b-py3.1.egg
+WARN Skipping file for pytz: pytz-2012b-py3.2.egg
+WARN Skipping file for pytz: pytz-2012c-py2.4.egg
+WARN Skipping file for pytz: pytz-2012c-py2.5.egg
+WARN Skipping file for pytz: pytz-2012c-py2.6.egg
+WARN Skipping file for pytz: pytz-2012c-py2.7.egg
+WARN Skipping file for pytz: pytz-2012c-py3.1.egg
+WARN Skipping file for pytz: pytz-2012c-py3.2.egg
+WARN Skipping file for pytz: pytz-2012d-py2.4.egg
+WARN Skipping file for pytz: pytz-2012d-py2.5.egg
+WARN Skipping file for pytz: pytz-2012d-py2.6.egg
+WARN Skipping file for pytz: pytz-2012d-py2.7.egg
+WARN Skipping file for pytz: pytz-2012d-py3.1.egg
+WARN Skipping file for pytz: pytz-2012d-py3.2.egg
+WARN Skipping file for pytz: pytz-2012d.tar.bz2
+WARN Skipping file for pytz: pytz-2012d.tar.gz
+WARN Skipping file for pytz: pytz-2012d.zip
+WARN Skipping file for pytz: pytz-2012f-py2.4.egg
+WARN Skipping file for pytz: pytz-2012f-py2.5.egg
+WARN Skipping file for pytz: pytz-2012f-py2.6.egg
+WARN Skipping file for pytz: pytz-2012f-py2.7.egg
+WARN Skipping file for pytz: pytz-2012f-py3.1.egg
+WARN Skipping file for pytz: pytz-2012f-py3.2.egg
+WARN Skipping file for pytz: pytz-2012f.tar.bz2
+WARN Skipping file for pytz: pytz-2012f.tar.gz
+WARN Skipping file for pytz: pytz-2012f.zip
+WARN Skipping file for pytz: pytz-2012g-py2.4.egg
+WARN Skipping file for pytz: pytz-2012g-py2.5.egg
+WARN Skipping file for pytz: pytz-2012g-py2.6.egg
+WARN Skipping file for pytz: pytz-2012g-py2.7.egg
+WARN Skipping file for pytz: pytz-2012g-py3.1.egg
+WARN Skipping file for pytz: pytz-2012g-py3.2.egg
+WARN Skipping file for pytz: pytz-2012g.tar.bz2
+WARN Skipping file for pytz: pytz-2012g.tar.gz
+WARN Skipping file for pytz: pytz-2012g.zip
+WARN Skipping file for pytz: pytz-2012h-py2.4.egg
+WARN Skipping file for pytz: pytz-2012h-py2.5.egg
+WARN Skipping file for pytz: pytz-2012h-py2.6.egg
+WARN Skipping file for pytz: pytz-2012h-py2.7.egg
+WARN Skipping file for pytz: pytz-2012h-py3.1.egg
+WARN Skipping file for pytz: pytz-2012h-py3.2.egg
+WARN Skipping file for pytz: pytz-2012h.tar.bz2
+WARN Skipping file for pytz: pytz-2012h.tar.gz
+WARN Skipping file for pytz: pytz-2012j-py2.4.egg
+WARN Skipping file for pytz: pytz-2012j-py2.5.egg
+WARN Skipping file for pytz: pytz-2012j-py2.6.egg
+WARN Skipping file for pytz: pytz-2012j-py2.7.egg
+WARN Skipping file for pytz: pytz-2012j-py3.1.egg
+WARN Skipping file for pytz: pytz-2012j-py3.2.egg
+WARN Skipping file for pytz: pytz-2012j.tar.bz2
+WARN Skipping file for pytz: pytz-2012j.tar.gz
+WARN Skipping file for pytz: pytz-2012j.zip
+WARN Skipping file for pytz: pytz-2013.6-py2.4.egg
+WARN Skipping file for pytz: pytz-2013.6-py2.5.egg
+WARN Skipping file for pytz: pytz-2013.6-py2.6.egg
+WARN Skipping file for pytz: pytz-2013.6-py2.7.egg
+WARN Skipping file for pytz: pytz-2013.6-py3.1.egg
+WARN Skipping file for pytz: pytz-2013.6-py3.2.egg
+WARN Skipping file for pytz: pytz-2013.6-py3.3.egg
+WARN Skipping file for pytz: pytz-2013.7-py2.4.egg
+WARN Skipping file for pytz: pytz-2013.7-py2.5.egg
+WARN Skipping file for pytz: pytz-2013.7-py2.6.egg
+WARN Skipping file for pytz: pytz-2013.7-py2.7.egg
+WARN Skipping file for pytz: pytz-2013.7-py3.3.egg
+WARN Skipping file for pytz: pytz-2013.8-py2.4.egg
+WARN Skipping file for pytz: pytz-2013.8-py2.5.egg
+WARN Skipping file for pytz: pytz-2013.8-py2.6.egg
+WARN Skipping file for pytz: pytz-2013.8-py2.7.egg
+WARN Skipping file for pytz: pytz-2013.8-py3.1.egg
+WARN Skipping file for pytz: pytz-2013.8-py3.2.egg
+WARN Skipping file for pytz: pytz-2013.8-py3.3.egg
+WARN Skipping file for pytz: pytz-2013.9-py2.4.egg
+WARN Skipping file for pytz: pytz-2013.9-py2.5.egg
+WARN Skipping file for pytz: pytz-2013.9-py2.6.egg
+WARN Skipping file for pytz: pytz-2013.9-py2.7.egg
+WARN Skipping file for pytz: pytz-2013.9-py3.2.egg
+WARN Skipping file for pytz: pytz-2013.9-py3.3.egg
+WARN Skipping file for pytz: pytz-2013b-py2.4.egg
+WARN Skipping file for pytz: pytz-2013b-py2.5.egg
+WARN Skipping file for pytz: pytz-2013b-py2.6.egg
+WARN Skipping file for pytz: pytz-2013b-py2.7.egg
+WARN Skipping file for pytz: pytz-2013b-py3.1.egg
+WARN Skipping file for pytz: pytz-2013b-py3.2.egg
+WARN Skipping file for pytz: pytz-2013d-py2.4.egg
+WARN Skipping file for pytz: pytz-2013d-py2.5.egg
+WARN Skipping file for pytz: pytz-2013d-py2.6.egg
+WARN Skipping file for pytz: pytz-2013d-py2.7.egg
+WARN Skipping file for pytz: pytz-2013d-py3.1.egg
+WARN Skipping file for pytz: pytz-2013d-py3.2.egg
+WARN Skipping file for pytz: pytz-2013d-py3.3.egg
+WARN Skipping file for pytz: pytz-2013d.tar.bz2
+WARN Skipping file for pytz: pytz-2013d.tar.gz
+WARN Skipping file for pytz: pytz-2013d.zip
+WARN Skipping file for pytz: pytz-2014.1.1-py2.4.egg
+WARN Skipping file for pytz: pytz-2014.1.1-py2.5.egg
+WARN Skipping file for pytz: pytz-2014.1.1-py2.6.egg
+WARN Skipping file for pytz: pytz-2014.1.1-py2.7.egg
+WARN Skipping file for pytz: pytz-2014.1.1-py3.3.egg
+WARN Skipping file for pytz: pytz-2014.10-py2.4.egg
+WARN Skipping file for pytz: pytz-2014.10-py2.5.egg
+WARN Skipping file for pytz: pytz-2014.10-py2.6.egg
+WARN Skipping file for pytz: pytz-2014.10-py2.7.egg
+WARN Skipping file for pytz: pytz-2014.10-py3.1.egg
+WARN Skipping file for pytz: pytz-2014.10-py3.2.egg
+WARN Skipping file for pytz: pytz-2014.10-py3.3.egg
+WARN Skipping file for pytz: pytz-2014.10-py3.4.egg
+WARN Skipping file for pytz: pytz-2014.2-py2.4.egg
+WARN Skipping file for pytz: pytz-2014.2-py2.5.egg
+WARN Skipping file for pytz: pytz-2014.2-py2.6.egg
+WARN Skipping file for pytz: pytz-2014.3-py2.4.egg
+WARN Skipping file for pytz: pytz-2014.3-py2.5.egg
+WARN Skipping file for pytz: pytz-2014.3-py2.6.egg
+WARN Skipping file for pytz: pytz-2014.3-py2.7.egg
+WARN Skipping file for pytz: pytz-2014.3-py3.3.egg
+WARN Skipping file for pytz: pytz-2014.4-py2.4.egg
+WARN Skipping file for pytz: pytz-2014.4-py2.5.egg
+WARN Skipping file for pytz: pytz-2014.4-py2.6.egg
+WARN Skipping file for pytz: pytz-2014.4-py2.7.egg
+WARN Skipping file for pytz: pytz-2014.4-py3.3.egg
+WARN Skipping file for pytz: pytz-2014.7-py2.4.egg
+WARN Skipping file for pytz: pytz-2014.7-py2.5.egg
+WARN Skipping file for pytz: pytz-2014.7-py2.6.egg
+WARN Skipping file for pytz: pytz-2014.7-py2.7.egg
+WARN Skipping file for pytz: pytz-2014.7-py3.3.egg
+WARN Skipping file for pytz: pytz-2014.9-py2.4.egg
+WARN Skipping file for pytz: pytz-2014.9-py2.5.egg
+WARN Skipping file for pytz: pytz-2014.9-py2.6.egg
+WARN Skipping file for pytz: pytz-2014.9-py2.7.egg
+WARN Skipping file for pytz: pytz-2014.9-py3.1.egg
+WARN Skipping file for pytz: pytz-2014.9-py3.2.egg
+WARN Skipping file for pytz: pytz-2014.9-py3.3.egg
+WARN Skipping file for pytz: pytz-2014.9-py3.4.egg
+WARN Skipping file for pytz: pytz-2015.2-py2.4.egg
+WARN Skipping file for pytz: pytz-2015.2-py2.5.egg
+WARN Skipping file for pytz: pytz-2015.2-py2.6.egg
+WARN Skipping file for pytz: pytz-2015.2-py2.7.egg
+WARN Skipping file for pytz: pytz-2015.2-py3.1.egg
+WARN Skipping file for pytz: pytz-2015.2-py3.2.egg
+WARN Skipping file for pytz: pytz-2015.2-py3.3.egg
+WARN Skipping file for pytz: pytz-2015.2-py3.4.egg
+WARN Skipping file for pytz: pytz-2015.4-py2.4.egg
+WARN Skipping file for pytz: pytz-2015.4-py2.5.egg
+WARN Skipping file for pytz: pytz-2015.4-py2.6.egg
+WARN Skipping file for pytz: pytz-2015.4-py2.7.egg
+WARN Skipping file for pytz: pytz-2015.4-py3.1.egg
+WARN Skipping file for pytz: pytz-2015.4-py3.2.egg
+WARN Skipping file for pytz: pytz-2015.4-py3.3.egg
+WARN Skipping file for pytz: pytz-2015.4-py3.4.egg
+WARN Skipping file for pytz: pytz-2015.6-py2.4.egg
+WARN Skipping file for pytz: pytz-2015.6-py2.5.egg
+WARN Skipping file for pytz: pytz-2015.6-py2.6.egg
+WARN Skipping file for pytz: pytz-2015.6-py2.7.egg
+WARN Skipping file for pytz: pytz-2015.6-py3.1.egg
+WARN Skipping file for pytz: pytz-2015.6-py3.2.egg
+WARN Skipping file for pytz: pytz-2015.6-py3.3.egg
+WARN Skipping file for pytz: pytz-2015.6-py3.4.egg
+WARN Skipping file for pytz: pytz-2015.6-py3.5.egg
+WARN Skipping file for pytz: pytz-2015.7-py2.4.egg
+WARN Skipping file for pytz: pytz-2015.7-py2.5.egg
+WARN Skipping file for pytz: pytz-2015.7-py2.6.egg
+WARN Skipping file for pytz: pytz-2015.7-py2.7.egg
+WARN Skipping file for pytz: pytz-2015.7-py3.1.egg
+WARN Skipping file for pytz: pytz-2015.7-py3.2.egg
+WARN Skipping file for pytz: pytz-2015.7-py3.3.egg
+WARN Skipping file for pytz: pytz-2015.7-py3.4.egg
+WARN Skipping file for pytz: pytz-2015.7-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.1-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.1-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.1-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.1-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.1-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.1-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.1-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.1-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.1-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.10-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.10-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.10-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.10-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.10-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.10-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.10-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.10-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.10-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.2-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.2-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.2-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.2-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.2-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.2-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.2-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.2-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.2-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.3-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.3-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.3-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.3-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.3-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.3-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.3-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.3-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.3-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.4-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.4-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.4-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.4-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.4-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.4-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.4-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.4-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.4-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.6-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.6-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.6-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.6-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.6-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.6-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.6-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.6-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.6-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.6.1-py3.5.egg
+WARN Skipping file for pytz: pytz-2016.7-py2.4.egg
+WARN Skipping file for pytz: pytz-2016.7-py2.5.egg
+WARN Skipping file for pytz: pytz-2016.7-py2.6.egg
+WARN Skipping file for pytz: pytz-2016.7-py2.7.egg
+WARN Skipping file for pytz: pytz-2016.7-py3.1.egg
+WARN Skipping file for pytz: pytz-2016.7-py3.2.egg
+WARN Skipping file for pytz: pytz-2016.7-py3.3.egg
+WARN Skipping file for pytz: pytz-2016.7-py3.4.egg
+WARN Skipping file for pytz: pytz-2016.7-py3.5.egg
+WARN Skipping file for pytz: pytz-2017.2-py2.4.egg
+WARN Skipping file for pytz: pytz-2017.2-py2.5.egg
+WARN Skipping file for pytz: pytz-2017.2-py2.6.egg
+WARN Skipping file for pytz: pytz-2017.2-py2.7.egg
+WARN Skipping file for pytz: pytz-2017.2-py3.3.egg
+WARN Skipping file for pytz: pytz-2017.2-py3.4.egg
+WARN Skipping file for pytz: pytz-2017.2-py3.5.egg
+WARN Skipping file for pytz: pytz-2017.3-py2.4.egg
+WARN Skipping file for pytz: pytz-2017.3-py2.5.egg
+WARN Skipping file for pytz: pytz-2017.3-py2.6.egg
+WARN Skipping file for pytz: pytz-2017.3-py2.7.egg
+WARN Skipping file for pytz: pytz-2017.3-py3.3.egg
+WARN Skipping file for pytz: pytz-2017.3-py3.4.egg
+WARN Skipping file for pytz: pytz-2017.3-py3.5.egg
+WARN Skipping file for pytz: pytz-2018.3-py2.4.egg
+WARN Skipping file for pytz: pytz-2018.3-py2.5.egg
+WARN Skipping file for pytz: pytz-2018.3-py2.6.egg
+WARN Skipping file for pytz: pytz-2018.3-py2.7.egg
+WARN Skipping file for pytz: pytz-2018.3-py3.3.egg
+WARN Skipping file for pytz: pytz-2018.3-py3.4.egg
+WARN Skipping file for pytz: pytz-2018.3-py3.5.egg
+WARN Skipping file for mpmath: mpmath-0.10.win32.exe
+WARN Skipping file for mpmath: mpmath-0.11.win32.exe
+WARN Skipping file for mpmath: mpmath-0.12.win32.exe
+WARN Skipping file for mpmath: mpmath-0.13.win32.exe
+WARN Skipping file for mpmath: mpmath-0.14.win32.exe
+WARN Skipping file for mpmath: mpmath-0.15.win32.exe
+WARN Skipping file for mpmath: mpmath-0.16.win32-py2.6.msi
+WARN Skipping file for mpmath: mpmath-0.17.win32.exe
+WARN Skipping file for mpmath: mpmath-0.2.win32.exe
+WARN Skipping file for mpmath: mpmath-0.3.win32.exe
+WARN Skipping file for mpmath: mpmath-0.4.src.zip
+WARN Skipping file for mpmath: mpmath-0.4.win32.exe
+WARN Skipping file for mpmath: mpmath-0.5.win32.exe
+WARN Skipping file for mpmath: mpmath-0.6.win32.exe
+WARN Skipping file for mpmath: mpmath-0.7.win32.exe
+WARN Skipping file for mpmath: mpmath-0.8.win32.exe
+WARN Skipping file for mpmath: mpmath-0.9.win32.exe
+WARN Skipping file for mpmath: mpmath-all-0.17.tar.gz
+WARN Skipping file for mpmath: mpmath-all-0.18.tar.gz
+WARN Skipping file for mpmath: mpmath-all-0.19.tar.gz
+WARN Skipping file for mpmath: mpmath-docsrc-0.16.tar.gz
+WARN Skipping file for lxml: lxml-1.3.2.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-1.3.2.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-1.3.3-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-1.3.3-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-1.3.3.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-1.3.3.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-1.3.4-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-1.3.4-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-1.3.4.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-1.3.4.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-1.3.6-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-1.3.6-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-1.3.6.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-1.3.6.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.10-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.10-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.10-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.0.10.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.10.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.10.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.0.11-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.11-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.11-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.0.11.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.11.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.11.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.0.4-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.4-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.4.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.4.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.5-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.5-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.5.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.5.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.6-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.6-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.6.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.6.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.7-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.7-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.7.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.7.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.8-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.8-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.8-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.0.8.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.8.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.8.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.0.9-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.0.9-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.0.9-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.0.9.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.9.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.0.9.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.0.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.0.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.1-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.1-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.1-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.1.1-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.1.1-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.1.1-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.1.1.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.1.1.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.1.1.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.1.2-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.1.2-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.1.2-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.1.2.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.1.2.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.1.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.1.3-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.1.3-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.1.3-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.1.3.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.1.3.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.1.3.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.1.4-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.1.4-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.1.4-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.1.4.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.1.4.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.1.4.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.1.5-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.1.5-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.1.5-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.1.5.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.1.5.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.1.5.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.1.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.1.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.1.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.2-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.2-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.2-py3.0-win32.egg
+WARN Skipping file for lxml: lxml-2.2.1-py2.4-macosx-10.5-i386.egg
+WARN Skipping file for lxml: lxml-2.2.1-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.2.1-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.2.1-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.2.1-py3.0-win32.egg
+WARN Skipping file for lxml: lxml-2.2.1.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.2.1.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.2.1.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.1.win32-py3.0.exe
+WARN Skipping file for lxml: lxml-2.2.2-py2.4-macosx-10.5-i386.egg
+WARN Skipping file for lxml: lxml-2.2.2-py2.4-macosx-10.6-i386.egg
+WARN Skipping file for lxml: lxml-2.2.2-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.2.2-py2.5-macosx-10.5-i386.egg
+WARN Skipping file for lxml: lxml-2.2.2-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.2.2-py2.6-macosx-10.5-i386.egg
+WARN Skipping file for lxml: lxml-2.2.2-py2.6-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.2.2-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.2.2-py3.0-win32.egg
+WARN Skipping file for lxml: lxml-2.2.2.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.2.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.2.2.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.2.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.2.win32-py3.0.exe
+WARN Skipping file for lxml: lxml-2.2.2.win32-py3.1.exe
+WARN Skipping file for lxml: lxml-2.2.4-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.2.4-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.2.4-py2.6-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.2.4-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.2.4-py3.0-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.2.4-py3.0-win32.egg
+WARN Skipping file for lxml: lxml-2.2.4-py3.1-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.2.4-py3.1-win32.egg
+WARN Skipping file for lxml: lxml-2.2.4.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.4.win-amd64-py3.0.exe
+WARN Skipping file for lxml: lxml-2.2.4.win-amd64-py3.1.exe
+WARN Skipping file for lxml: lxml-2.2.4.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.2.4.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.2.4.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.4.win32-py3.0.exe
+WARN Skipping file for lxml: lxml-2.2.4.win32-py3.1.exe
+WARN Skipping file for lxml: lxml-2.2.6-py2.4-win32.egg
+WARN Skipping file for lxml: lxml-2.2.6-py2.5-macosx-10.3-i386.egg
+WARN Skipping file for lxml: lxml-2.2.6-py2.5-macosx-10.3-ppc.egg
+WARN Skipping file for lxml: lxml-2.2.6-py2.5-win32.egg
+WARN Skipping file for lxml: lxml-2.2.6-py2.6-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.2.6-py2.7-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.2.6.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.2.6.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.2.7-py2.5-macosx-10.3-i386.egg
+WARN Skipping file for lxml: lxml-2.2.7-py2.5-macosx-10.3-ppc.egg
+WARN Skipping file for lxml: lxml-2.2.7-py2.6-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.2.7-py2.7-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.5-macosx-10.3-i386.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.5-macosx-10.3-ppc.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.6-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.6-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.7-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.7-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.2.8-py2.7-win32.egg
+WARN Skipping file for lxml: lxml-2.2.8-py3.1-win32.egg
+WARN Skipping file for lxml: lxml-2.2.8.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.8.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-2.2.8.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.8.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-2.2.8.win32-py3.1.exe
+WARN Skipping file for lxml: lxml-2.2.win32-py2.4.exe
+WARN Skipping file for lxml: lxml-2.2.win32-py2.5.exe
+WARN Skipping file for lxml: lxml-2.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.2.win32-py3.0.exe
+WARN Skipping file for lxml: lxml-2.3-py2.5-macosx-10.3-i386.egg
+WARN Skipping file for lxml: lxml-2.3-py2.5-macosx-10.3-ppc.egg
+WARN Skipping file for lxml: lxml-2.3-py2.6-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.3-py2.6-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.3-py2.6-win32.egg
+WARN Skipping file for lxml: lxml-2.3-py2.7-macosx-10.3-fat.egg
+WARN Skipping file for lxml: lxml-2.3-py2.7-macosx-10.6-intel.egg
+WARN Skipping file for lxml: lxml-2.3-py2.7-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.3-py2.7-win32.egg
+WARN Skipping file for lxml: lxml-2.3-py3.1-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.3-py3.1-win32.egg
+WARN Skipping file for lxml: lxml-2.3-py3.2-win-amd64.egg
+WARN Skipping file for lxml: lxml-2.3-py3.2-win32.egg
+WARN Skipping file for lxml: lxml-2.3.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-2.3.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-2.3.win-amd64-py3.1.exe
+WARN Skipping file for lxml: lxml-2.3.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-2.3.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-2.3.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-2.3.win32-py3.1.exe
+WARN Skipping file for lxml: lxml-2.3.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.0.2.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.0.2.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.0.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.0.2.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.0.2.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.0.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.0.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.1.0.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.1.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.1.0.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.1.0.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.1.0.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.1.0.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.1.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.1.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.1.0.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.1.0.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.1.1.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.1.1.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.1.1.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.1.1.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.1.1.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.1.1.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.1.1.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.1.1.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.1.1.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.1.1.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.1.2.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.1.2.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.1.2.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.1.2.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.1.2.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.1.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.1.2.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.1.2.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.1.2.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.1.2.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.0.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.0.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.0.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.0.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.0.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.0.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.0.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.1.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.1.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.1.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.1.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.1.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.1.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.1.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.1.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.1.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.1.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.2.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.2.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.2.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.2.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.2.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.2.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.2.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.2.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.2.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.3.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.3.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.3.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.3.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.3.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.3.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.3.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.3.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.3.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.3.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.4.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.4.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.4.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.4.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.4.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.4.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.4.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.4.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.4.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.4.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.5.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.5.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.5.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.5.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.5.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.2.5.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.2.5.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.2.5.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.2.5.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.2.5.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.1.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.1.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.1.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.1.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.1.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.1.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.1.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.1.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.1.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.1.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.2.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.2.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.2.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.2.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.2.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.2.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.2.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.2.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.2.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.3.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.3.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.3.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.3.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.3.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.3.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.3.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.3.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.3.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.3.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.4.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.4.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.4.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.4.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.4.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.4.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.4.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.4.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.4.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.4.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.5.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.5.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.5.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.5.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.5.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.5.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.5.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.5.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.5.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.5.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.6.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.6.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.6.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.6.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.6.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.3.6.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.3.6.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.3.6.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.3.6.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.3.6.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.0.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.0.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.0.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.0.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.0.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.0.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.0.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.1.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.1.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.1.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.1.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.1.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.1.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.1.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.1.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.1.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.1.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.2.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.2.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.2.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.2.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.2.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.2.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.2.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.2.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.2.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.2.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.3.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.3.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.3.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.3.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.3.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.3.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.3.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.3.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.3.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.3.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.4.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.4.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.4.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.4.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.4.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.4.4.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.4.4.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.4.4.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.4.4.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.4.4.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.5.0.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.5.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.5.0.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.5.0.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.5.0.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.5.0.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.5.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.5.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.5.0.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.5.0.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.0.win-amd64-py2.6.exe
+WARN Skipping file for lxml: lxml-3.6.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.0.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.0.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.0.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.0.win32-py2.6.exe
+WARN Skipping file for lxml: lxml-3.6.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.0.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.0.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.1.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.1.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.1.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.1.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.1.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.1.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.1.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.1.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.2.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.2.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.2.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.2.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.2.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.2.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.2.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.2.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.3.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.3.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.3.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.3.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.3.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.3.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.3.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.3.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.4.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.4.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.4.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.4.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.6.4.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.6.4.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.6.4.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.6.4.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.0.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.0.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.0.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.0.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.0.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.1.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.1.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.1.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.1.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.1.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.1.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.1.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.1.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.2.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.2.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.2.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.2.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.2.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.2.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.2.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.2.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.3.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.3.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.3.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.3.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.7.3.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.7.3.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.7.3.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.7.3.win32-py3.4.exe
+WARN Skipping file for lxml: lxml-3.8.0.win-amd64-py2.7.exe
+WARN Skipping file for lxml: lxml-3.8.0.win-amd64-py3.2.exe
+WARN Skipping file for lxml: lxml-3.8.0.win-amd64-py3.3.exe
+WARN Skipping file for lxml: lxml-3.8.0.win-amd64-py3.4.exe
+WARN Skipping file for lxml: lxml-3.8.0.win32-py2.7.exe
+WARN Skipping file for lxml: lxml-3.8.0.win32-py3.2.exe
+WARN Skipping file for lxml: lxml-3.8.0.win32-py3.3.exe
+WARN Skipping file for lxml: lxml-3.8.0.win32-py3.4.exe
+WARN Skipping file for rsa: rsa-1.1-py2.5.egg
+WARN Skipping file for rsa: rsa-1.2-py2.5.egg
+WARN Skipping file for rsa: rsa-1.3-py2.4.egg
+WARN Skipping file for rsa: rsa-1.3-py2.5.egg
+WARN Skipping file for rsa: rsa-1.3.1-py2.4.egg
+WARN Skipping file for rsa: rsa-1.3.1-py2.5.egg
+WARN Skipping file for rsa: rsa-1.3.2-py2.5.egg
+WARN Skipping file for rsa: rsa-1.3.2-py2.6.egg
+WARN Skipping file for rsa: rsa-1.3.3-py2.5.egg
+WARN Skipping file for rsa: rsa-1.3.3-py2.6.egg
+WARN Skipping file for rsa: rsa-2.0-py2.6.egg
+WARN Skipping file for rsa: rsa-3.0-py2.6.egg
+WARN Skipping file for rsa: rsa-3.0-py2.7.egg
+WARN Skipping file for rsa: rsa-3.0.1-py2.7.egg
+WARN Skipping file for rsa: rsa-3.1-py2.6.egg
+WARN Skipping file for rsa: rsa-3.1-py2.7.egg
+WARN Skipping file for rsa: rsa-3.1.1-py2.6.egg
+WARN Skipping file for rsa: rsa-3.1.1-py2.7.egg
+WARN Skipping file for rsa: rsa-3.1.1-py3.2.egg
+WARN Skipping file for rsa: rsa-3.1.2-py2.6.egg
+WARN Skipping file for rsa: rsa-3.1.2-py2.7.egg
+WARN Skipping file for rsa: rsa-3.1.2-py3.2.egg
+WARN Skipping file for rsa: rsa-3.1.2-py3.3.egg
+WARN Skipping file for rsa: rsa-3.1.3-py2.6.egg
+WARN Skipping file for rsa: rsa-3.1.3-py2.7.egg
+WARN Skipping file for rsa: rsa-3.1.3-py3.2.egg
+WARN Skipping file for rsa: rsa-3.1.3-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.10-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.11-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.1a-py2.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.1a-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.1a-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.1a-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.1a-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.2-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.2-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.2-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.2-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.2-py3.0.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.2-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.2-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.3-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.3-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.3-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.3-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.3-py3.0.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.3-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.3-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py3.0.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.4-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py3.0.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.5-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.6-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.7-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.8-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.0.9-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.1-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.2-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.4-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.1.5-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.1-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.2-py3.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.3-py3.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.4-py3.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.5-py3.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.6-py3.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.7-py3.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py2.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py2.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py2.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py2.7.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py3.1.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py3.2.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py3.3.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py3.4.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py3.5.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py3.6.egg
+WARN Skipping file for pyasn1-modules: pyasn1_modules-0.2.8-py3.7.egg
+WARN Skipping file for requests-oauthlib: requests_oauthlib-1.0.0-py3.6.egg
+WARN Skipping file for requests-oauthlib: requests_oauthlib-1.1.0-py3.7.egg
+WARN Skipping file for requests-oauthlib: requests_oauthlib-1.2.0-py3.7.egg
+WARN Skipping file for requests-oauthlib: requests_oauthlib-1.3.0-py3.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.11a-py2.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.11a-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.11a-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.11a-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.11a-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.12a-py2.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.12a-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.12a-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.12a-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.12a-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13-py2.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13a-py2.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13a-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13a-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13a-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13a-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13b-py2.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13b-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13b-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13b-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.0.13b-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.1-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.1-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.1-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.1-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.1-py3.0.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.1-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.1-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.2-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.2-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.2-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.2-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.2-py3.0.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.2-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.2-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py3.0.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.3-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py3.0.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.4-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py3.0.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.5-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py3.0.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.6-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py3.0.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.7-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.8-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.1.9-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.1-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.2-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.2.3-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.1-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.2-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.3-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.4-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.5-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.6-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.3.7-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.1-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.2-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.3-py3.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.4-py3.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.5-py3.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.6-py3.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.7-py3.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py2.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py2.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py2.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py2.7.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py3.1.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py3.2.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py3.3.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py3.4.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py3.5.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py3.6.egg
+WARN Skipping file for pyasn1: pyasn1-0.4.8-py3.7.egg
+Resolved 204 packages in 4.98s
+   Building openpi @ file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash
+      Built openpi @ file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash
+Prepared 1 package in 3.63s
+Uninstalled 1 package in 52ms
+Installed 1 package in 103ms
+ ~ openpi==0.1.0 (from file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash)

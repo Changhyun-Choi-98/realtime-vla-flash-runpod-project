@@ -1,0 +1,18 @@
+{
+  "convert_for_triton": {
+    "exit_status": 0,
+    "status": "ok"
+  },
+  "spec_serve_policy": {
+    "exit_status": 0,
+    "status": "ok"
+  },
+  "spec_client_libero": {
+    "exit_status": 1,
+    "status": "failed_or_missing"
+  },
+  "pi0_benchmark": {
+    "exit_status": 0,
+    "status": "ok"
+  }
+}

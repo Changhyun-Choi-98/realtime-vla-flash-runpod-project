@@ -1,0 +1,35 @@
+{
+  "model_env_status": "ok",
+  "help_status": {
+    "convert_for_triton": {
+      "exit_status": 0,
+      "status": "ok"
+    },
+    "spec_serve_policy": {
+      "exit_status": 0,
+      "status": "ok"
+    },
+    "spec_client_libero": {
+      "exit_status": 1,
+      "status": "failed_or_missing"
+    },
+    "pi0_benchmark": {
+      "exit_status": 0,
+      "status": "ok"
+    }
+  },
+  "checkpoint_audit_status": "ok",
+  "draft_download": {
+    "status": "ok",
+    "path": "/workspace/realtime_vla_flash_project/checkpoints/drafts/draft_libero_goal.pt",
+    "file_size_bytes": 441154745
+  },
+  "draft_load_status": "loaded",
+  "draft_convert_exit_status": 0,
+  "draft_convert_status": "ok",
+  "draft_triton_path": "/workspace/realtime_vla_flash_project/converted/draft_goal/draft_triton.pkl",
+  "draft_triton_exists": true,
+  "base_checkpoint_status": "SKIPPED_UNRESOLVED_BASE_CHECKPOINT",
+  "base_convert_status": "SKIPPED_UNRESOLVED_BASE_CHECKPOINT",
+  "server_boot_status": "SKIPPED_BASE_CONVERSION_NOT_AVAILABLE"
+}

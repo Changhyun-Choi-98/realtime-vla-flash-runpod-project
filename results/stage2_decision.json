@@ -1,0 +1,6 @@
+{
+  "decision": "BLOCKED_BASE_CHECKPOINT_UNRESOLVED",
+  "reason": "Draft checkpoint download/load/conversion succeeded, but base conversion was skipped because the official FLASH pi0_libero JAX checkpoint path is unresolved in the checked-out repo artifacts.",
+  "conversion_status_file": "results/stage2_conversion_status.json",
+  "stage3_allowed": false
+}

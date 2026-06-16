@@ -1,0 +1,56 @@
+== spec_serve_policy help ==
+usage: spec_serve_policy.py [-h] [OPTIONS]
+
+╭─ options ──────────────────────────────────────────────────────────────────╮
+│ -h, --help              show this help message and exit                    │
+│ --host STR              (default: 0.0.0.0)                                 │
+│ --port INT              (default: 8000)                                    │
+│ --config STR            (default: pi0_libero)                              │
+│ --checkpoint-dir STR    (default: /path/to/pi0_libero_pytorch/)            │
+│ --jax-checkpoint-dir STR                                                   │
+│                         (default:                                          │
+│                         /path/to/openpi-assets/checkpoints/pi0_libero)     │
+│ --cache-dir STR         (default: /path/to/spec_cache)                     │
+│ --base-triton-path {None}|STR                                              │
+│                         (default: None)                                    │
+│ --pytorch-device {None}|STR                                                │
+│                         (default: None)                                    │
+│ --task-suite-name {None}|STR                                               │
+│                         (default: None)                                    │
+│ --tokenizer-source STR  (default: auto)                                    │
+│ --hf-endpoint STR       (default: https://hf-mirror.com)                   │
+│ --hf-tokenizer-id STR   (default: google/paligemma-3b-pt-224)              │
+│ --num-views INT         (default: 2)                                       │
+│ --max-exec-steps INT    (default: 12)                                      │
+│ --draft-history-len INT                                                    │
+│                         (default: 6)                                       │
+│ --draft-checkpoint STR  (default: /path/to/draft_vlm_block_4x4090_goal.pt) │
+│ --draft-triton-path {None}|STR                                             │
+│                         (default: None)                                    │
+│ --backend {compiled,triton}                                                │
+│                         (default: triton)                                  │
+│ --draft-backend {None,compiled,triton}                                     │
+│                         (default: None)                                    │
+│ --verify-backend {None,compiled,triton}                                    │
+│                         (default: None)                                    │
+│ --t-list [FLOAT [FLOAT ...]]                                               │
+│                         (default: 0.1 0.05)                                │
+│ --tau-radius FLOAT      (default: 0.3)                                     │
+│ --dist-dims INT         (default: 7)                                       │
+│ --gripper-switch-threshold FLOAT                                           │
+│                         (default: 0.0)                                     │
+│ --enable-gripper-verify, --no-enable-gripper-verify                        │
+│                         (default: True)                                    │
+│ --enable-gripper-post-verify, --no-enable-gripper-post-verify              │
+│                         (default: True)                                    │
+│ --gripper-full-window INT                                                  │
+│                         (default: 1)                                       │
+│ --full-fallback, --no-full-fallback                                        │
+│                         (default: True)                                    │
+│ --force-full-each-round, --no-force-full-each-round                        │
+│                         (default: False)                                   │
+│ --periodic-full-every-n-draft-rounds INT                                   │
+│                         (default: 0)                                       │
+╰────────────────────────────────────────────────────────────────────────────╯
+__STATUS_spec_serve_policy=0
+

@@ -1,0 +1,5 @@
+{
+  "status": "skipped",
+  "reason": "Base conversion was not available because base checkpoint path is unresolved.",
+  "ready_inferred": false
+}

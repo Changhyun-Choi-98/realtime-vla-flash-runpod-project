@@ -1,0 +1,7 @@
+candidate_base_checkpoint: unresolved
+source: README.md quick start requires --jax-path /path/to/jax/checkpoint; README.md draft-cache example references /openpi-assets/checkpoints/pi0_libero_torch; openpi config pi0_libero uses gs://openpi-assets/checkpoints/pi0_base/params; openpi config pi05_libero uses gs://openpi-assets/checkpoints/pi05_base/params; README_OPENPI lists gs://openpi-assets/checkpoints/pi05_libero as an inference checkpoint.
+why_selected: no single candidate was selected for download because the FLASH quick start uses config pi0_libero and requires a local JAX checkpoint directory for conversion, but the repo does not identify a directly downloadable pi0_libero JAX checkpoint path in the checked-out files.
+download_method: skipped
+expected_size_if_known: unknown
+risk: forcing gs://openpi-assets/checkpoints/pi0_base or gs://openpi-assets/checkpoints/pi05_libero could download a large checkpoint and may not match the FLASH pi0_libero draft/server path; this task forbids blind large base downloads.
+classification: SKIPPED_UNRESOLVED_BASE_CHECKPOINT

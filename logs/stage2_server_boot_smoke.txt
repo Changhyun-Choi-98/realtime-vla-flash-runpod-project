@@ -1,0 +1,3 @@
+SERVER_BOOT_STATUS=SKIPPED_BASE_CONVERSION_NOT_AVAILABLE
+
+Server boot smoke was skipped because draft conversion succeeded but base conversion was skipped due to unresolved base checkpoint path.

@@ -1,0 +1,201 @@
+{
+  "status": "ok",
+  "available_libero_configs": [
+    "pi05_libero",
+    "pi0_fast_libero",
+    "pi0_fast_libero_low_mem_finetune",
+    "pi0_libero",
+    "pi0_libero_low_mem_finetune"
+  ],
+  "focused_configs": [
+    {
+      "name": "pi05_libero",
+      "resolution": "ok",
+      "model_type": "Pi0Config",
+      "data_type": "LeRobotLiberoDataConfig",
+      "weight_loader_type": "CheckpointWeightLoader",
+      "weight_loader": "CheckpointWeightLoader(params_path='gs://openpi-assets/checkpoints/pi05_base/params')",
+      "weight_loader_paths": [
+        "//openpi-assets/checkpoints/pi05_base/params",
+        "gs://openpi-assets/checkpoints/pi05_base/params"
+      ],
+      "pytorch_weight_path": "/path/to/your/pytorch_weight_path",
+      "batch_size": 256,
+      "num_train_steps": 30000,
+      "action_horizon": 10,
+      "action_dim": 32,
+      "pi05": true,
+      "data_create_error": "AttributeError: 'DataConfig' object has no attribute 'assets'"
+    },
+    {
+      "name": "pi0_fast_libero",
+      "resolution": "ok",
+      "model_type": "Pi0FASTConfig",
+      "data_type": "LeRobotLiberoDataConfig",
+      "weight_loader_type": "CheckpointWeightLoader",
+      "weight_loader": "CheckpointWeightLoader(params_path='gs://openpi-assets/checkpoints/pi0_fast_base/params')",
+      "weight_loader_paths": [
+        "//openpi-assets/checkpoints/pi0_fast_base/params",
+        "gs://openpi-assets/checkpoints/pi0_fast_base/params"
+      ],
+      "pytorch_weight_path": null,
+      "batch_size": 32,
+      "num_train_steps": 30000,
+      "action_horizon": 10,
+      "action_dim": 7,
+      "pi05": null,
+      "data_create_error": "AttributeError: 'DataConfig' object has no attribute 'assets'"
+    },
+    {
+      "name": "pi0_fast_libero_low_mem_finetune",
+      "resolution": "ok",
+      "model_type": "Pi0FASTConfig",
+      "data_type": "LeRobotLiberoDataConfig",
+      "weight_loader_type": "CheckpointWeightLoader",
+      "weight_loader": "CheckpointWeightLoader(params_path='gs://openpi-assets/checkpoints/pi0_fast_base/params')",
+      "weight_loader_paths": [
+        "//openpi-assets/checkpoints/pi0_fast_base/params",
+        "gs://openpi-assets/checkpoints/pi0_fast_base/params"
+      ],
+      "pytorch_weight_path": null,
+      "batch_size": 32,
+      "num_train_steps": 30000,
+      "action_horizon": 10,
+      "action_dim": 7,
+      "pi05": null,
+      "data_create_error": "AttributeError: 'DataConfig' object has no attribute 'assets'"
+    },
+    {
+      "name": "pi0_libero",
+      "resolution": "ok",
+      "model_type": "Pi0Config",
+      "data_type": "LeRobotLiberoDataConfig",
+      "weight_loader_type": "CheckpointWeightLoader",
+      "weight_loader": "CheckpointWeightLoader(params_path='gs://openpi-assets/checkpoints/pi0_base/params')",
+      "weight_loader_paths": [
+        "//openpi-assets/checkpoints/pi0_base/params",
+        "gs://openpi-assets/checkpoints/pi0_base/params"
+      ],
+      "pytorch_weight_path": null,
+      "batch_size": 32,
+      "num_train_steps": 30000,
+      "action_horizon": 50,
+      "action_dim": 32,
+      "pi05": false,
+      "data_create_error": "AttributeError: 'DataConfig' object has no attribute 'assets'"
+    },
+    {
+      "name": "pi0_libero_low_mem_finetune",
+      "resolution": "ok",
+      "model_type": "Pi0Config",
+      "data_type": "LeRobotLiberoDataConfig",
+      "weight_loader_type": "CheckpointWeightLoader",
+      "weight_loader": "CheckpointWeightLoader(params_path='gs://openpi-assets/checkpoints/pi0_base/params')",
+      "weight_loader_paths": [
+        "//openpi-assets/checkpoints/pi0_base/params",
+        "gs://openpi-assets/checkpoints/pi0_base/params"
+      ],
+      "pytorch_weight_path": null,
+      "batch_size": 32,
+      "num_train_steps": 30000,
+      "action_horizon": 50,
+      "action_dim": 32,
+      "pi05": false,
+      "data_create_error": "AttributeError: 'DataConfig' object has no attribute 'assets'"
+    }
+  ],
+  "readme_checkpoint_paths": [
+    "//openpi-assets/checkpoints/pi05_base",
+    "//openpi-assets/checkpoints/pi05_droid",
+    "//openpi-assets/checkpoints/pi05_libero",
+    "//openpi-assets/checkpoints/pi05_libero/",
+    "//openpi-assets/checkpoints/pi0_aloha_pen_uncap",
+    "//openpi-assets/checkpoints/pi0_aloha_towel",
+    "//openpi-assets/checkpoints/pi0_aloha_tupperware",
+    "//openpi-assets/checkpoints/pi0_base",
+    "//openpi-assets/checkpoints/pi0_droid",
+    "//openpi-assets/checkpoints/pi0_fast_base",
+    "//openpi-assets/checkpoints/pi0_fast_droid",
+    "/openpi-assets/checkpoints/pi0_libero_torch",
+    "gs://openpi-assets",
+    "gs://openpi-assets/checkpoints/pi05_base",
+    "gs://openpi-assets/checkpoints/pi05_droid",
+    "gs://openpi-assets/checkpoints/pi05_libero",
+    "gs://openpi-assets/checkpoints/pi05_libero/",
+    "gs://openpi-assets/checkpoints/pi0_aloha_pen_uncap",
+    "gs://openpi-assets/checkpoints/pi0_aloha_towel",
+    "gs://openpi-assets/checkpoints/pi0_aloha_tupperware",
+    "gs://openpi-assets/checkpoints/pi0_base",
+    "gs://openpi-assets/checkpoints/pi0_droid",
+    "gs://openpi-assets/checkpoints/pi0_fast_base",
+    "gs://openpi-assets/checkpoints/pi0_fast_droid"
+  ],
+  "base_checkpoint_candidates": [
+    "//openpi-assets/checkpoints/pi05_base",
+    "//openpi-assets/checkpoints/pi05_base/params",
+    "//openpi-assets/checkpoints/pi05_droid",
+    "//openpi-assets/checkpoints/pi05_libero",
+    "//openpi-assets/checkpoints/pi05_libero/",
+    "//openpi-assets/checkpoints/pi0_aloha_pen_uncap",
+    "//openpi-assets/checkpoints/pi0_aloha_towel",
+    "//openpi-assets/checkpoints/pi0_aloha_tupperware",
+    "//openpi-assets/checkpoints/pi0_base",
+    "//openpi-assets/checkpoints/pi0_base/params",
+    "//openpi-assets/checkpoints/pi0_droid",
+    "//openpi-assets/checkpoints/pi0_fast_base",
+    "//openpi-assets/checkpoints/pi0_fast_base/params",
+    "//openpi-assets/checkpoints/pi0_fast_droid",
+    "/openpi-assets/checkpoints/pi0_libero_torch",
+    "gs://openpi-assets",
+    "gs://openpi-assets/checkpoints/pi05_base",
+    "gs://openpi-assets/checkpoints/pi05_base/params",
+    "gs://openpi-assets/checkpoints/pi05_droid",
+    "gs://openpi-assets/checkpoints/pi05_libero",
+    "gs://openpi-assets/checkpoints/pi05_libero/",
+    "gs://openpi-assets/checkpoints/pi0_aloha_pen_uncap",
+    "gs://openpi-assets/checkpoints/pi0_aloha_towel",
+    "gs://openpi-assets/checkpoints/pi0_aloha_tupperware",
+    "gs://openpi-assets/checkpoints/pi0_base",
+    "gs://openpi-assets/checkpoints/pi0_base/params",
+    "gs://openpi-assets/checkpoints/pi0_droid",
+    "gs://openpi-assets/checkpoints/pi0_fast_base",
+    "gs://openpi-assets/checkpoints/pi0_fast_base/params",
+    "gs://openpi-assets/checkpoints/pi0_fast_droid"
+  ],
+  "quickstart_base_candidate": {
+    "path": "/openpi-assets/checkpoints/pi0_libero_torch",
+    "exists_locally": false,
+    "source": "README.md Train Draft Model section references --checkpoint-dir /openpi-assets/checkpoints/pi0_libero_torch"
+  },
+  "tooling": {
+    "gsutil": false,
+    "huggingface-cli": true,
+    "gcloud": false
+  },
+  "fsspec_metadata": {
+    "gs://openpi-assets/checkpoints/pi05_libero": {
+      "path": "gs://openpi-assets/checkpoints/pi05_libero",
+      "status": "ok",
+      "entry_count": 2,
+      "sample": [
+        {
+          "name": "assets",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "params",
+          "type": "directory",
+          "size": 0
+        }
+      ]
+    }
+  },
+  "official_base_checkpoint_assessment": {
+    "pi0_libero_weight_loader": "gs://openpi-assets/checkpoints/pi0_base/params",
+    "pi05_libero_weight_loader": "gs://openpi-assets/checkpoints/pi05_base/params",
+    "flash_quickstart_base_conversion_requires": "local JAX checkpoint directory passed via --jax-path, plus assets/",
+    "resolved_for_forced_download": false,
+    "reason": "Repo quick start uses placeholder /path/to/jax/checkpoint and /openpi-assets/checkpoints/pi0_libero_torch. The audit identifies candidate paths but does not prove a small, official, directly downloadable pi0_libero JAX checkpoint for base conversion."
+  }
+}

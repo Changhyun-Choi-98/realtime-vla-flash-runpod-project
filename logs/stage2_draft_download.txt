@@ -1,0 +1,6 @@
+/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/.venv/lib/python3.11/site-packages/huggingface_hub/commands/download.py:139: FutureWarning: Ignoring --local-dir-use-symlinks. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Downloading 'draft_libero_goal.pt' to '/workspace/realtime_vla_flash_project/checkpoints/drafts/.cache/huggingface/download/v5HUjRKZhB-aTtFYGtj9FZ3J1vE=.33724426753c3b3a4ad5b0c3510bf5ac9255ee6338724bb5c58c7ea8b60429a1.incomplete'
+Xet Storage is enabled for this repo. Downloading file from Xet Storage..
+Download complete. Moving file to /workspace/realtime_vla_flash_project/checkpoints/drafts/draft_libero_goal.pt
+/workspace/realtime_vla_flash_project/checkpoints/drafts/draft_libero_goal.pt

@@ -1,0 +1,116 @@
+== convert_for_triton help ==
+usage: convert_for_triton.py [-h] [--self-test] [--mode {base,draft}]
+                             [--jax_path JAX_PATH] [--output OUTPUT]
+                             [--prompt PROMPT]
+                             [--tokenizer_path TOKENIZER_PATH]
+                             [--draft-ckpt DRAFT_CKPT]
+
+Convert base and draft checkpoints to Triton Spec artifacts.
+
+options:
+  -h, --help            show this help message and exit
+  --self-test
+  --mode {base,draft}
+  --jax_path JAX_PATH, --jax-path JAX_PATH
+  --output OUTPUT
+  --prompt PROMPT
+  --tokenizer_path TOKENIZER_PATH, --tokenizer-path TOKENIZER_PATH
+  --draft-ckpt DRAFT_CKPT, --draft_ckpt DRAFT_CKPT
+                        PyTorch draft checkpoint from
+                        scripts/spec/spec_draft_train.py (mode=draft).
+__STATUS_convert_for_triton=0
+
+== spec_serve_policy help ==
+usage: spec_serve_policy.py [-h] [OPTIONS]
+
+╭─ options ──────────────────────────────────────────────────────────────────╮
+│ -h, --help              show this help message and exit                    │
+│ --host STR              (default: 0.0.0.0)                                 │
+│ --port INT              (default: 8000)                                    │
+│ --config STR            (default: pi0_libero)                              │
+│ --checkpoint-dir STR    (default: /path/to/pi0_libero_pytorch/)            │
+│ --jax-checkpoint-dir STR                                                   │
+│                         (default:                                          │
+│                         /path/to/openpi-assets/checkpoints/pi0_libero)     │
+│ --cache-dir STR         (default: /path/to/spec_cache)                     │
+│ --base-triton-path {None}|STR                                              │
+│                         (default: None)                                    │
+│ --pytorch-device {None}|STR                                                │
+│                         (default: None)                                    │
+│ --task-suite-name {None}|STR                                               │
+│                         (default: None)                                    │
+│ --tokenizer-source STR  (default: auto)                                    │
+│ --hf-endpoint STR       (default: https://hf-mirror.com)                   │
+│ --hf-tokenizer-id STR   (default: google/paligemma-3b-pt-224)              │
+│ --num-views INT         (default: 2)                                       │
+│ --max-exec-steps INT    (default: 12)                                      │
+│ --draft-history-len INT                                                    │
+│                         (default: 6)                                       │
+│ --draft-checkpoint STR  (default: /path/to/draft_vlm_block_4x4090_goal.pt) │
+│ --draft-triton-path {None}|STR                                             │
+│                         (default: None)                                    │
+│ --backend {compiled,triton}                                                │
+│                         (default: triton)                                  │
+│ --draft-backend {None,compiled,triton}                                     │
+│                         (default: None)                                    │
+│ --verify-backend {None,compiled,triton}                                    │
+│                         (default: None)                                    │
+│ --t-list [FLOAT [FLOAT ...]]                                               │
+│                         (default: 0.1 0.05)                                │
+│ --tau-radius FLOAT      (default: 0.3)                                     │
+│ --dist-dims INT         (default: 7)                                       │
+│ --gripper-switch-threshold FLOAT                                           │
+│                         (default: 0.0)                                     │
+│ --enable-gripper-verify, --no-enable-gripper-verify                        │
+│                         (default: True)                                    │
+│ --enable-gripper-post-verify, --no-enable-gripper-post-verify              │
+│                         (default: True)                                    │
+│ --gripper-full-window INT                                                  │
+│                         (default: 1)                                       │
+│ --full-fallback, --no-full-fallback                                        │
+│                         (default: True)                                    │
+│ --force-full-each-round, --no-force-full-each-round                        │
+│                         (default: False)                                   │
+│ --periodic-full-every-n-draft-rounds INT                                   │
+│                         (default: 0)                                       │
+╰────────────────────────────────────────────────────────────────────────────╯
+__STATUS_spec_serve_policy=0
+
+== spec_client_libero help ==
+Traceback (most recent call last):
+  File "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/scripts/spec/spec_client_libero.py", line 13, in <module>
+    from libero.libero import benchmark
+ModuleNotFoundError: No module named 'libero'
+__STATUS_spec_client_libero=1
+
+== pi0_benchmark help ==
+usage: pi0_benchmark.py [-h] [--num_views NUM_VIEWS] [--prompt_len PROMPT_LEN]
+                        [--chunk_size CHUNK_SIZE]
+                        [--draft_out_dim DRAFT_OUT_DIM]
+                        [--draft_ffn_hidden_size DRAFT_FFN_HIDDEN_SIZE]
+                        [--draft_num_heads DRAFT_NUM_HEADS]
+                        [--draft_head_dim DRAFT_HEAD_DIM]
+                        [--t_list T_LIST [T_LIST ...]]
+                        [--tau_radius TAU_RADIUS] [--dist_dims DIST_DIMS]
+                        [--max_exec_steps MAX_EXEC_STEPS] [--warmup WARMUP]
+                        [--runs RUNS] [--seed SEED]
+
+Benchmark the no-checkpoint Triton Spec path.
+
+options:
+  -h, --help            show this help message and exit
+  --num_views NUM_VIEWS, --num-views NUM_VIEWS
+  --prompt_len PROMPT_LEN, --prompt-len PROMPT_LEN
+  --chunk_size CHUNK_SIZE, --chunk-size CHUNK_SIZE
+  --draft_out_dim DRAFT_OUT_DIM, --draft-out-dim DRAFT_OUT_DIM
+  --draft_ffn_hidden_size DRAFT_FFN_HIDDEN_SIZE, --draft-ffn-hidden-size DRAFT_FFN_HIDDEN_SIZE
+  --draft_num_heads DRAFT_NUM_HEADS, --draft-num-heads DRAFT_NUM_HEADS
+  --draft_head_dim DRAFT_HEAD_DIM, --draft-head-dim DRAFT_HEAD_DIM
+  --t_list T_LIST [T_LIST ...], --t-list T_LIST [T_LIST ...]
+  --tau_radius TAU_RADIUS, --tau-radius TAU_RADIUS
+  --dist_dims DIST_DIMS, --dist-dims DIST_DIMS
+  --max_exec_steps MAX_EXEC_STEPS, --max-exec-steps MAX_EXEC_STEPS
+  --warmup WARMUP
+  --runs RUNS
+  --seed SEED
+__STATUS_pi0_benchmark=0

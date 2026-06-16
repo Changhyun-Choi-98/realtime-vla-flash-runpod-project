@@ -1,4 +1,5 @@
 checkpoints/
+converted/
 datasets/
 videos/
 profiling/*.nsys-rep

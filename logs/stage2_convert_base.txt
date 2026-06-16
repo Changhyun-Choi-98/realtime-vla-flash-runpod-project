@@ -1,0 +1,3 @@
+BASE_CONVERT_STATUS=SKIPPED_UNRESOLVED_BASE_CHECKPOINT
+
+Base conversion was not attempted because Stage 2 checkpoint audit did not identify a justified local JAX checkpoint directory for the FLASH pi0_libero base conversion.

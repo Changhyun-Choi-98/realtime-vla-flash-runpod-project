@@ -1,0 +1,9 @@
+{
+  "stage_minus1_decision": "PROCEED_CLOSED_LOOP_EGL",
+  "closed_loop_simulator_scope": "allowed",
+  "checkpoint_model_setup": "allowed",
+  "full_benchmark": "not_allowed_yet",
+  "next_gate": "Stage 2 checkpoint/conversion/server smoke",
+  "current_project_type": "conditional partial closed-loop reproduction",
+  "paper_reproduction_claim": "not_allowed_yet"
+}

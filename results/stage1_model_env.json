@@ -1,0 +1,117 @@
+{
+  "status": "ok",
+  "python": "3.11.13 (main, Jun  4 2025, 08:57:30) [GCC 13.3.0]",
+  "python_executable": "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/.venv/bin/python3",
+  "platform": "Linux-6.17.0-29-generic-x86_64-with-glibc2.39",
+  "modules": {
+    "torch": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"2.7.1+cu126\"}",
+      "stderr": "",
+      "json": {
+        "version": "2.7.1+cu126"
+      }
+    },
+    "triton": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"3.3.1\"}",
+      "stderr": "",
+      "json": {
+        "version": "3.3.1"
+      }
+    },
+    "jax": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"0.5.3\"}",
+      "stderr": "",
+      "json": {
+        "version": "0.5.3"
+      }
+    },
+    "transformers": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"4.53.2\"}",
+      "stderr": "",
+      "json": {
+        "version": "4.53.2"
+      }
+    },
+    "numpy": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"1.26.4\"}",
+      "stderr": "",
+      "json": {
+        "version": "1.26.4"
+      }
+    },
+    "openpi": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"unknown\"}",
+      "stderr": "",
+      "json": {
+        "version": "unknown"
+      }
+    }
+  },
+  "nested_imports": {
+    "openpi.training.config": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"unknown\"}",
+      "stderr": "",
+      "json": {
+        "version": "unknown"
+      }
+    },
+    "openpi.policies.policy_config": {
+      "status": "ok",
+      "exit_status": 0,
+      "stdout": "{\"version\": \"unknown\"}",
+      "stderr": "",
+      "json": {
+        "version": "unknown"
+      }
+    }
+  },
+  "torch_cuda_probe": {
+    "status": "ok",
+    "exit_status": 0,
+    "stdout": "{\"torch_cuda_available\": true, \"torch_cuda_version\": \"12.6\", \"torch_gpu_name\": \"NVIDIA L40S\", \"torch_device_capability\": [8, 9]}",
+    "stderr": "",
+    "json": {
+      "torch_cuda_available": true,
+      "torch_cuda_version": "12.6",
+      "torch_gpu_name": "NVIDIA L40S",
+      "torch_device_capability": [
+        8,
+        9
+      ]
+    }
+  },
+  "jax_devices_probe": {
+    "status": "ok",
+    "exit_status": 0,
+    "stdout": "{\"jax_devices\": [\"cuda:0\"]}",
+    "stderr": "",
+    "json": {
+      "jax_devices": [
+        "cuda:0"
+      ]
+    }
+  },
+  "transformers_replace_probe": {
+    "status": "ok",
+    "exit_status": 0,
+    "stdout": "{\"transformers_replace_check\": true}",
+    "stderr": "",
+    "json": {
+      "transformers_replace_check": true
+    }
+  }
+}
