@@ -17,7 +17,6 @@ Complete.
 | Main suite | `libero_goal` |
 | Main tasks | 0, 1, 2 |
 | Project blog | [Realtime-VLA FLASH project page](https://changhyunchoi.com/project/paper-to-prototype-lab/realtime-vla-flash/) |
-| Blog draft | [`notes/stage8_blog_draft.md`](notes/stage8_blog_draft.md) |
 | Final report | [`notes/stage8_final_project_report.md`](notes/stage8_final_project_report.md) |
 | Claim matrix | [`notes/stage8_claim_matrix.md`](notes/stage8_claim_matrix.md) |
 
@@ -33,7 +32,7 @@ Project-related blog posts are published and indexed here:
 
 - [Realtime-VLA FLASH project page](https://changhyunchoi.com/project/paper-to-prototype-lab/realtime-vla-flash/)
 
-The tracked notes in this repository are the public-safe experiment artifacts behind that write-up.
+The tracked reports and summaries in this repository are the public-safe experiment artifacts behind that write-up.
 
 ## Main Results
 
@@ -47,7 +46,7 @@ The tracked notes in this repository are the public-safe experiment artifacts be
 | Stage 6 | Synchronized profiling: draft route p50 lower than full route p50 | [`notes/stage6_synchronized_profiling_report.md`](notes/stage6_synchronized_profiling_report.md) |
 | Stage 5 | Wrist-camera dropout caused strong degradation | [`notes/stage5_camera_dropout_report.md`](notes/stage5_camera_dropout_report.md) |
 | Stage 7 | `WristHealthGuard` modestly recovered intermittent dropout | [`notes/stage7_wrist_health_guard_report.md`](notes/stage7_wrist_health_guard_report.md) |
-| Stage 8 | Final report, claim matrix, and blog draft ready | [`notes/stage8_final_project_report.md`](notes/stage8_final_project_report.md) |
+| Stage 8 | Final report and claim matrix ready | [`notes/stage8_final_project_report.md`](notes/stage8_final_project_report.md) |
 
 ## Key Metrics
 
@@ -98,7 +97,7 @@ scripts/     Stage orchestration, parsing, and patch scripts
 logs/        Lightweight public-safe logs
 results/     Parsed JSON/CSV summaries
 figures/     Public-safe summary figures
-notes/       Stage reports, claim matrix, blog draft
+notes/       Stage reports, claim matrix, and reproducibility notes
 patches/     Local research patches applied during probes
 ```
 
@@ -122,8 +121,7 @@ The tracked artifacts are intended to be safe for public review and blog publica
 For a quick review:
 
 1. [`notes/stage8_final_project_report.md`](notes/stage8_final_project_report.md)
-2. [`notes/stage8_blog_draft.md`](notes/stage8_blog_draft.md)
-3. [`notes/stage8_claim_matrix.md`](notes/stage8_claim_matrix.md)
-4. [`results/stage8_final_metrics.json`](results/stage8_final_metrics.json)
+2. [`notes/stage8_claim_matrix.md`](notes/stage8_claim_matrix.md)
+3. [`results/stage8_final_metrics.json`](results/stage8_final_metrics.json)
 
 For the full experimental trail, read the stage reports in order from Stage -1 through Stage 8.

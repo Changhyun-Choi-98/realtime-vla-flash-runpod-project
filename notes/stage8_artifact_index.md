@@ -39,12 +39,10 @@ All required source artifacts were present at Stage 8.
 ## Final Stage 8 Artifacts
 
 - `notes/stage8_final_project_report.md`
-- `notes/stage8_blog_draft.md`
 - `notes/stage8_claim_matrix.md`
 - `notes/stage8_artifact_index.md`
 - `notes/stage8_reproducibility_checklist.md`
 - `notes/stage8_negative_results_and_caveats.md`
-- `notes/stage8_career_takeaway.md`
 - `results/stage8_project_summary.json`
 - `results/stage8_claim_matrix.json`
 - `results/stage8_final_metrics.json`

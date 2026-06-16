@@ -1,2 +1,7 @@
- M artifact_manifest_stage8.txt
+ M README.md
  M logs/stage8_git_status.txt
+ M notes/stage8_artifact_index.md
+ D notes/stage8_blog_draft.md
+ D notes/stage8_career_takeaway.md
+ M notes/stage8_final_project_report.md
+ M results/stage8_project_summary.json

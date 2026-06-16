@@ -150,8 +150,6 @@
 ./notes/stage7_next_step_recommendation.md
 ./notes/stage7_wrist_health_guard_report.md
 ./notes/stage8_artifact_index.md
-./notes/stage8_blog_draft.md
-./notes/stage8_career_takeaway.md
 ./notes/stage8_claim_matrix.md
 ./notes/stage8_final_project_report.md
 ./notes/stage8_negative_results_and_caveats.md

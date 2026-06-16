@@ -73,6 +73,6 @@ Stage 4 shows that the official setup can run a limited closed-loop baseline on 
 
 This project supports a limited reproduction and probing story. It does not support claims about all LIBERO suites, full paper benchmark metrics, hardware-exact paper latency, or real-world conveyor performance.
 
-## Blog Readiness
+## Public Write-Up
 
-The blog draft is ready at `notes/stage8_blog_draft.md`. The claim matrix is ready at `notes/stage8_claim_matrix.md` and `results/stage8_claim_matrix.json`.
+The public project write-up is indexed at `https://changhyunchoi.com/project/paper-to-prototype-lab/realtime-vla-flash/`. The claim matrix is ready at `notes/stage8_claim_matrix.md` and `results/stage8_claim_matrix.json`.
