@@ -1,0 +1,10 @@
+{
+  "exit_status": 0,
+  "status": "success",
+  "base_jax_path": "/workspace/realtime_vla_flash_project/checkpoints/base_candidates/openpi_cache/openpi-assets/checkpoints/pi0_libero",
+  "output_dir": "/workspace/realtime_vla_flash_project/converted/base",
+  "sample_files": [
+    "base_weights.pkl",
+    "assets/physical-intelligence/libero/norm_stats.json"
+  ]
+}

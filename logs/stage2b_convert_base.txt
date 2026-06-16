@@ -1,0 +1,6 @@
+BASE_JAX_PATH=/workspace/realtime_vla_flash_project/checkpoints/base_candidates/openpi_cache/openpi-assets/checkpoints/pi0_libero
+Loading jax weights from /workspace/realtime_vla_flash_project/checkpoints/base_candidates/openpi_cache/openpi-assets/checkpoints/pi0_libero/params
+WARNING:absl:The transformations API will eventually be replaced by an upgraded design. The current API will not be removed until this point, but it will no longer be actively worked on.
+Loaded JAX params keys: dict_keys(['PaliGemma', 'action_in_proj', 'action_out_proj', 'action_time_mlp_in', 'action_time_mlp_out', 'state_proj'])
+Saved shared Triton base checkpoint to /workspace/realtime_vla_flash_project/converted/base/base_weights.pkl
+Copied norm stats assets to /workspace/realtime_vla_flash_project/converted/base/assets

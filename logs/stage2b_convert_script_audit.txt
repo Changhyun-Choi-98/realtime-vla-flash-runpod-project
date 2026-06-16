@@ -1,0 +1,81 @@
+== convert_for_triton.py path ==
+/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/scripts/spec/triton/convert_for_triton.py
+
+== argparse / mode / jax-path lines ==
+11:import orbax.checkpoint as ocp
+292:def load_jax_weights(jax_path: str):
+293:    params_path = os.path.join(jax_path, "params")
+298:    with ocp.PyTreeCheckpointer() as ckptr:
+401:def _copy_assets_for_base_artifact(*, jax_path: str | Path, artifact_dir: Path) -> None:
+402:    source_assets = Path(jax_path) / "assets"
+403:    if not source_assets.is_dir():
+404:        raise FileNotFoundError(f"Missing norm stats assets directory: {source_assets}")
+405:    shutil.copytree(source_assets, artifact_dir / "assets", dirs_exist_ok=True)
+409:    import argparse
+411:    parser = argparse.ArgumentParser(
+415:    parser.add_argument("--mode", type=str, choices=["base", "draft"], default="base")
+416:    parser.add_argument("--jax_path", "--jax-path", type=str, default=None, dest="jax_path")
+417:    parser.add_argument("--output", type=str, default=None)
+421:        "--draft-ckpt",
+426:        help="PyTorch draft checkpoint from scripts/spec/spec_draft_train.py (mode=draft).",
+435:    if str(args.mode) == "draft":
+437:            parser.error("--mode draft requires --draft-ckpt and --output")
+448:    missing = [name for name in ("jax_path", "output") if getattr(args, name) is None]
+455:    dump_weights = load_jax_weights(args.jax_path)
+471:        _copy_assets_for_base_artifact(jax_path=args.jax_path, artifact_dir=artifact_dir)
+475:        print(f"Copied norm stats assets to {artifact_dir / 'assets'}")
+
+== serve policy base/draft args ==
+50:from openpi.policies import policy_config as _policy_config
+53:from openpi.training import config as _config
+63:    config: str = "pi0_libero"
+64:    checkpoint_dir: str = "/path/to/pi0_libero_pytorch/"
+65:    jax_checkpoint_dir: str = "/path/to/openpi-assets/checkpoints/pi0_libero"
+81:    backend: Literal["compiled", "triton"] = "triton"
+82:    draft_backend: Literal["compiled", "triton"] | None = None
+83:    verify_backend: Literal["compiled", "triton"] | None = None
+647:def _build_policy_components(*, config_name: str, checkpoint_dir: str | Path):
+648:    train_config = _config.get_config(str(config_name))
+649:    data_config = train_config.data.create(train_config.assets_dirs, train_config.model)
+650:    norm_stats = _checkpoints.load_norm_stats(Path(checkpoint_dir) / "assets", data_config.asset_id)
+654:            *data_config.data_transforms.inputs,
+655:            _transforms.Normalize(norm_stats, use_quantiles=data_config.use_quantile_norm),
+656:            *data_config.model_transforms.inputs,
+661:            *data_config.model_transforms.outputs,
+662:            _transforms.Unnormalize(norm_stats, use_quantiles=data_config.use_quantile_norm),
+663:            *data_config.data_transforms.outputs,
+666:    return train_config, input_transform, output_transform
+712:            "or omit --task-suite-name to build prompt caches lazily from client requests."
+759:def _resolve_backend(args: Args) -> Literal["compiled", "triton"]:
+760:    override_backends = [backend for backend in (args.draft_backend, args.verify_backend) if backend is not None]
+761:    if not override_backends:
+762:        return args.backend
+763:    if len(set(override_backends)) != 1:
+764:        raise ValueError("draft_backend and verify_backend must match when using the unified Spec backend.")
+765:    override_backend = override_backends[0]
+766:    if args.backend != "triton" and args.backend != override_backend:
+767:        raise ValueError(f"Conflicting Spec backends: backend={args.backend!r}, override={override_backend!r}")
+768:    return override_backend
+795:    train_config,
+808:    base_policy = _policy_config.create_trained_policy(
+809:        train_config,
+815:        base_model.config,
+850:    backend = _resolve_backend(args)
+853:    if backend == "triton" and args.base_triton_path is not None:
+856:    train_config, input_transform, output_transform = _build_policy_components(
+857:        config_name=args.config,
+863:    if backend == "compiled":
+865:            train_config=train_config,
+878:        runtime_backend = _CompiledSpecSessionPool()
+882:                raise ValueError("--draft-triton-path is required when --base-triton-path is set.")
+918:        runtime_backend = _triton_runtime.SpecTritonRuntimePool(
+923:            chunk_size=int(train_config.model.action_horizon),
+952:        runtime_pool=runtime_backend,
+953:        action_horizon=int(train_config.model.action_horizon),
+954:        action_dim=int(train_config.model.action_dim),
+968:        compiled_encoder_runtime=compiled_spec_runtime if backend == "compiled" else None,
+969:        compiled_draft_runtime=compiled_spec_runtime if backend == "compiled" else None,
+970:        compiled_verify_runtime=compiled_spec_runtime if backend == "compiled" else None,
+976:        metadata=train_config.policy_metadata,
+978:        action_horizon=int(train_config.model.action_horizon),
+979:        action_dim=int(train_config.model.action_dim),

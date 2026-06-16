@@ -1,0 +1,217 @@
+== grep checkpoint references ==
+README.md:53:   --jax-path /path/to/jax/checkpoint \
+README.md:54:   --output converted/base
+README.md:66:  --config pi0_libero \
+README.md:67:  --base-triton-path converted/base \
+README.md:68:  --draft-triton-path converted/draft \
+README.md:86:    --config pi0_libero \
+README.md:87:    --checkpoint-dir /openpi-assets/checkpoints/pi0_libero_torch \
+README_OPENPI.md:66:| $\pi_0$      | Fine-Tuning | Base [π₀ model](https://www.physicalintelligence.company/blog/pi0) for fine-tuning                | `gs://openpi-assets/checkpoints/pi0_base`      |
+README_OPENPI.md:67:| $\pi_0$-FAST | Fine-Tuning | Base autoregressive [π₀-FAST model](https://www.physicalintelligence.company/research/fast) for fine-tuning | `gs://openpi-assets/checkpoints/pi0_fast_base` |
+README_OPENPI.md:68:| $\pi_{0.5}$    | Fine-Tuning | Base [π₀.₅ model](https://www.physicalintelligence.company/blog/pi05) for fine-tuning    | `gs://openpi-assets/checkpoints/pi05_base`      |
+README_OPENPI.md:75:| $\pi_0$-FAST-DROID       | Inference   | $\pi_0$-FAST model fine-tuned on the [DROID dataset](https://droid-dataset.github.io/): can perform a wide range of simple table-top manipulation tasks 0-shot in new scenes on the DROID robot platform | `gs://openpi-assets/checkpoints/pi0_fast_droid`       |
+README_OPENPI.md:76:| $\pi_0$-DROID            | Fine-Tuning | $\pi_0$ model fine-tuned on the [DROID dataset](https://droid-dataset.github.io/): faster inference than $\pi_0$-FAST-DROID, but may not follow language commands as well                                | `gs://openpi-assets/checkpoints/pi0_droid`            |
+README_OPENPI.md:77:| $\pi_0$-ALOHA-towel      | Inference   | $\pi_0$ model fine-tuned on internal [ALOHA](https://tonyzhaozh.github.io/aloha/) data: can fold diverse towels 0-shot on ALOHA robot platforms                                                          | `gs://openpi-assets/checkpoints/pi0_aloha_towel`      |
+README_OPENPI.md:78:| $\pi_0$-ALOHA-tupperware | Inference   | $\pi_0$ model fine-tuned on internal [ALOHA](https://tonyzhaozh.github.io/aloha/) data: can unpack food from a tupperware container                                                                                                             | `gs://openpi-assets/checkpoints/pi0_aloha_tupperware` |
+README_OPENPI.md:79:| $\pi_0$-ALOHA-pen-uncap  | Inference   | $\pi_0$ model fine-tuned on public [ALOHA](https://dit-policy.github.io/) data: can uncap a pen                                                                                                          | `gs://openpi-assets/checkpoints/pi0_aloha_pen_uncap`  |
+README_OPENPI.md:80:| $\pi_{0.5}$-LIBERO      | Inference   | $\pi_{0.5}$ model fine-tuned for the [LIBERO](https://libero-project.github.io/datasets) benchmark: gets state-of-the-art performance (see [LIBERO README](examples/libero/README.md)) | `gs://openpi-assets/checkpoints/pi05_libero`      |
+README_OPENPI.md:81:| $\pi_{0.5}$-DROID      | Inference / Fine-Tuning | $\pi_{0.5}$ model fine-tuned on the [DROID dataset](https://droid-dataset.github.io/) with [knowledge insulation](https://www.physicalintelligence.company/research/knowledge_insulation): fast inference and good language-following | `gs://openpi-assets/checkpoints/pi05_droid`      |
+README_OPENPI.md:84:By default, checkpoints are automatically downloaded from `gs://openpi-assets` and are cached in `~/.cache/openpi` when needed. You can overwrite the download path by setting the `OPENPI_DATA_HOME` environment variable.
+README_OPENPI.md:98:checkpoint_dir = download.maybe_download("gs://openpi-assets/checkpoints/pi05_droid")
+README_OPENPI.md:154:uv run scripts/compute_norm_stats.py --config-name pi05_libero
+README_OPENPI.md:160:XLA_PYTHON_CLIENT_MEM_FRACTION=0.9 uv run scripts/train.py pi05_libero --exp-name=my_experiment --overwrite
+README_OPENPI.md:172:uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi05_libero --policy.dir=checkpoints/pi05_libero/my_experiment/20000
+examples/libero/README.md:31:export SERVER_ARGS="--env LIBERO policy:checkpoint --policy.config pi05_libero --policy.dir ./my_custom_checkpoint"
+examples/libero/README.md:66:If you want to reproduce the following numbers, you can evaluate the checkpoint at `gs://openpi-assets/checkpoints/pi05_libero/`. This
+examples/libero/README.md:67:checkpoint was trained in openpi with the `pi05_libero` config.
+examples/inference.ipynb:37:                "checkpoint_dir = download.maybe_download(\"gs://openpi-assets/checkpoints/pi0_fast_droid\")\n",
+examples/inference.ipynb:70:                "checkpoint_dir = download.maybe_download(\"gs://openpi-assets/checkpoints/pi0_aloha_sim\")\n",
+examples/droid/README.md:22:uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi05_droid --policy.dir=gs://openpi-assets/checkpoints/pi05_droid
+examples/droid/README.md:63:uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_fast_droid --policy.dir=gs://openpi-assets/checkpoints/pi0_fast_droid
+examples/droid/README.md:66:uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi0_droid --policy.dir=gs://openpi-assets/checkpoints/pi0_droid
+examples/droid/README.md:69:uv run scripts/serve_policy.py policy:checkpoint --policy.config=paligemma_binning_droid --policy.dir=gs://openpi-assets/checkpoints/roboarena/paligemma_binning_droid
+examples/droid/README.md:72:uv run scripts/serve_policy.py policy:checkpoint --policy.config=paligemma_fast_droid --policy.dir=gs://openpi-assets/checkpoints/roboarena/paligemma_fast_droid
+examples/droid/README.md:75:uv run scripts/serve_policy.py policy:checkpoint --policy.config=paligemma_fast_specialist_droid --policy.dir=gs://openpi-assets/checkpoints/roboarena/paligemma_fast_specialist_droid
+examples/droid/README.md:78:uv run scripts/serve_policy.py policy:checkpoint --policy.config=paligemma_vq_droid --policy.dir=gs://openpi-assets/checkpoints/roboarena/paligemma_vq_droid
+examples/droid/README.md:81:uv run scripts/serve_policy.py policy:checkpoint --policy.config=paligemma_diffusion_droid --policy.dir=gs://openpi-assets/checkpoints/roboarena/paligemma_diffusion_droid
+examples/download.py:7:url = "gs://openpi-assets/checkpoints/pi0_droid"
+examples/aloha_real/README.md:60:- **Checkpoint path**: `gs://openpi-assets/checkpoints/pi0_base`
+examples/aloha_real/README.md:81:- **Checkpoint path**: `gs://openpi-assets/checkpoints/pi0_aloha_towel`
+examples/aloha_real/README.md:98:- **Checkpoint path**: `gs://openpi-assets/checkpoints/pi0_aloha_tupperware`
+scripts/spec/triton/triton_pi0_runtime.py:659:            raise ValueError("No active camera views found after applying the pi0_libero input transforms.")
+scripts/spec/triton/triton_pi0_runtime.py:728:        raise ValueError("No active camera views found after applying the pi0_libero input transforms.")
+scripts/spec/triton/convert_for_triton.py:416:    parser.add_argument("--jax_path", "--jax-path", type=str, default=None, dest="jax_path")
+scripts/spec/test/spec_verify_test.py:493:    args = ServeArgs(base_triton_path="converted/base", draft_triton_path="converted/draft")
+scripts/spec/test/spec_verify_test.py:495:    assert args.base_triton_path == "converted/base"
+scripts/spec/test/spec_verify_test.py:582:                "cache_dir": "data/triton/pi0_libero_spatial_cache",
+scripts/spec/test/spec_verify_test.py:583:                "draft_triton_path": "data/triton/pi0_libero_spatial_cache/draft_triton.pkl",
+scripts/spec/test/spec_verify_test.py:586:                "cache_dir": "data/triton/pi0_libero_goal_cache",
+scripts/spec/test/spec_verify_test.py:587:                "draft_triton_path": "data/triton/pi0_libero_goal_cache/draft_triton.pkl",
+scripts/spec/test/spec_verify_test.py:613:    assert server_args["cache_dir"] == "data/triton/pi0_libero_spatial_cache"
+scripts/spec/test/spec_verify_test.py:614:    assert server_args["draft_triton_path"] == "data/triton/pi0_libero_spatial_cache/draft_triton.pkl"
+scripts/spec/test/spec_verify_test.py:615:    assert "--draft-triton-path data/triton/pi0_libero_spatial_cache/draft_triton.pkl" in run_triton_sweep._command_text(
+scripts/spec/spec_serve_policy.py:63:    config: str = "pi0_libero"
+scripts/spec/spec_serve_policy.py:64:    checkpoint_dir: str = "/path/to/pi0_libero_pytorch/"
+scripts/spec/spec_serve_policy.py:65:    jax_checkpoint_dir: str = "/path/to/openpi-assets/checkpoints/pi0_libero"
+scripts/spec/spec_serve_policy.py:882:                raise ValueError("--draft-triton-path is required when --base-triton-path is set.")
+scripts/spec/exp/config/threshold_ablation.json:7:      "checkpoint_dir": "/mlp_vepfs/share/njh/pi0_libero_pytorch/",
+scripts/spec/exp/config/threshold_ablation.json:8:      "jax_checkpoint_dir": "/mlp_vepfs/share/pi_models/openpi-assets/checkpoints/pi0_libero"
+scripts/spec/exp/config/threshold_ablation.json:12:        "cache_dir": "data/triton/pi0_libero_spatial_cache",
+scripts/spec/exp/config/threshold_ablation.json:13:        "draft_triton_path": "data/triton/pi0_libero_spatial_cache/draft_triton.pkl"
+scripts/spec/exp/config/threshold_ablation.json:16:        "cache_dir": "data/triton/pi0_libero_object_cache",
+scripts/spec/exp/config/threshold_ablation.json:17:        "draft_triton_path": "data/triton/pi0_libero_object_cache/draft_triton.pkl"
+scripts/spec/exp/config/threshold_ablation.json:20:        "cache_dir": "data/triton/pi0_libero_goal_cache",
+scripts/spec/exp/config/threshold_ablation.json:21:        "draft_triton_path": "data/triton/pi0_libero_goal_cache/draft_triton.pkl"
+scripts/spec/exp/config/threshold_ablation.json:24:        "cache_dir": "data/triton/pi0_libero_10_cache",
+scripts/spec/exp/config/threshold_ablation.json:25:        "draft_triton_path": "data/triton/pi0_libero_10_cache/draft_triton.pkl"
+scripts/spec/exp/config/main_exp.json:6:    "checkpoint_dir": "/mlp_vepfs/share/njh/pi0_libero_pytorch/",
+scripts/spec/exp/config/main_exp.json:7:    "jax_checkpoint_dir": "/mlp_vepfs/share/pi_models/openpi-assets/checkpoints/pi0_libero"
+scripts/spec/exp/config/main_exp.json:11:      "cache_dir": "data/triton/pi0_libero_spatial_cache",
+scripts/spec/exp/config/main_exp.json:13:      "draft_triton_path": "data/triton/pi0_libero_spatial_cache/draft_triton.pkl"
+scripts/spec/exp/config/main_exp.json:16:      "cache_dir": "data/triton/pi0_libero_object_cache",
+scripts/spec/exp/config/main_exp.json:18:      "draft_triton_path": "data/triton/pi0_libero_object_cache/draft_triton.pkl"
+scripts/spec/exp/config/main_exp.json:21:      "cache_dir": "data/triton/pi0_libero_goal_cache",
+scripts/spec/exp/config/main_exp.json:23:      "draft_triton_path": "data/triton/pi0_libero_goal_cache/draft_triton.pkl"
+scripts/spec/exp/config/main_exp.json:26:      "cache_dir": "data/triton/pi0_libero_10_cache",
+scripts/spec/exp/config/main_exp.json:28:      "draft_triton_path": "data/triton/pi0_libero_10_cache/draft_triton.pkl"
+scripts/spec/exp/config/k_ablation.json:7:    "checkpoint_dir": "/mlp_vepfs/share/njh/pi0_libero_pytorch/",
+scripts/spec/exp/config/k_ablation.json:8:    "jax_checkpoint_dir": "/mlp_vepfs/share/pi_models/openpi-assets/checkpoints/pi0_libero"
+scripts/spec/exp/config/k_ablation.json:12:      "cache_dir": "data/triton/pi0_libero_spatial_cache",
+scripts/spec/exp/config/k_ablation.json:13:      "draft_triton_path": "data/triton/pi0_libero_spatial_cache/draft_triton.pkl"
+scripts/spec/exp/config/k_ablation.json:16:      "cache_dir": "data/triton/pi0_libero_object_cache",
+scripts/spec/exp/config/k_ablation.json:17:      "draft_triton_path": "data/triton/pi0_libero_object_cache/draft_triton.pkl"
+scripts/spec/exp/config/k_ablation.json:20:      "cache_dir": "data/triton/pi0_libero_goal_cache",
+scripts/spec/exp/config/k_ablation.json:21:      "draft_triton_path": "data/triton/pi0_libero_goal_cache/draft_triton.pkl"
+scripts/spec/exp/config/k_ablation.json:24:      "cache_dir": "data/triton/pi0_libero_10_cache",
+scripts/spec/exp/config/k_ablation.json:25:      "draft_triton_path": "data/triton/pi0_libero_10_cache/draft_triton.pkl"
+scripts/spec/enc_cache.py:593:    config: str = "pi0_libero"
+scripts/spec/enc_cache.py:594:    checkpoint_dir: str = "/path/to/pi0_libero_pytorch/"
+scripts/serve_policy.py:63:        dir="gs://openpi-assets/checkpoints/pi05_base",
+scripts/serve_policy.py:67:        dir="gs://openpi-assets/checkpoints/pi0_aloha_sim",
+scripts/serve_policy.py:71:        dir="gs://openpi-assets/checkpoints/pi05_droid",
+scripts/serve_policy.py:74:        config="pi0_libero",
+scripts/serve_policy.py:75:        dir="/mlp_vepfs/share/njh/pi0_libero_pytorch",
+src/openpi/training/weight_loaders.py:45:        example: "gs://openpi-assets/checkpoints/<model>/params"
+src/openpi/training/misc/roboarena_config.py:88:                fast_model_tokenizer_kwargs={"fsq_tokenizer_path": "gs://openpi-assets/tokenizers/droid_fsq_tokenizer"},
+src/openpi/training/misc/polaris_config.py:34:                    assets_dir="gs://openpi-assets/checkpoints/polaris/pi05_droid_jointpos_polaris/assets",
+src/openpi/training/misc/polaris_config.py:42:                        filter_dict_path="gs://openpi-assets/droid/droid_sample_ranges_v1_0_1.json",
+src/openpi/training/misc/polaris_config.py:48:                        filter_dict_path="gs://openpi-assets/droid/polaris_droid_cotrain_dataset_sample_ranges_v1_0_0.json",
+src/openpi/training/misc/polaris_config.py:55:                "gs://openpi-assets/checkpoints/polaris/pi05_droid_jointpos_polaris/params"
+src/openpi/training/misc/polaris_config.py:79:                    assets_dir="gs://openpi-assets/checkpoints/polaris/pi0_fast_droid_jointpos_polaris/assets",
+src/openpi/training/misc/polaris_config.py:87:                        filter_dict_path="gs://openpi-assets/droid/droid_sample_ranges_v1_0_1.json",
+src/openpi/training/misc/polaris_config.py:93:                        filter_dict_path="gs://openpi-assets/droid/polaris_droid_cotrain_dataset_sample_ranges_v1_0_0.json",
+src/openpi/training/misc/polaris_config.py:100:                "gs://openpi-assets/checkpoints/polaris/pi0_fast_droid_jointpos_polaris/params"
+src/openpi/training/misc/polaris_config.py:124:                    assets_dir="gs://openpi-assets/checkpoints/polaris/pi0_droid_jointpos_polaris/assets",
+src/openpi/training/misc/polaris_config.py:132:                        filter_dict_path="gs://openpi-assets/droid/droid_sample_ranges_v1_0_1.json",
+src/openpi/training/misc/polaris_config.py:138:                        filter_dict_path="gs://openpi-assets/droid/polaris_droid_cotrain_dataset_sample_ranges_v1_0_0.json",
+src/openpi/training/misc/polaris_config.py:145:                "gs://openpi-assets/checkpoints/polaris/pi0_droid_jointpos_polaris/params"
+src/openpi/training/misc/polaris_config.py:169:                    assets_dir="gs://openpi-assets/checkpoints/polaris/pi0_droid_jointpos_100k_polaris/assets",
+src/openpi/training/misc/polaris_config.py:177:                        filter_dict_path="gs://openpi-assets/droid/droid_sample_ranges_v1_0_1.json",
+src/openpi/training/misc/polaris_config.py:183:                        filter_dict_path="gs://openpi-assets/droid/polaris_droid_cotrain_dataset_sample_ranges_v1_0_0.json",
+src/openpi/training/misc/polaris_config.py:190:                "gs://openpi-assets/checkpoints/polaris/pi0_droid_jointpos_100k_polaris/params"
+src/openpi/training/config.py:50:        assets_dir="gs://openpi-assets/checkpoints/pi0_base/assets",
+src/openpi/training/config.py:378:            filter_dict_path="gs://openpi-assets/droid/droid_sample_ranges_v1_0_1.json",
+src/openpi/training/config.py:701:        name="pi0_libero",
+src/openpi/training/config.py:721:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_base/params"),
+src/openpi/training/config.py:727:        name="pi0_libero_low_mem_finetune",
+src/openpi/training/config.py:735:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_base/params"),
+src/openpi/training/config.py:766:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_fast_base/params"),
+src/openpi/training/config.py:781:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_fast_base/params"),
+src/openpi/training/config.py:792:        name="pi05_libero",
+src/openpi/training/config.py:808:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
+src/openpi/training/config.py:823:            "/openpi-assets/checkpoints/pi0_base/params"
+src/openpi/training/config.py:849:            "/openpi-assets/checkpoints/pi0_base/params"
+src/openpi/training/config.py:878:                assets_dir="gs://openpi-assets/checkpoints/pi0_base/assets",
+src/openpi/training/config.py:898:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_base/params"),
+src/openpi/training/config.py:907:                assets_dir="gs://openpi-assets/checkpoints/pi05_base/assets",
+src/openpi/training/config.py:927:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
+src/openpi/training/config.py:950:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_fast_base/params"),
+src/openpi/training/config.py:980:                assets_dir="gs://openpi-assets/checkpoints/pi05_base/assets/",
+src/openpi/training/config.py:984:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_base/params"),
+src/openpi/training/config.py:1014:                assets_dir="gs://openpi-assets/checkpoints/pi05_droid/assets",
+src/openpi/training/config.py:1018:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi05_droid/params"),
+src/openpi/training/config.py:1033:        weight_loader=weight_loaders.CheckpointWeightLoader("gs://openpi-assets/checkpoints/pi0_base/params"),
+src/openpi/shared/download_test.py:28:    remote_path = "gs://openpi-assets/testdata/random"
+src/openpi/shared/download_test.py:38:    remote_path = "gs://openpi-assets/testdata/random/random_512kb.bin"
+src/openpi/shared/download.py:177:    re.compile("openpi-assets/checkpoints/pi0_aloha_pen_uncap"): _get_mtime(2025, 2, 17),
+src/openpi/shared/download.py:178:    re.compile("openpi-assets/checkpoints/pi0_libero"): _get_mtime(2025, 2, 6),
+src/openpi/shared/download.py:179:    re.compile("openpi-assets/checkpoints/"): _get_mtime(2025, 2, 3),
+src/openpi/policies/policy_test.py:12:    policy = _policy_config.create_trained_policy(config, "gs://openpi-assets/checkpoints/pi0_aloha_sim")
+src/openpi/policies/policy_test.py:23:    policy = _policy_config.create_trained_policy(config, "gs://openpi-assets/checkpoints/pi0_aloha_sim")
+src/openpi/models/model_test.py:87:        _model.restore_params(download.maybe_download("gs://openpi-assets/checkpoints/pi0_base/params"))
+
+== convert_for_triton help ==
+usage: convert_for_triton.py [-h] [--self-test] [--mode {base,draft}]
+                             [--jax_path JAX_PATH] [--output OUTPUT]
+                             [--prompt PROMPT]
+                             [--tokenizer_path ARG_PATH]
+                             [--draft-ckpt DRAFT_CKPT]
+
+Convert base and draft checkpoints to Triton Spec artifacts.
+
+options:
+  -h, --help            show this help message and exit
+  --self-test
+  --mode {base,draft}
+  --jax_path JAX_PATH, --jax-path JAX_PATH
+  --output OUTPUT
+  --prompt PROMPT
+  --tokenizer_path ARG_PATH, --tokenizer-path ARG_PATH
+  --draft-ckpt DRAFT_CKPT, --draft_ckpt DRAFT_CKPT
+                        PyTorch draft checkpoint from
+                        scripts/spec/spec_draft_train.py (mode=draft).
+
+== spec_serve_policy help ==
+usage: spec_serve_policy.py [-h] [OPTIONS]
+
+╭─ options ──────────────────────────────────────────────────────────────────╮
+│ -h, --help              show this help message and exit                    │
+│ --host STR              (default: 0.0.0.0)                                 │
+│ --port INT              (default: 8000)                                    │
+│ --config STR            (default: pi0_libero)                              │
+│ --checkpoint-dir STR    (default: /path/to/pi0_libero_pytorch/)            │
+│ --jax-checkpoint-dir STR                                                   │
+│                         (default:                                          │
+│                         /path/to/openpi-assets/checkpoints/pi0_libero)     │
+│ --cache-dir STR         (default: /path/to/spec_cache)                     │
+│ --base-triton-path {None}|STR                                              │
+│                         (default: None)                                    │
+│ --pytorch-device {None}|STR                                                │
+│                         (default: None)                                    │
+│ --task-suite-name {None}|STR                                               │
+│                         (default: None)                                    │
+│ --tokenizer-source STR  (default: auto)                                    │
+│ --hf-endpoint STR       (default: https://hf-mirror.com)                   │
+│ --hf-tokenizer-id STR   (default: google/paligemma-3b-pt-224)              │
+│ --num-views INT         (default: 2)                                       │
+│ --max-exec-steps INT    (default: 12)                                      │
+│ --draft-history-len INT                                                    │
+│                         (default: 6)                                       │
+│ --draft-checkpoint STR  (default: /path/to/draft_vlm_block_4x4090_goal.pt) │
+│ --draft-triton-path {None}|STR                                             │
+│                         (default: None)                                    │
+│ --backend {compiled,triton}                                                │
+│                         (default: triton)                                  │
+│ --draft-backend {None,compiled,triton}                                     │
+│                         (default: None)                                    │
+│ --verify-backend {None,compiled,triton}                                    │
+│                         (default: None)                                    │
+│ --t-list [FLOAT [FLOAT ...]]                                               │
+│                         (default: 0.1 0.05)                                │
+│ --tau-radius FLOAT      (default: 0.3)                                     │
+│ --dist-dims INT         (default: 7)                                       │
+│ --gripper-switch-threshold FLOAT                                           │
+│                         (default: 0.0)                                     │
+│ --enable-gripper-verify, --no-enable-gripper-verify                        │
+│                         (default: True)                                    │
+│ --enable-gripper-post-verify, --no-enable-gripper-post-verify              │
+│                         (default: True)                                    │
+│ --gripper-full-window INT                                                  │
+│                         (default: 1)                                       │
+│ --full-fallback, --no-full-fallback                                        │
+│                         (default: True)                                    │
+│ --force-full-each-round, --no-force-full-each-round                        │
+│                         (default: False)                                   │
+│ --periodic-full-every-n-draft-rounds INT                                   │
+│                         (default: 0)                                       │
+╰────────────────────────────────────────────────────────────────────────────╯

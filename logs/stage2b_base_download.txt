@@ -1,0 +1,59 @@
+BASE_DOWNLOAD_STATUS=STARTED
+candidate=gs://openpi-assets/checkpoints/pi0_libero
+openpi_data_home=/workspace/realtime_vla_flash_project/checkpoints/base_candidates/openpi_cache
+risk=may download a large public base checkpoint directory; selected only because metadata classified it as MATCH_FLASH_PI0_LIBERO_JAX
+BASE_DOWNLOAD_STATUS=RESOLVED
+{
+  "downloaded_path": "/workspace/realtime_vla_flash_project/checkpoints/base_candidates/openpi_cache/openpi-assets/checkpoints/pi0_libero",
+  "downloaded_path_exists": true,
+  "contains_params": true,
+  "contains_assets": true,
+  "has_checkpoint_metadata": true,
+  "has_norm_stats_json": true,
+  "du_sh": "12G",
+  "file_count": 19,
+  "sample_files": [
+    "params/_METADATA",
+    "params/_sharding",
+    "params/manifest.ocdbt",
+    "params/ocdbt.process_0/manifest.ocdbt",
+    "params/ocdbt.process_0/d/5b573f911a8101f0fcfdd62f73b218fb",
+    "params/ocdbt.process_0/d/e98fbfe843f0b1a0938e2e174f5fe64b",
+    "params/ocdbt.process_0/d/2e38713b6caa7bfde0385f0adced748d",
+    "params/ocdbt.process_0/d/5c296f4f9a224be488612a6025ca58c6",
+    "params/ocdbt.process_0/d/a3bd463a29df7b76a4d71263d8c05704",
+    "params/ocdbt.process_0/d/f0bdaf7cbb943edbc868f15a685f9881",
+    "params/ocdbt.process_0/d/cae25c26b881cdb73257fea25bd132a2",
+    "params/ocdbt.process_0/d/a87389eb66cb14add95ad6441a413ee9",
+    "params/ocdbt.process_0/d/f251f0005f1667fe8e596da96c894e50",
+    "params/ocdbt.process_0/d/0ca4bf816ec10acaec0f62490a41529d",
+    "params/ocdbt.process_0/d/680b47b37cc767ff45156e23565e2252",
+    "params/ocdbt.process_0/d/7a559626d53988daabd96a179a6bff54",
+    "params/ocdbt.process_0/d/15ad1c4fa76e1c764766b9bc865e8d1d",
+    "params/d/5b6b2a896e0651f82a2c879b8a2a8ba8",
+    "assets/physical-intelligence/libero/norm_stats.json"
+  ],
+  "params_sample_files": [
+    "_METADATA",
+    "_sharding",
+    "manifest.ocdbt",
+    "ocdbt.process_0/manifest.ocdbt",
+    "ocdbt.process_0/d/5b573f911a8101f0fcfdd62f73b218fb",
+    "ocdbt.process_0/d/e98fbfe843f0b1a0938e2e174f5fe64b",
+    "ocdbt.process_0/d/2e38713b6caa7bfde0385f0adced748d",
+    "ocdbt.process_0/d/5c296f4f9a224be488612a6025ca58c6",
+    "ocdbt.process_0/d/a3bd463a29df7b76a4d71263d8c05704",
+    "ocdbt.process_0/d/f0bdaf7cbb943edbc868f15a685f9881",
+    "ocdbt.process_0/d/cae25c26b881cdb73257fea25bd132a2",
+    "ocdbt.process_0/d/a87389eb66cb14add95ad6441a413ee9",
+    "ocdbt.process_0/d/f251f0005f1667fe8e596da96c894e50",
+    "ocdbt.process_0/d/0ca4bf816ec10acaec0f62490a41529d",
+    "ocdbt.process_0/d/680b47b37cc767ff45156e23565e2252",
+    "ocdbt.process_0/d/7a559626d53988daabd96a179a6bff54",
+    "ocdbt.process_0/d/15ad1c4fa76e1c764766b9bc865e8d1d",
+    "d/5b6b2a896e0651f82a2c879b8a2a8ba8"
+  ],
+  "assets_sample_files": [
+    "physical-intelligence/libero/norm_stats.json"
+  ]
+}

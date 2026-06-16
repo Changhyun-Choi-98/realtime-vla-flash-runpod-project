@@ -1,0 +1,25 @@
+ M .gitignore
+?? artifact_manifest_stage2b.txt
+?? logs/stage2b_base_download.txt
+?? logs/stage2b_checkpoint_metadata_probe.txt
+?? logs/stage2b_convert_base.txt
+?? logs/stage2b_convert_script_audit.txt
+?? logs/stage2b_git_status.txt
+?? logs/stage2b_openpi_download_probe.txt
+?? logs/stage2b_repo_commit.txt
+?? logs/stage2b_repo_grep.txt
+?? logs/stage2b_repo_status.txt
+?? logs/stage2b_server_boot_smoke.txt
+?? logs/stage2b_submodules.txt
+?? notes/stage2b_base_checkpoint_resolution_report.md
+?? notes/stage2b_next_step_recommendation.md
+?? notes/upstream_issue_draft.md
+?? results/stage2b_base_conversion_status.json
+?? results/stage2b_base_resolution_decision.json
+?? results/stage2b_checkpoint_candidates.json
+?? results/stage2b_final_decision.json
+?? results/stage2b_metadata_probe.json
+?? results/stage2b_server_boot_smoke.json
+?? scripts/stage2b_checkpoint_metadata_probe.py
+?? scripts/stage2b_resolve_base_checkpoint.py
+?? scripts/stage2b_server_boot_smoke.sh

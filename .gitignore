@@ -2,6 +2,7 @@ checkpoints/
 converted/
 datasets/
 videos/
+tmp/
 profiling/*.nsys-rep
 profiling/*.qdrep
 profiling/*.sqlite

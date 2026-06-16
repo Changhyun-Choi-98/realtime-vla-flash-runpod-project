@@ -1,0 +1,8 @@
+{
+  "status": "ready",
+  "exit_status": 143,
+  "ready_inferred": true,
+  "process_alive_during_probe": true,
+  "readiness_evidence": "log/port readiness pattern or process remained alive",
+  "log_tail": "INFO:root:Norm stats not found in /workspace/realtime_vla_flash_project/repos/realtime-vla-flash/assets/pi0_libero/physical-intelligence/libero, skipping.\nINFO:root:Loaded norm stats from /workspace/realtime_vla_flash_project/converted/base/assets/physical-intelligence/libero\nINFO:root:Loaded 10 LIBERO prompts from local BDDL files for libero_goal\nINFO:root:Creating Triton server (host: redacted, ip: redacted, port: 8000)\nINFO:websockets.server:server listening on 0.0.0.0:8000\n"
+}

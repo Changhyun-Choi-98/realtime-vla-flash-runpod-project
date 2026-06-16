@@ -1,0 +1,530 @@
+{
+  "status": "ok",
+  "note": "Metadata-only probe: no checkpoint contents were downloaded.",
+  "candidates": [
+    {
+      "path": "gs://openpi-assets/checkpoints/pi0_libero",
+      "scheme": "gs",
+      "exists": true,
+      "is_dir_like": true,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 2,
+      "sample_entries": [
+        {
+          "name": "assets",
+          "path_tail": "openpi-assets/checkpoints/pi0_libero/assets",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "params",
+          "path_tail": "openpi-assets/checkpoints/pi0_libero/params",
+          "type": "directory",
+          "size": 0
+        }
+      ],
+      "total_size_bytes_if_available": 0,
+      "has_params_subdir": true,
+      "has_assets_subdir": true,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": true,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [
+        "checkpoints/pi0_libero/params/d",
+        "checkpoints/pi0_libero/params/ocdbt.process_0",
+        "checkpoints/pi0_libero/params/_METADATA",
+        "checkpoints/pi0_libero/params/_sharding",
+        "checkpoints/pi0_libero/params/manifest.ocdbt"
+      ],
+      "assets_sample_entries": [
+        "openpi-assets/checkpoints/pi0_libero/assets/physical-intelligence",
+        "checkpoints/pi0_libero/assets/physical-intelligence/libero"
+      ],
+      "classification": "MATCH_FLASH_PI0_LIBERO_JAX",
+      "reason": "Candidate has params, assets, and Orbax/JAX checkpoint metadata and is shaped for convert_for_triton --jax-path.",
+      "selected_candidate": true
+    },
+    {
+      "path": "gs://openpi-assets/checkpoints/pi0_libero/params",
+      "scheme": "gs",
+      "exists": true,
+      "is_dir_like": true,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 5,
+      "sample_entries": [
+        {
+          "name": "d",
+          "path_tail": "checkpoints/pi0_libero/params/d",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "ocdbt.process_0",
+          "path_tail": "checkpoints/pi0_libero/params/ocdbt.process_0",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "_METADATA",
+          "path_tail": "checkpoints/pi0_libero/params/_METADATA",
+          "type": "file",
+          "size": 21156
+        },
+        {
+          "name": "_sharding",
+          "path_tail": "checkpoints/pi0_libero/params/_sharding",
+          "type": "file",
+          "size": 12457
+        },
+        {
+          "name": "manifest.ocdbt",
+          "path_tail": "checkpoints/pi0_libero/params/manifest.ocdbt",
+          "type": "file",
+          "size": 117
+        }
+      ],
+      "total_size_bytes_if_available": 33730,
+      "has_params_subdir": true,
+      "has_assets_subdir": true,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": true,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [
+        "checkpoints/pi0_libero/params/d",
+        "checkpoints/pi0_libero/params/ocdbt.process_0",
+        "checkpoints/pi0_libero/params/_METADATA",
+        "checkpoints/pi0_libero/params/_sharding",
+        "checkpoints/pi0_libero/params/manifest.ocdbt"
+      ],
+      "assets_sample_entries": [
+        "openpi-assets/checkpoints/pi0_libero/assets/physical-intelligence",
+        "checkpoints/pi0_libero/assets/physical-intelligence/libero"
+      ],
+      "classification": "UNKNOWN_ACCESS_ERROR",
+      "reason": "Params subdir alone is not suitable for --jax-path because converter appends /params and also needs sibling assets.",
+      "selected_candidate": false
+    },
+    {
+      "path": "gs://openpi-assets/checkpoints/pi0_libero_torch",
+      "scheme": "gs",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [],
+      "assets_sample_entries": [],
+      "classification": "NOT_FOUND",
+      "reason": "Candidate path was not found or could not be listed as existing.",
+      "selected_candidate": false
+    },
+    {
+      "path": "gs://openpi-assets/checkpoints/pi0_libero_torch/params",
+      "scheme": "gs",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [],
+      "assets_sample_entries": [],
+      "classification": "NOT_FOUND",
+      "reason": "Candidate path was not found or could not be listed as existing.",
+      "selected_candidate": false
+    },
+    {
+      "path": "gs://openpi-assets/checkpoints/pi0_base",
+      "scheme": "gs",
+      "exists": true,
+      "is_dir_like": true,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 2,
+      "sample_entries": [
+        {
+          "name": "assets",
+          "path_tail": "openpi-assets/checkpoints/pi0_base/assets",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "params",
+          "path_tail": "openpi-assets/checkpoints/pi0_base/params",
+          "type": "directory",
+          "size": 0
+        }
+      ],
+      "total_size_bytes_if_available": 0,
+      "has_params_subdir": true,
+      "has_assets_subdir": true,
+      "has_norm_stats_json": true,
+      "has_checkpoint_metadata": true,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [
+        "checkpoints/pi0_base/params/d",
+        "checkpoints/pi0_base/params/ocdbt.process_0",
+        "checkpoints/pi0_base/params/_CHECKPOINT_METADATA",
+        "checkpoints/pi0_base/params/_METADATA",
+        "checkpoints/pi0_base/params/_sharding",
+        "checkpoints/pi0_base/params/manifest.ocdbt"
+      ],
+      "assets_sample_entries": [
+        "openpi-assets/checkpoints/pi0_base/assets/arx",
+        "openpi-assets/checkpoints/pi0_base/assets/arx_mobile",
+        "openpi-assets/checkpoints/pi0_base/assets/droid",
+        "openpi-assets/checkpoints/pi0_base/assets/fibocom_mobile",
+        "openpi-assets/checkpoints/pi0_base/assets/franka",
+        "openpi-assets/checkpoints/pi0_base/assets/trossen",
+        "openpi-assets/checkpoints/pi0_base/assets/trossen_mobile",
+        "openpi-assets/checkpoints/pi0_base/assets/ur5e",
+        "openpi-assets/checkpoints/pi0_base/assets/ur5e_dual",
+        "checkpoints/pi0_base/assets/arx/norm_stats.json",
+        "checkpoints/pi0_base/assets/arx_mobile/norm_stats.json",
+        "checkpoints/pi0_base/assets/droid/norm_stats.json",
+        "checkpoints/pi0_base/assets/fibocom_mobile/norm_stats.json",
+        "checkpoints/pi0_base/assets/franka/norm_stats.json",
+        "checkpoints/pi0_base/assets/trossen/norm_stats.json",
+        "checkpoints/pi0_base/assets/trossen_mobile/norm_stats.json",
+        "checkpoints/pi0_base/assets/ur5e/norm_stats.json",
+        "checkpoints/pi0_base/assets/ur5e_dual/norm_stats.json"
+      ],
+      "classification": "BASE_PI0_PRETRAIN_ONLY",
+      "reason": "pi0_base is a pretraining/fine-tuning base, not the paper-compatible pi0_libero policy checkpoint.",
+      "selected_candidate": false
+    },
+    {
+      "path": "gs://openpi-assets/checkpoints/pi0_base/params",
+      "scheme": "gs",
+      "exists": true,
+      "is_dir_like": true,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 6,
+      "sample_entries": [
+        {
+          "name": "d",
+          "path_tail": "checkpoints/pi0_base/params/d",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "ocdbt.process_0",
+          "path_tail": "checkpoints/pi0_base/params/ocdbt.process_0",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "_CHECKPOINT_METADATA",
+          "path_tail": "checkpoints/pi0_base/params/_CHECKPOINT_METADATA",
+          "type": "file",
+          "size": 92
+        },
+        {
+          "name": "_METADATA",
+          "path_tail": "checkpoints/pi0_base/params/_METADATA",
+          "type": "file",
+          "size": 19031
+        },
+        {
+          "name": "_sharding",
+          "path_tail": "checkpoints/pi0_base/params/_sharding",
+          "type": "file",
+          "size": 7607
+        },
+        {
+          "name": "manifest.ocdbt",
+          "path_tail": "checkpoints/pi0_base/params/manifest.ocdbt",
+          "type": "file",
+          "size": 117
+        }
+      ],
+      "total_size_bytes_if_available": 26847,
+      "has_params_subdir": true,
+      "has_assets_subdir": true,
+      "has_norm_stats_json": true,
+      "has_checkpoint_metadata": true,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [
+        "checkpoints/pi0_base/params/d",
+        "checkpoints/pi0_base/params/ocdbt.process_0",
+        "checkpoints/pi0_base/params/_CHECKPOINT_METADATA",
+        "checkpoints/pi0_base/params/_METADATA",
+        "checkpoints/pi0_base/params/_sharding",
+        "checkpoints/pi0_base/params/manifest.ocdbt"
+      ],
+      "assets_sample_entries": [
+        "openpi-assets/checkpoints/pi0_base/assets/arx",
+        "openpi-assets/checkpoints/pi0_base/assets/arx_mobile",
+        "openpi-assets/checkpoints/pi0_base/assets/droid",
+        "openpi-assets/checkpoints/pi0_base/assets/fibocom_mobile",
+        "openpi-assets/checkpoints/pi0_base/assets/franka",
+        "openpi-assets/checkpoints/pi0_base/assets/trossen",
+        "openpi-assets/checkpoints/pi0_base/assets/trossen_mobile",
+        "openpi-assets/checkpoints/pi0_base/assets/ur5e",
+        "openpi-assets/checkpoints/pi0_base/assets/ur5e_dual",
+        "checkpoints/pi0_base/assets/arx/norm_stats.json",
+        "checkpoints/pi0_base/assets/arx_mobile/norm_stats.json",
+        "checkpoints/pi0_base/assets/droid/norm_stats.json",
+        "checkpoints/pi0_base/assets/fibocom_mobile/norm_stats.json",
+        "checkpoints/pi0_base/assets/franka/norm_stats.json",
+        "checkpoints/pi0_base/assets/trossen/norm_stats.json",
+        "checkpoints/pi0_base/assets/trossen_mobile/norm_stats.json",
+        "checkpoints/pi0_base/assets/ur5e/norm_stats.json",
+        "checkpoints/pi0_base/assets/ur5e_dual/norm_stats.json"
+      ],
+      "classification": "BASE_PI0_PRETRAIN_ONLY",
+      "reason": "pi0_base is a pretraining/fine-tuning base, not the paper-compatible pi0_libero policy checkpoint.",
+      "selected_candidate": false
+    },
+    {
+      "path": "gs://openpi-assets/checkpoints/pi05_libero",
+      "scheme": "gs",
+      "exists": true,
+      "is_dir_like": true,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 2,
+      "sample_entries": [
+        {
+          "name": "assets",
+          "path_tail": "openpi-assets/checkpoints/pi05_libero/assets",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "params",
+          "path_tail": "openpi-assets/checkpoints/pi05_libero/params",
+          "type": "directory",
+          "size": 0
+        }
+      ],
+      "total_size_bytes_if_available": 0,
+      "has_params_subdir": true,
+      "has_assets_subdir": true,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": true,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [
+        "checkpoints/pi05_libero/params/array_metadatas",
+        "checkpoints/pi05_libero/params/d",
+        "checkpoints/pi05_libero/params/ocdbt.process_0",
+        "checkpoints/pi05_libero/params/_METADATA",
+        "checkpoints/pi05_libero/params/_sharding",
+        "checkpoints/pi05_libero/params/manifest.ocdbt"
+      ],
+      "assets_sample_entries": [
+        "openpi-assets/checkpoints/pi05_libero/assets/physical-intelligence",
+        "checkpoints/pi05_libero/assets/physical-intelligence/libero"
+      ],
+      "classification": "PUBLIC_PI05_LIBERO_MISMATCH",
+      "reason": "pi05_libero was inspected only and is not compatible with the pi0_libero draft unless proven otherwise.",
+      "selected_candidate": false
+    },
+    {
+      "path": "gs://openpi-assets/checkpoints/pi05_libero/params",
+      "scheme": "gs",
+      "exists": true,
+      "is_dir_like": true,
+      "metadata_method": "fsspec_ls_info",
+      "entry_count": 6,
+      "sample_entries": [
+        {
+          "name": "array_metadatas",
+          "path_tail": "checkpoints/pi05_libero/params/array_metadatas",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "d",
+          "path_tail": "checkpoints/pi05_libero/params/d",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "ocdbt.process_0",
+          "path_tail": "checkpoints/pi05_libero/params/ocdbt.process_0",
+          "type": "directory",
+          "size": 0
+        },
+        {
+          "name": "_METADATA",
+          "path_tail": "checkpoints/pi05_libero/params/_METADATA",
+          "type": "file",
+          "size": 23493
+        },
+        {
+          "name": "_sharding",
+          "path_tail": "checkpoints/pi05_libero/params/_sharding",
+          "type": "file",
+          "size": 17952
+        },
+        {
+          "name": "manifest.ocdbt",
+          "path_tail": "checkpoints/pi05_libero/params/manifest.ocdbt",
+          "type": "file",
+          "size": 120
+        }
+      ],
+      "total_size_bytes_if_available": 41565,
+      "has_params_subdir": true,
+      "has_assets_subdir": true,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": true,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [
+        "checkpoints/pi05_libero/params/array_metadatas",
+        "checkpoints/pi05_libero/params/d",
+        "checkpoints/pi05_libero/params/ocdbt.process_0",
+        "checkpoints/pi05_libero/params/_METADATA",
+        "checkpoints/pi05_libero/params/_sharding",
+        "checkpoints/pi05_libero/params/manifest.ocdbt"
+      ],
+      "assets_sample_entries": [
+        "openpi-assets/checkpoints/pi05_libero/assets/physical-intelligence",
+        "checkpoints/pi05_libero/assets/physical-intelligence/libero"
+      ],
+      "classification": "PUBLIC_PI05_LIBERO_MISMATCH",
+      "reason": "pi05_libero was inspected only and is not compatible with the pi0_libero draft unless proven otherwise.",
+      "selected_candidate": false
+    },
+    {
+      "path": "s3://openpi-assets/checkpoints/pi0_libero",
+      "scheme": "s3",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": null,
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": "ImportError",
+      "error": "Install s3fs to access S3",
+      "classification": "NOT_FOUND",
+      "reason": "Candidate path was not found or could not be listed as existing.",
+      "selected_candidate": false
+    },
+    {
+      "path": "s3://openpi-assets/checkpoints/pi0_libero/params",
+      "scheme": "s3",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": null,
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": "ImportError",
+      "error": "Install s3fs to access S3",
+      "classification": "NOT_FOUND",
+      "reason": "Candidate path was not found or could not be listed as existing.",
+      "selected_candidate": false
+    },
+    {
+      "path": "/openpi-assets/checkpoints/pi0_libero_torch",
+      "scheme": "local",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": "local_pathlib",
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [],
+      "assets_sample_entries": [],
+      "classification": "LOCAL_PLACEHOLDER_ONLY",
+      "reason": "README/default local placeholder path does not exist on this pod.",
+      "selected_candidate": false
+    },
+    {
+      "path": "/openpi-assets/checkpoints/pi0_libero",
+      "scheme": "local",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": "local_pathlib",
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [],
+      "assets_sample_entries": [],
+      "classification": "LOCAL_PLACEHOLDER_ONLY",
+      "reason": "README/default local placeholder path does not exist on this pod.",
+      "selected_candidate": false
+    },
+    {
+      "path": "/workspace/realtime_vla_flash_project/checkpoints/base_candidates/pi0_libero",
+      "scheme": "local",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": "local_pathlib",
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [],
+      "assets_sample_entries": [],
+      "classification": "NOT_FOUND",
+      "reason": "Candidate path was not found or could not be listed as existing.",
+      "selected_candidate": false
+    },
+    {
+      "path": "/workspace/realtime_vla_flash_project/checkpoints/base_candidates/pi0_libero_torch",
+      "scheme": "local",
+      "exists": false,
+      "is_dir_like": false,
+      "metadata_method": "local_pathlib",
+      "entry_count": 0,
+      "sample_entries": [],
+      "total_size_bytes_if_available": null,
+      "has_params_subdir": false,
+      "has_assets_subdir": false,
+      "has_norm_stats_json": false,
+      "has_checkpoint_metadata": false,
+      "error_type": null,
+      "error": null,
+      "params_sample_entries": [],
+      "assets_sample_entries": [],
+      "classification": "NOT_FOUND",
+      "reason": "Candidate path was not found or could not be listed as existing.",
+      "selected_candidate": false
+    }
+  ]
+}
