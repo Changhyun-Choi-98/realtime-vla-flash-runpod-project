@@ -1,0 +1,86 @@
+{
+  "target_file": "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/scripts/spec/spec_client_libero.py",
+  "stage5_patch_detected": true,
+  "stage6_timing_patch_detected": true,
+  "recommended_insert_region": {
+    "after": "wrist_img, stage5_perturb_info = _stage5_apply_camera_perturb(...)",
+    "before": "element = { ... 'observation/wrist_image': wrist_img ... }",
+    "line": 206
+  },
+  "confidence": "high",
+  "anti_cheating_order_possible": true,
+  "matched_lines": [
+    {
+      "line": 55,
+      "text": "    enabled = str(__import__(\"os\").environ.get(\"STAGE5_CAMERA_PERTURB\", \"0\")).strip().lower() in {"
+    },
+    {
+      "line": 65,
+      "text": "        \"target_key\": str(env.get(\"STAGE5_PERTURB_TARGET_KEY\", \"robot0_eye_in_hand_image\")),"
+    },
+    {
+      "line": 80,
+      "text": "        \"stage5_perturb_enabled\": bool(cfg[\"enabled\"]),"
+    },
+    {
+      "line": 111,
+      "text": "    episode_log_path = run_dir / \"episode_log.json\""
+    },
+    {
+      "line": 195,
+      "text": "                    wrist_img = np.ascontiguousarray(obs[\"robot0_eye_in_hand_image\"][::-1, ::-1])"
+    },
+    {
+      "line": 206,
+      "text": "                        wrist_img, stage5_perturb_info = _stage5_apply_camera_perturb("
+    },
+    {
+      "line": 211,
+      "text": "                        element = {"
+    },
+    {
+      "line": 213,
+      "text": "                            \"observation/wrist_image\": wrist_img,"
+    },
+    {
+      "line": 235,
+      "text": "                        client_roundtrip_ms = (time.perf_counter() - client_t0) * 1000.0"
+    },
+    {
+      "line": 279,
+      "text": "                            client_roundtrip_ms=client_roundtrip_ms,"
+    },
+    {
+      "line": 362,
+      "text": "            trace_path = episode_dir / \"trace.jsonl\""
+    },
+    {
+      "line": 363,
+      "text": "            infer_path = episode_dir / \"infer.jsonl\""
+    },
+    {
+      "line": 571,
+      "text": "    client_roundtrip_ms: float,"
+    },
+    {
+      "line": 581,
+      "text": "        \"client_roundtrip_ms\": float(client_roundtrip_ms),"
+    },
+    {
+      "line": 595,
+      "text": "        \"stage5_perturb_enabled\": bool(perturb_info.get(\"stage5_perturb_enabled\", False)),"
+    },
+    {
+      "line": 603,
+      "text": "        \"policy_time_gpu_sync_ms\": _float_or_none(policy_timing.get(\"policy_time_gpu_sync_ms\")),"
+    },
+    {
+      "line": 662,
+      "text": "        \"client_roundtrip_ms\": infer_record.get(\"client_roundtrip_ms\"),"
+    },
+    {
+      "line": 663,
+      "text": "        \"stage5_perturb_enabled\": bool(infer_record.get(\"stage5_perturb_enabled\", False)),"
+    }
+  ]
+}

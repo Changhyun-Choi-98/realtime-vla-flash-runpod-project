@@ -1,0 +1,202 @@
+{
+  "stage4_clean_aggregate_success_rate": 0.9,
+  "condition_aggregate": {
+    "guard_wrist_zero_every4": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 6,
+      "success_rate": 0.4,
+      "stage5_no_guard_success_count": 4,
+      "stage5_no_guard_completed": 15,
+      "stage5_no_guard_success_rate": 0.26666666666666666,
+      "success_recovery_vs_stage5": 0.13333333333333336,
+      "success_gap_to_stage4_clean": 0.5
+    },
+    "guard_wrist_zero_all": {
+      "episodes_requested": 9,
+      "episodes_completed": 9,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage5_no_guard_success_count": 0,
+      "stage5_no_guard_completed": 15,
+      "stage5_no_guard_success_rate": 0.0,
+      "success_recovery_vs_stage5": 0.0,
+      "success_gap_to_stage4_clean": 0.9
+    }
+  },
+  "condition_task_rows": [
+    {
+      "condition": "guard_wrist_zero_every4",
+      "task_id": 0,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 2,
+      "success_rate": 0.4,
+      "stage5_no_guard_condition": "wrist_zero_every4",
+      "stage5_no_guard_success": 0,
+      "stage5_no_guard_completed": 5,
+      "stage5_no_guard_success_rate": 0.0,
+      "recovery_vs_stage5": 0.4,
+      "stage4_clean_success_rate": 0.9,
+      "success_gap_to_stage4_clean": 0.5,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "guard_wrist_zero_every4",
+      "task_id": 1,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage5_no_guard_condition": "wrist_zero_every4",
+      "stage5_no_guard_success": 0,
+      "stage5_no_guard_completed": 5,
+      "stage5_no_guard_success_rate": 0.0,
+      "recovery_vs_stage5": 0.0,
+      "stage4_clean_success_rate": 0.9,
+      "success_gap_to_stage4_clean": 0.9,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "guard_wrist_zero_every4",
+      "task_id": 2,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 4,
+      "success_rate": 0.8,
+      "stage5_no_guard_condition": "wrist_zero_every4",
+      "stage5_no_guard_success": 4,
+      "stage5_no_guard_completed": 5,
+      "stage5_no_guard_success_rate": 0.8,
+      "recovery_vs_stage5": 0.0,
+      "stage4_clean_success_rate": 0.9,
+      "success_gap_to_stage4_clean": 0.09999999999999998,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "guard_wrist_zero_all",
+      "task_id": 0,
+      "episodes_requested": 3,
+      "episodes_completed": 3,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage5_no_guard_condition": "wrist_zero_all",
+      "stage5_no_guard_success": 0,
+      "stage5_no_guard_completed": 5,
+      "stage5_no_guard_success_rate": 0.0,
+      "recovery_vs_stage5": 0.0,
+      "stage4_clean_success_rate": 0.9,
+      "success_gap_to_stage4_clean": 0.9,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "guard_wrist_zero_all",
+      "task_id": 1,
+      "episodes_requested": 3,
+      "episodes_completed": 3,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage5_no_guard_condition": "wrist_zero_all",
+      "stage5_no_guard_success": 0,
+      "stage5_no_guard_completed": 5,
+      "stage5_no_guard_success_rate": 0.0,
+      "recovery_vs_stage5": 0.0,
+      "stage4_clean_success_rate": 0.9,
+      "success_gap_to_stage4_clean": 0.9,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "guard_wrist_zero_all",
+      "task_id": 2,
+      "episodes_requested": 3,
+      "episodes_completed": 3,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage5_no_guard_condition": "wrist_zero_all",
+      "stage5_no_guard_success": 0,
+      "stage5_no_guard_completed": 5,
+      "stage5_no_guard_success_rate": 0.0,
+      "recovery_vs_stage5": 0.0,
+      "stage4_clean_success_rate": 0.9,
+      "success_gap_to_stage4_clean": 0.9,
+      "main_failure_mode": "perturbation-induced perception failure"
+    }
+  ],
+  "route_summary_by_condition": {
+    "guard_wrist_zero_every4": {
+      "route_counts": {
+        "full": 123,
+        "draft": 296
+      },
+      "draft_ratio": 0.7064439140811456,
+      "full_ratio": 0.2935560859188544,
+      "accepted_prefix_len": {
+        "mean": 8.410501193317423,
+        "p50": 12.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "chunk_exec_len": {
+        "mean": 8.410501193317423,
+        "p50": 12.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "infer_count": 419
+    },
+    "guard_wrist_zero_all": {
+      "route_counts": {
+        "full": 157,
+        "draft": 276
+      },
+      "draft_ratio": 0.6374133949191686,
+      "full_ratio": 0.3625866050808314,
+      "accepted_prefix_len": {
+        "mean": 6.295612009237876,
+        "p50": 3.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "chunk_exec_len": {
+        "mean": 6.295612009237876,
+        "p50": 3.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "infer_count": 433
+    }
+  },
+  "guard_summary_by_condition": {
+    "guard_wrist_zero_every4": {
+      "guard_infer_count": 419,
+      "guard_cache_hit_count": 96,
+      "guard_cache_miss_count": 15,
+      "guard_cache_update_count": 308,
+      "guard_replacement_count": 96,
+      "guard_cache_hit_rate": 0.22911694510739858,
+      "guard_cache_miss_rate": 0.03579952267303103,
+      "guard_replacement_rate": 0.22911694510739858,
+      "wrist_healthy_rate": 0.7350835322195705,
+      "wrist_unhealthy_rate": 0.2649164677804296,
+      "mean_cache_age_queries": 0.2376237623762376
+    },
+    "guard_wrist_zero_all": {
+      "guard_infer_count": 433,
+      "guard_cache_hit_count": 0,
+      "guard_cache_miss_count": 433,
+      "guard_cache_update_count": 0,
+      "guard_replacement_count": 0,
+      "guard_cache_hit_rate": 0.0,
+      "guard_cache_miss_rate": 1.0,
+      "guard_replacement_rate": 0.0,
+      "wrist_healthy_rate": 0.0,
+      "wrist_unhealthy_rate": 1.0,
+      "mean_cache_age_queries": null
+    }
+  },
+  "interpretation": "Compare guard results to Stage 5 no-guard dropout; this is a minimal extension probe only."
+}

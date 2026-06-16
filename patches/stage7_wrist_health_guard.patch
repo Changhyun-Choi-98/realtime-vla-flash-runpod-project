@@ -1,0 +1,252 @@
+diff --git a/scripts/spec/spec_client_libero.py b/scripts/spec/spec_client_libero.py
+index e8be902..85d0fd0 100644
+--- a/scripts/spec/spec_client_libero.py
++++ b/scripts/spec/spec_client_libero.py
+@@ -51,6 +51,136 @@ class Args:
+     seed: int = 7  # Random Seed (for reproducibility)
+
+
++def _stage5_perturb_config() -> Dict[str, Any]:
++    enabled = str(__import__("os").environ.get("STAGE5_CAMERA_PERTURB", "0")).strip().lower() in {
++        "1",
++        "true",
++        "yes",
++        "on",
++    }
++    env = __import__("os").environ
++    return {
++        "enabled": bool(enabled),
++        "condition": str(env.get("STAGE5_PERTURB_CONDITION", "none")),
++        "target_key": str(env.get("STAGE5_PERTURB_TARGET_KEY", "robot0_eye_in_hand_image")),
++        "mode": str(env.get("STAGE5_PERTURB_MODE", "none")),
++        "period": int(env.get("STAGE5_PERTURB_PERIOD", "0") or 0),
++        "seed": int(env.get("STAGE5_PERTURB_SEED", "7") or 7),
++    }
++
++
++def _stage5_apply_camera_perturb(
++    *,
++    obs: Dict[str, Any],
++    wrist_img: np.ndarray,
++    policy_query_index: int,
++) -> Tuple[np.ndarray, Dict[str, Any]]:
++    cfg = _stage5_perturb_config()
++    info: Dict[str, Any] = {
++        "stage5_perturb_enabled": bool(cfg["enabled"]),
++        "stage5_perturb_condition": str(cfg["condition"]),
++        "stage5_perturb_target_key": str(cfg["target_key"]),
++        "stage5_perturb_applied": False,
++        "stage5_perturb_query_index": int(policy_query_index),
++        "stage5_perturb_mode": str(cfg["mode"]),
++        "stage5_perturb_period": int(cfg["period"]),
++    }
++    if not cfg["enabled"]:
++        return wrist_img, info
++    if str(cfg["target_key"]) not in obs:
++        return wrist_img, info
++    mode = str(cfg["mode"])
++    period = max(1, int(cfg["period"] or 1))
++    apply = mode == "zero_all" or (mode == "zero_periodic" and int(policy_query_index) % period == 0)
++    if not apply:
++        return wrist_img, info
++    info["stage5_perturb_applied"] = True
++    return np.zeros_like(wrist_img), info
++
++
++def _stage7_guard_config() -> Dict[str, Any]:
++    env = __import__("os").environ
++    enabled = str(env.get("STAGE7_WRIST_HEALTH_GUARD", "0")).strip().lower() in {
++        "1",
++        "true",
++        "yes",
++        "on",
++    }
++    return {
++        "enabled": bool(enabled),
++        "mode": str(env.get("STAGE7_GUARD_MODE", "last_valid_cache")),
++        "target_key": str(env.get("STAGE7_GUARD_TARGET_KEY", "observation/wrist_image")),
++        "min_std": float(env.get("STAGE7_HEALTH_MIN_STD", "1.0") or 1.0),
++        "min_range": float(env.get("STAGE7_HEALTH_MIN_RANGE", "5.0") or 5.0),
++        "max_age_queries": int(env.get("STAGE7_CACHE_MAX_AGE_QUERIES", "8") or 8),
++        "reset_per_episode": str(env.get("STAGE7_CACHE_RESET_PER_EPISODE", "1")).strip().lower()
++        in {"1", "true", "yes", "on"},
++    }
++
++
++def _stage7_empty_guard_state() -> Dict[str, Any]:
++    return {
++        "last_valid_wrist_image": None,
++        "last_valid_query_index": None,
++    }
++
++
++def _stage7_apply_wrist_health_guard(
++    *,
++    wrist_img: np.ndarray,
++    policy_query_index: int,
++    guard_state: Dict[str, Any],
++) -> Tuple[np.ndarray, Dict[str, Any]]:
++    cfg = _stage7_guard_config()
++    arr = np.asarray(wrist_img)
++    value_range = float(arr.max() - arr.min()) if arr.size else 0.0
++    std = float(arr.std()) if arr.size else 0.0
++    mean = float(arr.mean()) if arr.size else 0.0
++    healthy = bool(std >= float(cfg["min_std"]) and value_range >= float(cfg["min_range"]))
++    last_valid = guard_state.get("last_valid_wrist_image")
++    last_idx = guard_state.get("last_valid_query_index")
++    cache_available = last_valid is not None and last_idx is not None
++    cache_age = int(policy_query_index - int(last_idx)) if cache_available else -1
++    info: Dict[str, Any] = {
++        "stage7_guard_enabled": bool(cfg["enabled"]),
++        "stage7_guard_mode": str(cfg["mode"]),
++        "stage7_guard_target_key": str(cfg["target_key"]),
++        "stage7_wrist_health_mean": mean,
++        "stage7_wrist_health_std": std,
++        "stage7_wrist_health_range": value_range,
++        "stage7_wrist_healthy": healthy,
++        "stage7_cache_available": bool(cache_available),
++        "stage7_cache_age_queries": int(cache_age),
++        "stage7_cache_hit": False,
++        "stage7_cache_miss": False,
++        "stage7_image_replaced": False,
++        "stage7_cache_updated": False,
++        "stage7_guard_query_index": int(policy_query_index),
++        "stage7_guard_note": "disabled",
++    }
++    if not cfg["enabled"]:
++        return wrist_img, info
++    if str(cfg["mode"]) != "last_valid_cache":
++        info["stage7_guard_note"] = "unsupported_mode"
++        return wrist_img, info
++    if healthy:
++        guard_state["last_valid_wrist_image"] = np.array(wrist_img, copy=True)
++        guard_state["last_valid_query_index"] = int(policy_query_index)
++        info["stage7_cache_updated"] = True
++        info["stage7_cache_available"] = True
++        info["stage7_cache_age_queries"] = 0
++        info["stage7_guard_note"] = "healthy_cache_updated"
++        return wrist_img, info
++    if cache_available and cache_age <= int(cfg["max_age_queries"]):
++        info["stage7_cache_hit"] = True
++        info["stage7_image_replaced"] = True
++        info["stage7_guard_note"] = "unhealthy_replaced_from_cache"
++        return np.array(last_valid, copy=True), info
++    info["stage7_cache_miss"] = True
++    info["stage7_guard_note"] = "unhealthy_no_valid_cache"
++    return wrist_img, info
++
++
+ def eval_libero(args: Args) -> None:
+     np.random.seed(args.seed)
+
+@@ -131,6 +261,7 @@ def eval_libero(args: Args) -> None:
+             infer_id_next = 0
+             episode_trace: List[Dict[str, Any]] = []
+             episode_infers: List[Dict[str, Any]] = []
++            stage7_guard_state = _stage7_empty_guard_state()
+
+             executed_steps = 0
+             need_reset = True
+@@ -156,6 +287,16 @@ def eval_libero(args: Args) -> None:
+                     if not action_plan:
+                         infer_id = int(infer_id_next)
+                         infer_id_next += 1
++                        wrist_img, stage5_perturb_info = _stage5_apply_camera_perturb(
++                            obs=obs,
++                            wrist_img=wrist_img,
++                            policy_query_index=infer_id,
++                        )
++                        wrist_img, stage7_guard_info = _stage7_apply_wrist_health_guard(
++                            wrist_img=wrist_img,
++                            policy_query_index=infer_id,
++                            guard_state=stage7_guard_state,
++                        )
+                         element = {
+                             "observation/image": img,
+                             "observation/wrist_image": wrist_img,
+@@ -226,6 +367,8 @@ def eval_libero(args: Args) -> None:
+                             client_recv_timestamp_s=client_recv_timestamp_s,
+                             client_roundtrip_ms=client_roundtrip_ms,
+                             chunk_actions=chunk_actions,
++                            stage5_perturb_info=stage5_perturb_info,
++                            stage7_guard_info=stage7_guard_info,
+                         )
+                         episode_infers.append(infer_record)
+                         if exec_len <= 0:
+@@ -517,8 +660,12 @@ def _make_infer_record(
+     client_recv_timestamp_s: float,
+     client_roundtrip_ms: float,
+     chunk_actions: np.ndarray,
++    stage5_perturb_info: Optional[Dict[str, Any]] = None,
++    stage7_guard_info: Optional[Dict[str, Any]] = None,
+ ) -> Dict[str, Any]:
+     policy_time_ms, serve_time_ms = _policy_and_serve_time_ms(server_timing)
++    perturb_info = dict(stage5_perturb_info or {})
++    guard_info = dict(stage7_guard_info or {})
+     return {
+         "timestamp": float(client_recv_timestamp_s),
+         "client_send_timestamp_s": float(client_send_timestamp_s),
+@@ -537,7 +684,34 @@ def _make_infer_record(
+         "accepted_prefix_len": int(accepted_prefix_len),
+         "chunk_exec_len": int(chunk_exec_len),
+         "chunk_actions": np.asarray(chunk_actions, dtype=np.float32).tolist(),
++        "stage5_perturb_enabled": bool(perturb_info.get("stage5_perturb_enabled", False)),
++        "stage5_perturb_condition": str(perturb_info.get("stage5_perturb_condition", "none")),
++        "stage5_perturb_target_key": str(perturb_info.get("stage5_perturb_target_key", "")),
++        "stage5_perturb_applied": bool(perturb_info.get("stage5_perturb_applied", False)),
++        "stage5_perturb_query_index": int(perturb_info.get("stage5_perturb_query_index", -1)),
++        "stage5_perturb_mode": str(perturb_info.get("stage5_perturb_mode", "none")),
++        "stage5_perturb_period": int(perturb_info.get("stage5_perturb_period", 0)),
++        "stage7_guard_enabled": bool(guard_info.get("stage7_guard_enabled", False)),
++        "stage7_guard_mode": str(guard_info.get("stage7_guard_mode", "")),
++        "stage7_guard_target_key": str(guard_info.get("stage7_guard_target_key", "")),
++        "stage7_wrist_health_mean": _float_or_none(guard_info.get("stage7_wrist_health_mean")),
++        "stage7_wrist_health_std": _float_or_none(guard_info.get("stage7_wrist_health_std")),
++        "stage7_wrist_health_range": _float_or_none(guard_info.get("stage7_wrist_health_range")),
++        "stage7_wrist_healthy": bool(guard_info.get("stage7_wrist_healthy", False)),
++        "stage7_cache_available": bool(guard_info.get("stage7_cache_available", False)),
++        "stage7_cache_age_queries": int(guard_info.get("stage7_cache_age_queries", -1)),
++        "stage7_cache_hit": bool(guard_info.get("stage7_cache_hit", False)),
++        "stage7_cache_miss": bool(guard_info.get("stage7_cache_miss", False)),
++        "stage7_image_replaced": bool(guard_info.get("stage7_image_replaced", False)),
++        "stage7_cache_updated": bool(guard_info.get("stage7_cache_updated", False)),
++        "stage7_guard_query_index": int(guard_info.get("stage7_guard_query_index", -1)),
++        "stage7_guard_note": str(guard_info.get("stage7_guard_note", "")),
+         "sample_actions_ms": _float_or_none(policy_timing.get("sample_actions_ms")),
++        "policy_time_gpu_sync_ms": _float_or_none(policy_timing.get("policy_time_gpu_sync_ms")),
++        "policy_time_wall_ms": _float_or_none(policy_timing.get("policy_time_wall_ms")),
++        "gpu_sync_before_after_used": int(round(float(policy_timing.get("gpu_sync_before_after_used", 0.0)))),
++        "timing_patch_stage": str(policy_timing.get("timing_patch_stage", "")),
++        "timing_patch_note": str(policy_timing.get("timing_patch_note", "")),
+         "policy_time_ms": policy_time_ms,
+         "serve_time_ms": serve_time_ms,
+         "ws_unpack_ms": _float_or_none(server_timing.get("ws_unpack_ms")),
+@@ -593,6 +767,28 @@ def _make_trace_record(
+         "policy_time_ms": infer_record.get("policy_time_ms"),
+         "serve_time_ms": infer_record.get("serve_time_ms"),
+         "client_roundtrip_ms": infer_record.get("client_roundtrip_ms"),
++        "stage5_perturb_enabled": bool(infer_record.get("stage5_perturb_enabled", False)),
++        "stage5_perturb_condition": str(infer_record.get("stage5_perturb_condition", "none")),
++        "stage5_perturb_target_key": str(infer_record.get("stage5_perturb_target_key", "")),
++        "stage5_perturb_applied": bool(infer_record.get("stage5_perturb_applied", False)),
++        "stage5_perturb_query_index": int(infer_record.get("stage5_perturb_query_index", -1)),
++        "stage5_perturb_mode": str(infer_record.get("stage5_perturb_mode", "none")),
++        "stage5_perturb_period": int(infer_record.get("stage5_perturb_period", 0)),
++        "stage7_guard_enabled": bool(infer_record.get("stage7_guard_enabled", False)),
++        "stage7_guard_mode": str(infer_record.get("stage7_guard_mode", "")),
++        "stage7_guard_target_key": str(infer_record.get("stage7_guard_target_key", "")),
++        "stage7_wrist_health_mean": infer_record.get("stage7_wrist_health_mean"),
++        "stage7_wrist_health_std": infer_record.get("stage7_wrist_health_std"),
++        "stage7_wrist_health_range": infer_record.get("stage7_wrist_health_range"),
++        "stage7_wrist_healthy": bool(infer_record.get("stage7_wrist_healthy", False)),
++        "stage7_cache_available": bool(infer_record.get("stage7_cache_available", False)),
++        "stage7_cache_age_queries": int(infer_record.get("stage7_cache_age_queries", -1)),
++        "stage7_cache_hit": bool(infer_record.get("stage7_cache_hit", False)),
++        "stage7_cache_miss": bool(infer_record.get("stage7_cache_miss", False)),
++        "stage7_image_replaced": bool(infer_record.get("stage7_image_replaced", False)),
++        "stage7_cache_updated": bool(infer_record.get("stage7_cache_updated", False)),
++        "stage7_guard_query_index": int(infer_record.get("stage7_guard_query_index", -1)),
++        "stage7_guard_note": str(infer_record.get("stage7_guard_note", "")),
+         "total_ms": infer_record["total_ms"],
+         "radius_dist_mean": infer_record["radius_dist_mean"],
+         "did_prefill": int(infer_record["did_prefill"]),

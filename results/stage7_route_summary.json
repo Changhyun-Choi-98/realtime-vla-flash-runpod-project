@@ -1,0 +1,79 @@
+{
+  "conditions": {
+    "guard_wrist_zero_every4": {
+      "route_counts": {
+        "full": 123,
+        "draft": 296
+      },
+      "draft_ratio": 0.7064439140811456,
+      "full_ratio": 0.2935560859188544,
+      "accepted_prefix_len": {
+        "mean": 8.410501193317423,
+        "p50": 12.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "chunk_exec_len": {
+        "mean": 8.410501193317423,
+        "p50": 12.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "infer_count": 419
+    },
+    "guard_wrist_zero_all": {
+      "route_counts": {
+        "full": 157,
+        "draft": 276
+      },
+      "draft_ratio": 0.6374133949191686,
+      "full_ratio": 0.3625866050808314,
+      "accepted_prefix_len": {
+        "mean": 6.295612009237876,
+        "p50": 3.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "chunk_exec_len": {
+        "mean": 6.295612009237876,
+        "p50": 3.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "infer_count": 433
+    }
+  },
+  "missing_fields": [],
+  "infer_log_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task0_seed7_n3/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task0_seed7_n3/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task0_seed7_n3/episodes/task00_ep002_open_the_middle_drawer_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task1_seed7_n3/episodes/task01_ep000_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task1_seed7_n3/episodes/task01_ep001_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task1_seed7_n3/episodes/task01_ep002_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task2_seed7_n3/episodes/task02_ep000_put_the_wine_bottle_on_top_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task2_seed7_n3/episodes/task02_ep001_put_the_wine_bottle_on_top_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_allzero_task2_seed7_n3/episodes/task02_ep002_put_the_wine_bottle_on_top_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task0_seed7_n5/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task0_seed7_n5/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task0_seed7_n5/episodes/task00_ep002_open_the_middle_drawer_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task0_seed7_n5/episodes/task00_ep003_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task0_seed7_n5/episodes/task00_ep004_open_the_middle_drawer_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task1_seed7_n5/episodes/task01_ep000_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task1_seed7_n5/episodes/task01_ep001_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task1_seed7_n5/episodes/task01_ep002_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task1_seed7_n5/episodes/task01_ep003_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task1_seed7_n5/episodes/task01_ep004_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task2_seed7_n5/episodes/task02_ep000_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task2_seed7_n5/episodes/task02_ep001_put_the_wine_bottle_on_top_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task2_seed7_n5/episodes/task02_ep002_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task2_seed7_n5/episodes/task02_ep003_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_guard_every4_task2_seed7_n5/episodes/task02_ep004_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard/stage7_sanity_clean_guard_task0_seed7_n1/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl"
+  ],
+  "trace_file_count": 25
+}

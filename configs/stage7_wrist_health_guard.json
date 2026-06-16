@@ -1,0 +1,42 @@
+{
+  "stage": "stage7_minimal_extension_wrist_health_guard",
+  "extension_name": "WristHealthGuard",
+  "suite": "libero_goal",
+  "tasks": [0, 1, 2],
+  "conditions": [
+    {
+      "name": "guard_wrist_zero_every4",
+      "dropout_condition": "wrist_zero_every4",
+      "guard_enabled": true,
+      "num_trials_per_task": 5
+    },
+    {
+      "name": "guard_wrist_zero_all",
+      "dropout_condition": "wrist_zero_all",
+      "guard_enabled": true,
+      "num_trials_per_task": 3
+    }
+  ],
+  "sanity_clean_guard": {
+    "enabled": true,
+    "task_id": 0,
+    "num_trials": 1,
+    "exclude_from_metrics": true
+  },
+  "seed": 7,
+  "render_backend": "egl",
+  "server_backend": "triton",
+  "config": "pi0_libero",
+  "base_triton_path": "/workspace/realtime_vla_flash_project/converted/base",
+  "draft_triton_path": "/workspace/realtime_vla_flash_project/converted/draft_goal",
+  "video_out_path": "/workspace/realtime_vla_flash_project/videos/stage7_wrist_health_guard",
+  "references": {
+    "stage4_clean_episode_summary": "/workspace/realtime_vla_flash_project/results/stage4_episode_summary.csv",
+    "stage5_dropout_episode_summary": "/workspace/realtime_vla_flash_project/results/stage5_episode_summary.csv",
+    "stage5_dropout_infer_summary": "/workspace/realtime_vla_flash_project/results/stage5_infer_summary.csv"
+  },
+  "anti_cheating_rule": "apply dropout first, compute health on perturbed image, then cache fallback only if prior valid cached frame exists",
+  "full_benchmark_allowed": false,
+  "paper_reproduction_claim_allowed": false,
+  "extension_claim_scope": "minimal inference-time extension on LIBERO Goal tasks 0-2 under synthetic wrist-image dropout"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "patched",
+  "target_file": "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/scripts/spec/spec_client_libero.py",
+  "patch_file": "/workspace/realtime_vla_flash_project/patches/stage7_wrist_health_guard.patch",
+  "extension_name": "WristHealthGuard",
+  "guard_target_key": "observation/wrist_image",
+  "default_behavior_unchanged": true,
+  "stage5_patch_preserved": true,
+  "stage6_patch_preserved": true,
+  "anti_cheating_order": "stage5 dropout before stage7 guard before policy request",
+  "added_log_fields": [
+    "stage7_guard_enabled",
+    "stage7_guard_mode",
+    "stage7_guard_target_key",
+    "stage7_wrist_health_mean",
+    "stage7_wrist_health_std",
+    "stage7_wrist_health_range",
+    "stage7_wrist_healthy",
+    "stage7_cache_available",
+    "stage7_cache_age_queries",
+    "stage7_cache_hit",
+    "stage7_cache_miss",
+    "stage7_image_replaced",
+    "stage7_cache_updated",
+    "stage7_guard_query_index",
+    "stage7_guard_note"
+  ]
+}

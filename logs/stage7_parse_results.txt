@@ -1,0 +1,69 @@
+{
+  "decision": "PROCEED_TO_STAGE8_FINAL_BLOG",
+  "decision_reason": "Stage 7 guard run completed and logs were parseable.",
+  "measured_conditions": [
+    "guard_wrist_zero_every4",
+    "guard_wrist_zero_all"
+  ],
+  "episodes_requested_measured": 24,
+  "episodes_completed_measured": 24,
+  "condition_aggregate": {
+    "guard_wrist_zero_every4": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 6,
+      "success_rate": 0.4,
+      "stage5_no_guard_success_count": 4,
+      "stage5_no_guard_completed": 15,
+      "stage5_no_guard_success_rate": 0.26666666666666666,
+      "success_recovery_vs_stage5": 0.13333333333333336,
+      "success_gap_to_stage4_clean": 0.5
+    },
+    "guard_wrist_zero_all": {
+      "episodes_requested": 9,
+      "episodes_completed": 9,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage5_no_guard_success_count": 0,
+      "stage5_no_guard_completed": 15,
+      "stage5_no_guard_success_rate": 0.0,
+      "success_recovery_vs_stage5": 0.0,
+      "success_gap_to_stage4_clean": 0.9
+    }
+  },
+  "guard_summary": {
+    "conditions": {
+      "guard_wrist_zero_every4": {
+        "guard_infer_count": 419,
+        "guard_cache_hit_count": 96,
+        "guard_cache_miss_count": 15,
+        "guard_cache_update_count": 308,
+        "guard_replacement_count": 96,
+        "guard_cache_hit_rate": 0.22911694510739858,
+        "guard_cache_miss_rate": 0.03579952267303103,
+        "guard_replacement_rate": 0.22911694510739858,
+        "wrist_healthy_rate": 0.7350835322195705,
+        "wrist_unhealthy_rate": 0.2649164677804296,
+        "mean_cache_age_queries": 0.2376237623762376
+      },
+      "guard_wrist_zero_all": {
+        "guard_infer_count": 433,
+        "guard_cache_hit_count": 0,
+        "guard_cache_miss_count": 433,
+        "guard_cache_update_count": 0,
+        "guard_replacement_count": 0,
+        "guard_cache_hit_rate": 0.0,
+        "guard_cache_miss_rate": 1.0,
+        "guard_replacement_rate": 0.0,
+        "wrist_healthy_rate": 0.0,
+        "wrist_unhealthy_rate": 1.0,
+        "mean_cache_age_queries": null
+      }
+    }
+  },
+  "missing_fields": [],
+  "video_count": 24,
+  "full_benchmark_attempted": false,
+  "paper_reproduction_claimed": false,
+  "extension_claim_scope": "limited to LIBERO Goal tasks 0-2 under synthetic wrist-image dropout"
+}

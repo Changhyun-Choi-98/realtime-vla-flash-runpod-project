@@ -1,0 +1,93 @@
+== date UTC ==
+Tue Jun 16 06:22:15 UTC 2026
+
+== official repo commit ==
+da6ceccad603695a8a3d6fa14dd410c3aadb536f
+ M scripts/spec/spec_client_libero.py
+ M scripts/spec/spec_serve_policy.py
+
+== project git status ==
+?? configs/stage7_wrist_health_guard.json
+?? logs/stage7_preflight.txt
+?? scripts/stage7_apply_wrist_health_guard_patch.py
+?? scripts/stage7_audit_client_patch_state.py
+?? scripts/stage7_make_figures.py
+?? scripts/stage7_monitor_gpu.sh
+?? scripts/stage7_orchestrate_guard.sh
+?? scripts/stage7_parse_guard_results.py
+?? scripts/stage7_run_client_condition.sh
+?? scripts/stage7_run_server.sh
+
+== stage5 decision ==
+{
+  "decision": "PROCEED_TO_STAGE7_MINIMAL_EXTENSION",
+  "decision_reason": "Robustness perturbation changed measured outcomes versus Stage 4.",
+  "measured_conditions": [
+    "wrist_zero_every4",
+    "wrist_zero_all"
+  ],
+  "episodes_requested_measured": 30,
+  "episodes_completed_measured": 30,
+  "condition_aggregate": {
+    "wrist_zero_every4": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 4,
+      "success_rate": 0.26666666666666666,
+      "success_drop_vs_stage4_clean": 0.6333333333333333
+    },
+    "wrist_zero_all": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "success_drop_vs_stage4_clean": 0.9
+    }
+  },
+  "missing_fields": [],
+  "video_count": 30,
+  "full_benchmark_attempted": false,
+  "paper_reproduction_claimed": false,
+  "robustness_claim_scope": "limited to LIBERO Goal tasks 0-2 under wrist-camera zeroing"
+}
+== stage6 decision ==
+{
+  "decision": "PROCEED_TO_STAGE5_ROBUSTNESS_PROBE",
+  "decision_reason": "Synchronized timing fields were present for at least 80% of measured infer rows.",
+  "episodes_requested_measured": 9,
+  "episodes_completed_measured": 9,
+  "success_count": 9,
+  "success_rate": 1.0,
+  "sync_field_present_ratio": 1.0,
+  "route_summary_path": "/workspace/realtime_vla_flash_project/results/stage6_route_summary.json",
+  "latency_summary_path": "/workspace/realtime_vla_flash_project/results/stage6_latency_summary.json",
+  "claim_assessment_path": "/workspace/realtime_vla_flash_project/results/stage6_claim_assessment.json",
+  "full_benchmark_attempted": false,
+  "paper_reproduction_claimed": false,
+  "robustness_probe_attempted": false
+}
+== required converted artifacts ==
+-rw-rw-rw- 1 root root 421M Jun 16 01:45 /workspace/realtime_vla_flash_project/converted/draft_goal/draft_triton.pkl
+-rw-rw-rw- 1 root root 6.1G Jun 16 02:33 /workspace/realtime_vla_flash_project/converted/base/base_weights.pkl
+
+== GPU ==
+Tue Jun 16 06:22:17 2026
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.159.03             Driver Version: 580.159.03     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    On  |   00000000:C3:00.0 Off |                    0 |
+| N/A   36C    P8             37W /  262W |       0MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

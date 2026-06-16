@@ -1,0 +1,30 @@
+{
+  "conditions": {
+    "guard_wrist_zero_every4": {
+      "guard_infer_count": 419,
+      "guard_cache_hit_count": 96,
+      "guard_cache_miss_count": 15,
+      "guard_cache_update_count": 308,
+      "guard_replacement_count": 96,
+      "guard_cache_hit_rate": 0.22911694510739858,
+      "guard_cache_miss_rate": 0.03579952267303103,
+      "guard_replacement_rate": 0.22911694510739858,
+      "wrist_healthy_rate": 0.7350835322195705,
+      "wrist_unhealthy_rate": 0.2649164677804296,
+      "mean_cache_age_queries": 0.2376237623762376
+    },
+    "guard_wrist_zero_all": {
+      "guard_infer_count": 433,
+      "guard_cache_hit_count": 0,
+      "guard_cache_miss_count": 433,
+      "guard_cache_update_count": 0,
+      "guard_replacement_count": 0,
+      "guard_cache_hit_rate": 0.0,
+      "guard_cache_miss_rate": 1.0,
+      "guard_replacement_rate": 0.0,
+      "wrist_healthy_rate": 0.0,
+      "wrist_unhealthy_rate": 1.0,
+      "mean_cache_age_queries": null
+    }
+  }
+}
