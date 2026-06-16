@@ -1,0 +1,100 @@
+{
+  "paper_claim_latency_full_reference_ms": 58.0,
+  "paper_claim_task_level_flash_triton_ms": 19.1,
+  "paper_claim_fastest_flash_round_ms": 7.8,
+  "our_hardware": "NVIDIA L40S",
+  "paper_hardware_exact_match": "unknown",
+  "our_metric_type": "GPU-synchronized server-side timing plus client roundtrip on a limited LIBERO Goal subset",
+  "comparable_to_paper": "partial",
+  "why_not_hardware_exact": "The Stage 6 run uses a Runpod NVIDIA L40S container and only tasks 0, 1, and 2 from LIBERO Goal, not the full paper setup.",
+  "cold_start_excluded": true,
+  "steady_state_summary": {
+    "policy_time_gpu_sync_ms": {
+      "mean": 27.865005825060507,
+      "p50": 8.083193002676126,
+      "p90": 33.299540899315616,
+      "p95": 33.50051799861831,
+      "p99": 592.7529500728995
+    },
+    "policy_time_wall_ms": {
+      "mean": 27.865005825060507,
+      "p50": 8.083193002676126,
+      "p90": 33.299540899315616,
+      "p95": 33.50051799861831,
+      "p99": 592.7529500728995
+    },
+    "sample_actions_ms": {
+      "mean": 27.865005825060507,
+      "p50": 8.083193002676126,
+      "p90": 33.299540899315616,
+      "p95": 33.50051799861831,
+      "p99": 592.7529500728995
+    },
+    "serve_time_ms": {
+      "mean": 30.50751368764395,
+      "p50": 10.70018549944507,
+      "p90": 35.56375320767984,
+      "p95": 36.002153091249056,
+      "p99": 594.6888221495462
+    },
+    "client_roundtrip_ms": {
+      "mean": 31.875176687572093,
+      "p50": 11.957497998082545,
+      "p90": 37.15543640064425,
+      "p95": 38.06760519510134,
+      "p99": 596.7423656771277
+    }
+  },
+  "route_level_summary": {
+    "draft": {
+      "count": 65,
+      "policy_time_gpu_sync_ms": {
+        "mean": 26.580194215729044,
+        "p50": 8.066793001489714,
+        "p90": 8.172709995415062,
+        "p95": 8.24181499920087,
+        "p99": 598.3896001224639
+      },
+      "serve_time_ms": {
+        "mean": 29.32593836941613,
+        "p50": 10.664350003935397,
+        "p90": 10.815289203310385,
+        "p95": 22.705984211643194,
+        "p99": 600.3024094001739
+      },
+      "client_roundtrip_ms": {
+        "mean": 30.637545461761945,
+        "p50": 11.878131997946184,
+        "p90": 12.619882200669963,
+        "p95": 24.18403920310081,
+        "p99": 602.3989118775353
+      }
+    },
+    "full": {
+      "count": 18,
+      "policy_time_gpu_sync_ms": {
+        "mean": 33.43252279883018,
+        "p50": 33.15581199422013,
+        "p90": 33.53177999815671,
+        "p95": 34.77316459757276,
+        "p99": 37.047975317109376
+      },
+      "serve_time_ms": {
+        "mean": 35.6276733999645,
+        "p50": 35.384324997721706,
+        "p90": 36.08797620254336,
+        "p95": 37.10606190870749,
+        "p99": 38.88997718488099
+      },
+      "client_roundtrip_ms": {
+        "mean": 37.23824533274941,
+        "p50": 36.783358998945914,
+        "p90": 39.33386139688082,
+        "p95": 40.69135449899477,
+        "p99": 41.50630290052504
+      }
+    }
+  },
+  "claim_status": "PARTIALLY_SUPPORTED_LIMITED",
+  "blog_safe_wording": "In a limited LIBERO Goal subset on Runpod L40S, synchronized server-side FLASH timing is in the same broad range as the paper's latency motivation, but this is not a full benchmark or hardware-exact reproduction."
+}

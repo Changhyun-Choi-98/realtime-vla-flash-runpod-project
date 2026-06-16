@@ -1,0 +1,15 @@
+{
+  "status": "patched",
+  "patched_files": [
+    "scripts/spec/spec_serve_policy.py",
+    "scripts/spec/spec_client_libero.py"
+  ],
+  "patch_file": "/workspace/realtime_vla_flash_project/patches/stage6_server_timing.patch",
+  "added_fields": [
+    "policy_time_gpu_sync_ms",
+    "policy_time_wall_ms",
+    "gpu_sync_before_after_used",
+    "timing_patch_stage",
+    "timing_patch_note"
+  ]
+}

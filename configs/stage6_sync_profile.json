@@ -1,0 +1,24 @@
+{
+  "stage": "stage6_synchronized_profiling",
+  "suite": "libero_goal",
+  "tasks": [0, 1, 2],
+  "warmup": {
+    "enabled": true,
+    "task_id": 0,
+    "num_trials": 1,
+    "exclude_from_metrics": true
+  },
+  "num_trials_per_task": 3,
+  "measured_episode_count": 9,
+  "seed": 7,
+  "render_backend": "egl",
+  "server_backend": "triton",
+  "config": "pi0_libero",
+  "base_triton_path": "/workspace/realtime_vla_flash_project/converted/base",
+  "draft_triton_path": "/workspace/realtime_vla_flash_project/converted/draft_goal",
+  "video_out_path": "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile",
+  "profiling_method": "server-side torch.cuda.synchronize around action generation plus existing client roundtrip",
+  "full_benchmark_allowed": false,
+  "paper_reproduction_claim_allowed": false,
+  "latency_claim_allowed": "limited_with_caveat_after_sync"
+}

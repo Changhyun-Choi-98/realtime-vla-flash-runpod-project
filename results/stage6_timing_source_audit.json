@@ -1,0 +1,2895 @@
+{
+  "files_scanned": 120,
+  "matched_files": {
+    "examples/aloha_real/robot_utils.py": [
+      {
+        "line": 147,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "            self.joint_timestamps.append(time.time())"
+      },
+      {
+        "line": 152,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "            self.arm_command_timestamps.append(time.time())"
+      },
+      {
+        "line": 157,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "            self.gripper_command_timestamps.append(time.time())"
+      }
+    ],
+    "examples/droid/main.py": [
+      {
+        "line": 101,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "            start_time = time.time()"
+      },
+      {
+        "line": 154,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                elapsed_time = time.time() - start_time"
+      }
+    ],
+    "examples/simple_client/main.py": [
+      {
+        "line": 139,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "        inference_start = time.time()"
+      },
+      {
+        "line": 141,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "        timing_recorder.record(\"client_infer_ms\", 1000 * (time.time() - inference_start))"
+      }
+    ],
+    "packages/openpi-client/src/openpi_client/runtime/runtime.py": [
+      {
+        "line": 61,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "        last_step_time = time.time()"
+      },
+      {
+        "line": 68,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "            now = time.time()"
+      },
+      {
+        "line": 72,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                last_step_time = time.time()"
+      }
+    ],
+    "scripts/spec/exp/analyze_sweep.py": [
+      {
+        "line": 47,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "def _route_action_ratio(records: list[dict[str, Any]], route_type: str) -> float | None:"
+      },
+      {
+        "line": 58,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        weighted_count += float(route_ratio_by_action.get(route_type, 0.0)) * float(count)"
+      },
+      {
+        "line": 427,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "    for route_type, key in ((\"draft\", \"draft_ratio\"), (\"vlm\", \"vlm_ratio\"), (\"full\", \"full_ratio\")):"
+      },
+      {
+        "line": 428,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        action_ratio = _route_action_ratio(successful_records, route_type)"
+      },
+      {
+        "line": 466,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "    infer_path = episode_dir / \"infer.jsonl\""
+      },
+      {
+        "line": 467,
+        "terms": [
+          "trace.jsonl"
+        ],
+        "excerpt": "    trace_path = episode_dir / \"trace.jsonl\""
+      },
+      {
+        "line": 490,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        route_type = str(infer_record.get(\"route_type\", \"unknown\"))"
+      },
+      {
+        "line": 491,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        route_counts[route_type] = route_counts.get(route_type, 0) + 1"
+      },
+      {
+        "line": 492,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "        infer_latency = _float_or_none(infer_record.get(\"sample_actions_ms\"))"
+      },
+      {
+        "line": 496,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "        policy_time = _float_or_none(infer_record.get(\"policy_time_ms\"))"
+      },
+      {
+        "line": 500,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "        serve_time = _float_or_none(infer_record.get(\"serve_time_ms\"))"
+      },
+      {
+        "line": 504,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        if route_type != \"full\":"
+      },
+      {
+        "line": 505,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted = _float_or_none(infer_record.get(\"accepted_prefix_len\"))"
+      },
+      {
+        "line": 513,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        route_type = str(trace_record.get(\"route_type\", \"unknown\"))"
+      },
+      {
+        "line": 514,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        action_route_counts[route_type] = action_route_counts.get(route_type, 0) + 1"
+      },
+      {
+        "line": 595,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    flat_path = run_dir / \"suites\" / suite / \"episode_log.json\""
+      },
+      {
+        "line": 598,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    return run_dir / \"suites\" / suite / suite / \"episode_log.json\""
+      },
+      {
+        "line": 606,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    return (path / \"manifest.json\").is_file() and (path / \"episode_log.json\").is_file()"
+      },
+      {
+        "line": 636,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "            \"_legacy_episode_log_path\": str(run_dir / \"episode_log.json\"),"
+      },
+      {
+        "line": 784,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        for route_type, key in ((\"draft\", \"draft_ratio\"), (\"vlm\", \"vlm_ratio\"), (\"full\", \"full_ratio\")):"
+      },
+      {
+        "line": 785,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "            action_ratio = _route_action_ratio(run_successful_records, route_type)"
+      }
+    ],
+    "scripts/spec/pi0_benchmark.py": [
+      {
+        "line": 28,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "    torch.cuda.synchronize()"
+      },
+      {
+        "line": 100,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "    t0 = time.perf_counter()"
+      },
+      {
+        "line": 117,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "    wall_ms = (time.perf_counter() - t0) * 1000.0"
+      }
+    ],
+    "scripts/spec/spec_client_libero.py": [
+      {
+        "line": 64,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    episode_log_path = run_dir / \"episode_log.json\""
+      },
+      {
+        "line": 180,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                        client_send_timestamp_s = time.time()"
+      },
+      {
+        "line": 181,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "                        client_t0 = time.perf_counter()"
+      },
+      {
+        "line": 183,
+        "terms": [
+          "client_roundtrip_ms",
+          "time.perf_counter"
+        ],
+        "excerpt": "                        client_roundtrip_ms = (time.perf_counter() - client_t0) * 1000.0"
+      },
+      {
+        "line": 184,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                        client_recv_timestamp_s = time.time()"
+      },
+      {
+        "line": 191,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "                        infer_latency_ms = policy_timing.get(\"sample_actions_ms\", None)"
+      },
+      {
+        "line": 194,
+        "terms": [
+          "policy_time_ms",
+          "serve_time_ms"
+        ],
+        "excerpt": "                        policy_time_ms, serve_time_ms = _policy_and_serve_time_ms(server_timing)"
+      },
+      {
+        "line": 195,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "                        if policy_time_ms is not None:"
+      },
+      {
+        "line": 196,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "                            policy_time_sum_ms += float(policy_time_ms)"
+      },
+      {
+        "line": 198,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "                        if serve_time_ms is not None:"
+      },
+      {
+        "line": 199,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "                            serve_time_sum_ms += float(serve_time_ms)"
+      },
+      {
+        "line": 201,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "                        route_type = _route_type_from_timing(policy_timing)"
+      },
+      {
+        "line": 202,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "                        if route_type == \"full\":"
+      },
+      {
+        "line": 207,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                        accepted = int(out.get(\"accepted_prefix_len\", args.replan_steps))"
+      },
+      {
+        "line": 220,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "                            route_type=route_type,"
+      },
+      {
+        "line": 221,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                            accepted_prefix_len=accepted,"
+      },
+      {
+        "line": 227,
+        "terms": [
+          "client_roundtrip_ms"
+        ],
+        "excerpt": "                            client_roundtrip_ms=client_roundtrip_ms,"
+      },
+      {
+        "line": 309,
+        "terms": [
+          "trace.jsonl"
+        ],
+        "excerpt": "            trace_path = episode_dir / \"trace.jsonl\""
+      },
+      {
+        "line": 310,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "            infer_path = episode_dir / \"infer.jsonl\""
+      },
+      {
+        "line": 314,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "            mean_policy_time_ms = ("
+      },
+      {
+        "line": 317,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "            mean_serve_time_ms = ("
+      },
+      {
+        "line": 324,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "            infer_route_counts = _count_by_key(episode_infers, \"route_type\")"
+      },
+      {
+        "line": 328,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "                \"route_type\","
+      },
+      {
+        "line": 349,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "                    \"policy_time_mean_ms\": None if mean_policy_time_ms is None else float(mean_policy_time_ms),"
+      },
+      {
+        "line": 352,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "                    \"serve_time_mean_ms\": None if mean_serve_time_ms is None else float(mean_serve_time_ms),"
+      },
+      {
+        "line": 472,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "def _route_type_from_timing(policy_timing: Dict[str, Any]) -> str:"
+      },
+      {
+        "line": 488,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "def _policy_and_serve_time_ms(server_timing: Dict[str, Any]) -> Tuple[Optional[float], Optional[float]]:"
+      },
+      {
+        "line": 489,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "    policy_time_ms = _float_or_none(server_timing.get(\"policy_time_ms\"))"
+      },
+      {
+        "line": 490,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "    if policy_time_ms is None:"
+      },
+      {
+        "line": 491,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "        policy_time_ms = _float_or_none(server_timing.get(\"infer_ms\"))"
+      },
+      {
+        "line": 493,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "    serve_time_ms = _float_or_none(server_timing.get(\"serve_time_ms\"))"
+      },
+      {
+        "line": 494,
+        "terms": [
+          "policy_time_ms",
+          "serve_time_ms"
+        ],
+        "excerpt": "    if serve_time_ms is None and policy_time_ms is not None:"
+      },
+      {
+        "line": 498,
+        "terms": [
+          "policy_time_ms",
+          "serve_time_ms"
+        ],
+        "excerpt": "            serve_time_ms = float(ws_unpack_ms) + float(policy_time_ms) + float(ws_pack_ms)"
+      },
+      {
+        "line": 499,
+        "terms": [
+          "policy_time_ms",
+          "serve_time_ms"
+        ],
+        "excerpt": "    return policy_time_ms, serve_time_ms"
+      },
+      {
+        "line": 511,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "    route_type: str,"
+      },
+      {
+        "line": 512,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len: int,"
+      },
+      {
+        "line": 518,
+        "terms": [
+          "client_roundtrip_ms"
+        ],
+        "excerpt": "    client_roundtrip_ms: float,"
+      },
+      {
+        "line": 521,
+        "terms": [
+          "policy_time_ms",
+          "serve_time_ms"
+        ],
+        "excerpt": "    policy_time_ms, serve_time_ms = _policy_and_serve_time_ms(server_timing)"
+      },
+      {
+        "line": 526,
+        "terms": [
+          "client_roundtrip_ms"
+        ],
+        "excerpt": "        \"client_roundtrip_ms\": float(client_roundtrip_ms),"
+      },
+      {
+        "line": 536,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        \"route_type\": str(route_type),"
+      },
+      {
+        "line": 537,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        \"accepted_prefix_len\": int(accepted_prefix_len),"
+      },
+      {
+        "line": 540,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "        \"sample_actions_ms\": _float_or_none(policy_timing.get(\"sample_actions_ms\")),"
+      },
+      {
+        "line": 541,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "        \"policy_time_ms\": policy_time_ms,"
+      },
+      {
+        "line": 542,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "        \"serve_time_ms\": serve_time_ms,"
+      },
+      {
+        "line": 551,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        \"accepted_prefix_len_mean\": _float_or_none(policy_timing.get(\"accepted_prefix_len_mean\")),"
+      },
+      {
+        "line": 589,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        \"route_type\": str(infer_record[\"route_type\"]),"
+      },
+      {
+        "line": 590,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        \"accepted_prefix_len\": int(infer_record[\"accepted_prefix_len\"]),"
+      },
+      {
+        "line": 592,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "        \"sample_actions_ms\": infer_record[\"sample_actions_ms\"],"
+      },
+      {
+        "line": 593,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "        \"policy_time_ms\": infer_record.get(\"policy_time_ms\"),"
+      },
+      {
+        "line": 594,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "        \"serve_time_ms\": infer_record.get(\"serve_time_ms\"),"
+      },
+      {
+        "line": 595,
+        "terms": [
+          "client_roundtrip_ms"
+        ],
+        "excerpt": "        \"client_roundtrip_ms\": infer_record.get(\"client_roundtrip_ms\"),"
+      }
+    ],
+    "scripts/spec/spec_serve_policy.py": [
+      {
+        "line": 151,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    def _full_round_accepted_prefix_len(*, action_horizon: int, max_exec_steps: int) -> int:"
+      },
+      {
+        "line": 164,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "    def _route_type_from_timing(timing: dict[str, Any]) -> str:"
+      },
+      {
+        "line": 271,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            int(outputs.get(\"accepted_prefix_len\", 0)),"
+      },
+      {
+        "line": 273,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            self._timing_value(timing, \"sample_actions_ms\"),"
+      },
+      {
+        "line": 297,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "            torch.cuda.synchronize()"
+      },
+      {
+        "line": 298,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "        t0 = time.perf_counter()"
+      },
+      {
+        "line": 323,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "            torch.cuda.synchronize()"
+      },
+      {
+        "line": 324,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "        return actions, (time.perf_counter() - t0) * 1000.0, stage_timing"
+      },
+      {
+        "line": 337,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "            torch.cuda.synchronize()"
+      },
+      {
+        "line": 338,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "        t0 = time.perf_counter()"
+      },
+      {
+        "line": 360,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = self._full_round_accepted_prefix_len("
+      },
+      {
+        "line": 364,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            outputs[\"accepted_prefix_len\"] = accepted_prefix_len"
+      },
+      {
+        "line": 365,
+        "terms": [
+          "sample_actions_ms",
+          "time.perf_counter",
+          "sample_actions"
+        ],
+        "excerpt": "            sample_actions_ms = (time.perf_counter() - t0) * 1000.0"
+      },
+      {
+        "line": 367,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "                \"sample_actions_ms\": float(sample_actions_ms),"
+      },
+      {
+        "line": 376,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "                full_action_ms=float(stage_timing.get(\"decoder_ms\", sample_actions_ms)),"
+      },
+      {
+        "line": 379,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            timing[\"sample_actions_ms\"] = float(sample_actions_ms)"
+      },
+      {
+        "line": 380,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            timing[\"total_ms\"] = float(stage_timing.get(\"total_ms\", sample_actions_ms))"
+      },
+      {
+        "line": 382,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "            timing[\"route_type\"] = \"full\""
+      },
+      {
+        "line": 396,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len, dist = _compute_radius_prefix_acceptance("
+      },
+      {
+        "line": 407,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 422,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = torch.where("
+      },
+      {
+        "line": 424,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                torch.zeros_like(accepted_prefix_len),"
+      },
+      {
+        "line": 425,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len,"
+      },
+      {
+        "line": 431,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 435,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = torch.where(gripper_verify_stop_mask, accepted_prefix_len, accepted_after_cut)"
+      },
+      {
+        "line": 441,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 456,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len_scalar = float(accepted_prefix_len.to(dtype=torch.float32).mean().item())"
+      },
+      {
+        "line": 457,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        outputs[\"accepted_prefix_len\"] = int(round(accepted_prefix_len_scalar))"
+      },
+      {
+        "line": 458,
+        "terms": [
+          "sample_actions_ms",
+          "time.perf_counter",
+          "sample_actions"
+        ],
+        "excerpt": "        sample_actions_ms = (time.perf_counter() - t0) * 1000.0"
+      },
+      {
+        "line": 463,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            \"sample_actions_ms\": float(sample_actions_ms),"
+      },
+      {
+        "line": 470,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            \"accepted_prefix_len\": float(accepted_prefix_len_scalar),"
+      },
+      {
+        "line": 471,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            \"accepted_prefix_len_mean\": float(accepted_prefix_len_scalar),"
+      },
+      {
+        "line": 484,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "            \"route_type\": \"draft\","
+      },
+      {
+        "line": 544,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        if hasattr(self._runtime_pool, \"sample_actions_with_timing\"):"
+      },
+      {
+        "line": 546,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "                torch.cuda.synchronize()"
+      },
+      {
+        "line": 547,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "            t0 = time.perf_counter()"
+      },
+      {
+        "line": 549,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "                actions, stage_timing = self._runtime_pool.sample_actions_with_timing("
+      },
+      {
+        "line": 564,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "                actions, stage_timing = self._runtime_pool.sample_actions_with_timing("
+      },
+      {
+        "line": 574,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "                torch.cuda.synchronize()"
+      },
+      {
+        "line": 575,
+        "terms": [
+          "sample_actions_ms",
+          "time.perf_counter",
+          "sample_actions"
+        ],
+        "excerpt": "            sample_actions_ms = (time.perf_counter() - t0) * 1000.0"
+      },
+      {
+        "line": 577,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            outputs[\"accepted_prefix_len\"] = int(round(float(stage_timing.get(\"accepted_prefix_len\", 0.0))))"
+      },
+      {
+        "line": 579,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "                \"sample_actions_ms\": float(sample_actions_ms),"
+      },
+      {
+        "line": 582,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "            if \"route_type\" not in policy_timing:"
+      },
+      {
+        "line": 583,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "                policy_timing[\"route_type\"] = self._route_type_from_timing(policy_timing)"
+      },
+      {
+        "line": 600,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "        actions, sample_actions_ms, stage_timing = self._run_runtime("
+      },
+      {
+        "line": 613,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len = self._full_round_accepted_prefix_len("
+      },
+      {
+        "line": 617,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        outputs[\"accepted_prefix_len\"] = accepted_prefix_len"
+      },
+      {
+        "line": 619,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            \"sample_actions_ms\": float(sample_actions_ms),"
+      },
+      {
+        "line": 624,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            \"full_fallback_ms\": float(stage_timing.get(\"decoder_ms\", sample_actions_ms)),"
+      },
+      {
+        "line": 625,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            \"total_ms\": float(stage_timing.get(\"total_ms\", sample_actions_ms)),"
+      },
+      {
+        "line": 626,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            \"accepted_prefix_len\": float(accepted_prefix_len),"
+      },
+      {
+        "line": 627,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            \"accepted_prefix_len_mean\": float(accepted_prefix_len),"
+      },
+      {
+        "line": 637,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "            \"route_type\": \"full\","
+      }
+    ],
+    "scripts/spec/test/spec_triton_runtime_test.py": [
+      {
+        "line": 249,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "    torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 449,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len, dist = _compute_radius_prefix_acceptance("
+      },
+      {
+        "line": 459,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 463,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len_mean=accepted_prefix_len.to(dtype=torch.float32).mean(),"
+      },
+      {
+        "line": 472,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 539,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len, dist = _compute_radius_prefix_acceptance("
+      },
+      {
+        "line": 550,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 558,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len = torch.where("
+      },
+      {
+        "line": 560,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        torch.zeros_like(accepted_prefix_len),"
+      },
+      {
+        "line": 561,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len,"
+      },
+      {
+        "line": 566,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 570,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len = torch.where(gripper_verify_stop_mask, accepted_prefix_len, accepted_after_cut)"
+      },
+      {
+        "line": 574,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len_mean=accepted_prefix_len.to(dtype=torch.float32).mean(),"
+      },
+      {
+        "line": 585,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(fused.accepted_prefix_len, accepted_prefix_len)"
+      },
+      {
+        "line": 940,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 1165,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(fast_result.accepted_prefix_len, torch.zeros((1,), device=device, dtype=torch.int64))"
+      },
+      {
+        "line": 1166,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(fast_result.accepted_prefix_len, generic_result.accepted_prefix_len)"
+      },
+      {
+        "line": 1218,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(result.accepted_prefix_len, reference.accepted_prefix_len)"
+      },
+      {
+        "line": 1263,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(result.accepted_prefix_len, reference.accepted_prefix_len)"
+      },
+      {
+        "line": 1302,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(graph.accepted_prefix_len, plain.accepted_prefix_len)"
+      },
+      {
+        "line": 1348,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(graphed.accepted_prefix_len, plain.accepted_prefix_len)"
+      },
+      {
+        "line": 1361,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(graphed_small.accepted_prefix_len, plain_small.accepted_prefix_len)"
+      },
+      {
+        "line": 1730,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                    accepted_prefix_len=torch.tensor([5], dtype=torch.int64, device=action_device),"
+      },
+      {
+        "line": 1751,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    first_actions, first_timing = runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 1757,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    second_actions, second_timing = runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 1804,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = torch.full("
+      },
+      {
+        "line": 1810,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            return actions, metrics, accepted_prefix_len"
+      },
+      {
+        "line": 1831,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len = torch.full("
+      },
+      {
+        "line": 1837,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        return actions, metrics, accepted_prefix_len"
+      },
+      {
+        "line": 1884,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert torch.equal(result.accepted_prefix_len, expected_prefix)"
+      },
+      {
+        "line": 1961,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                    accepted_prefix_len=torch.tensor([5], dtype=torch.int64, device=action_device),"
+      },
+      {
+        "line": 1978,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 1984,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    second_actions, second_timing = runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 1994,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert second_timing[\"accepted_prefix_len\"] == 5.0"
+      },
+      {
+        "line": 2061,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                    accepted_prefix_len=torch.tensor([5], dtype=torch.int64, device=action_device),"
+      },
+      {
+        "line": 2080,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 2086,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    second_actions, second_timing = runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 2096,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert second_timing[\"accepted_prefix_len\"] == 5.0"
+      },
+      {
+        "line": 2166,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                    accepted_prefix_len=torch.tensor([5], dtype=torch.int64, device=action_device),"
+      },
+      {
+        "line": 2189,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 2197,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    second_actions, second_timing = runtime.sample_actions_with_timing("
+      },
+      {
+        "line": 2208,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert second_timing[\"accepted_prefix_len\"] == 5.0"
+      }
+    ],
+    "scripts/spec/test/spec_verify_test.py": [
+      {
+        "line": 23,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "from openpi.models_pytorch.spec_pi0_pytorch import _accepted_prefix_len_from_mask"
+      },
+      {
+        "line": 25,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "from openpi.models_pytorch.spec_pi0_pytorch import _full_round_accepted_prefix_len"
+      },
+      {
+        "line": 53,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len, dist = _compute_radius_prefix_acceptance("
+      },
+      {
+        "line": 63,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 68,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    return x0_out, accepted_prefix_len, dist, force, reject"
+      },
+      {
+        "line": 243,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    # Differences beyond eval_h should not reduce accepted_prefix_len."
+      },
+      {
+        "line": 288,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=torch.tensor([3], dtype=torch.int64),"
+      },
+      {
+        "line": 303,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=torch.tensor([4], dtype=torch.int64),"
+      },
+      {
+        "line": 318,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=torch.tensor([5], dtype=torch.int64),"
+      },
+      {
+        "line": 333,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=torch.tensor([3], dtype=torch.int64),"
+      },
+      {
+        "line": 357,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted,"
+      },
+      {
+        "line": 376,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=torch.tensor([3, 3], dtype=torch.int64),"
+      },
+      {
+        "line": 428,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "def test_accepted_prefix_len_from_mask() -> None:"
+      },
+      {
+        "line": 436,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted = _accepted_prefix_len_from_mask(mask)"
+      },
+      {
+        "line": 440,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "def test_accepted_prefix_len_from_mask_rejects_non_matrix() -> None:"
+      },
+      {
+        "line": 443,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        _accepted_prefix_len_from_mask(mask)"
+      },
+      {
+        "line": 451,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted,"
+      },
+      {
+        "line": 456,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=accepted,"
+      },
+      {
+        "line": 461,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=torch.tensor([2], dtype=torch.int64),"
+      },
+      {
+        "line": 466,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=torch.tensor([2], dtype=torch.int64),"
+      },
+      {
+        "line": 731,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "                \"infer_path\": f\"episodes/{suite}_success/infer.jsonl\","
+      },
+      {
+        "line": 760,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "        (infer_dir / \"infer.jsonl\").write_text("
+      },
+      {
+        "line": 763,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "                    json.dumps({\"chunk_exec_len\": 0, \"sample_actions_ms\": latency}),"
+      },
+      {
+        "line": 764,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "                    json.dumps({\"chunk_exec_len\": 4, \"sample_actions_ms\": latency}),"
+      },
+      {
+        "line": 770,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "        (suite_run_dir / \"episode_log.json\").write_text(json.dumps(records), encoding=\"utf-8\")"
+      },
+      {
+        "line": 890,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "            \"infer_path\": \"episodes/legacy_success/infer.jsonl\","
+      },
+      {
+        "line": 897,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "    (legacy_infer_dir / \"infer.jsonl\").write_text(json.dumps({\"chunk_exec_len\": 4}) + \"\\n\", encoding=\"utf-8\")"
+      },
+      {
+        "line": 898,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    (legacy_run_dir / \"episode_log.json\").write_text(json.dumps(legacy_records), encoding=\"utf-8\")"
+      },
+      {
+        "line": 913,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    (recovered_suite_dir / \"episode_log.json\").write_text(json.dumps(legacy_records[:1]), encoding=\"utf-8\")"
+      },
+      {
+        "line": 917,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "        (episode_dir / \"infer.jsonl\").write_text("
+      },
+      {
+        "line": 924,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "                    \"route_type\": \"draft\","
+      },
+      {
+        "line": 925,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                    \"accepted_prefix_len\": 4,"
+      },
+      {
+        "line": 927,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "                    \"sample_actions_ms\": 8.0,"
+      },
+      {
+        "line": 928,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "                    \"policy_time_ms\": 9.0,"
+      },
+      {
+        "line": 929,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "                    \"serve_time_ms\": 10.0,"
+      },
+      {
+        "line": 935,
+        "terms": [
+          "trace.jsonl"
+        ],
+        "excerpt": "        (episode_dir / \"trace.jsonl\").write_text("
+      },
+      {
+        "line": 941,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "                        \"route_type\": \"draft\","
+      },
+      {
+        "line": 999,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "            \"infer_path\": \"episodes/short/infer.jsonl\","
+      },
+      {
+        "line": 1014,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "            \"infer_path\": \"episodes/long/infer.jsonl\","
+      },
+      {
+        "line": 1020,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "    (tmp_path / \"episodes\" / \"short\" / \"infer.jsonl\").write_text("
+      },
+      {
+        "line": 1025,
+        "terms": [
+          "infer.jsonl"
+        ],
+        "excerpt": "    (tmp_path / \"episodes\" / \"long\" / \"infer.jsonl\").write_text("
+      },
+      {
+        "line": 1071,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    (run_dir / \"suites\" / \"new\" / \"episode_log.json\").write_text(json.dumps(records[1:]), encoding=\"utf-8\")"
+      },
+      {
+        "line": 1072,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    (run_dir / \"suites\" / \"old\" / \"episode_log.json\").write_text(json.dumps(old_log_records), encoding=\"utf-8\")"
+      },
+      {
+        "line": 1100,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "def test_serve_route_type_no_longer_exposes_vlm_round() -> None:"
+      },
+      {
+        "line": 1103,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "    assert spec_serve_policy.TritonServerPolicy._route_type_from_timing({\"is_full_pipeline_round\": 1.0}) == \"full\""
+      },
+      {
+        "line": 1104,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "    assert spec_serve_policy.TritonServerPolicy._route_type_from_timing({\"did_prefill\": 1.0}) == \"draft\""
+      },
+      {
+        "line": 1107,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "def test_client_route_type_no_longer_exposes_vlm_round(monkeypatch: pytest.MonkeyPatch) -> None:"
+      },
+      {
+        "line": 1120,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "    assert spec_client_libero._route_type_from_timing({\"is_full_pipeline_round\": 1.0}) == \"full\""
+      },
+      {
+        "line": 1121,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "    assert spec_client_libero._route_type_from_timing({\"did_prefill\": 1.0}) == \"draft\""
+      },
+      {
+        "line": 1148,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        route_type=\"draft\","
+      },
+      {
+        "line": 1149,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len=6,"
+      },
+      {
+        "line": 1152,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            \"sample_actions_ms\": 11.0,"
+      },
+      {
+        "line": 1162,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "            \"policy_time_ms\": 21.0,"
+      },
+      {
+        "line": 1163,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "            \"serve_time_ms\": 24.0,"
+      },
+      {
+        "line": 1171,
+        "terms": [
+          "client_roundtrip_ms"
+        ],
+        "excerpt": "        client_roundtrip_ms=1000.0,"
+      },
+      {
+        "line": 1175,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "    assert record[\"sample_actions_ms\"] == 11.0"
+      },
+      {
+        "line": 1176,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "    assert record[\"policy_time_ms\"] == 21.0"
+      },
+      {
+        "line": 1177,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "    assert record[\"serve_time_ms\"] == 24.0"
+      },
+      {
+        "line": 1179,
+        "terms": [
+          "client_roundtrip_ms"
+        ],
+        "excerpt": "    assert record[\"client_roundtrip_ms\"] == 1000.0"
+      },
+      {
+        "line": 1201,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    monkeypatch.setattr(SpecPI0Pytorch, \"_sample_actions_impl\", _fake_impl, raising=False)"
+      },
+      {
+        "line": 1206,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    actions = SpecPI0Pytorch.sample_actions(stub, \"cpu\", observation, noise=noise, num_steps=5, executed_steps=2)"
+      },
+      {
+        "line": 1207,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    actions_timed, timing = SpecPI0Pytorch.sample_actions_with_timing("
+      },
+      {
+        "line": 1343,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    assert not hasattr(SpecPI0Pytorch, \"sample_actions_with_timing_oracle\")"
+      },
+      {
+        "line": 1586,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "def test_full_round_accepted_prefix_len_uses_exec_window() -> None:"
+      },
+      {
+        "line": 1587,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert _full_round_accepted_prefix_len(action_horizon=50, max_exec_steps=12) == 12"
+      },
+      {
+        "line": 1588,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert _full_round_accepted_prefix_len(action_horizon=3, max_exec_steps=12) == 3"
+      },
+      {
+        "line": 1589,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    assert _full_round_accepted_prefix_len(action_horizon=10, max_exec_steps=0) == 1"
+      },
+      {
+        "line": 1621,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len_mean=torch.tensor(4.0, dtype=torch.float32),"
+      }
+    ],
+    "scripts/spec/trace_viewer.py": [
+      {
+        "line": 820,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "        route_type: current.route_type,"
+      },
+      {
+        "line": 833,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "      inferSubset.forEach((rec) => { routeCountsInfer[rec.route_type] = (routeCountsInfer[rec.route_type] || 0) + 1; });"
+      },
+      {
+        "line": 834,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "      actionSubset.forEach((rec) => { routeCountsAction[rec.route_type] = (routeCountsAction[rec.route_type] || 0) + 1; });"
+      },
+      {
+        "line": 835,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "      const inferLatencySum = inferSubset.reduce((acc, rec) => acc + Number(rec.sample_actions_ms || 0), 0);"
+      },
+      {
+        "line": 837,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        ? inferSubset.reduce((acc, rec) => acc + Number(rec.accepted_prefix_len || 0), 0) / inferSubset.length"
+      },
+      {
+        "line": 870,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        kvItem('Accepted Prefix', trace.accepted_prefix_len ?? 'n/a'),"
+      },
+      {
+        "line": 915,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "      const routeType = routeContext ? routeContext.route_type : trace.route_type;"
+      },
+      {
+        "line": 916,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "      const acceptedAction = inferRecord?.accepted_prefix_len ?? trace.accepted_prefix_len ?? 'n/a';"
+      },
+      {
+        "line": 917,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "      const latencyMs = inferRecord?.sample_actions_ms ?? 'n/a';"
+      },
+      {
+        "line": 965,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "          return `<span class=\"route-tick ${rec.route_type}${active}\" style=\"left:${left}%\" data-frame=\"${rec.frame}\" title=\"${rec.route_type} @ frame ${rec.frame}\"></span>`;"
+      },
+      {
+        "line": 983,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "      timelineRouteSegment.className = `timeline-route-segment ${activeRoute.route_type} visible`;"
+      },
+      {
+        "line": 1131,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "          .map((rec, idx) => ({ frame: idx, route_type: rec.route_type, infer_id: rec.infer_id, infer_start_frame: Boolean(rec.infer_start_frame) }))"
+      },
+      {
+        "line": 1134,
+        "terms": [
+          "route_type"
+        ],
+        "excerpt": "          state.routeStarts = [{ frame: 0, route_type: state.trace[0].route_type, infer_id: state.trace[0].infer_id }];"
+      },
+      {
+        "line": 1288,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    return path.is_dir() and (path / \"manifest.json\").exists() and (path / \"episode_log.json\").exists()"
+      },
+      {
+        "line": 1322,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "            records = _read_json(task_dir / \"episode_log.json\")"
+      },
+      {
+        "line": 1347,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "        records = _read_json(task_dir / \"episode_log.json\")"
+      },
+      {
+        "line": 1380,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    records = _read_json(task_dir / \"episode_log.json\")"
+      },
+      {
+        "line": 1396,
+        "terms": [
+          "episode_log.json"
+        ],
+        "excerpt": "    records = _read_json(task_dir / \"episode_log.json\")"
+      }
+    ],
+    "scripts/spec/triton/pi0_spec_infer.py": [
+      {
+        "line": 41,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 46,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "    t0 = time.perf_counter()"
+      },
+      {
+        "line": 49,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "    return out, (time.perf_counter() - t0) * 1000.0"
+      },
+      {
+        "line": 1177,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len: torch.Tensor"
+      },
+      {
+        "line": 1198,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len: torch.Tensor"
+      },
+      {
+        "line": 1533,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len=torch.empty((int(batch_size),), device=device, dtype=torch.int64),"
+      },
+      {
+        "line": 2046,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 2052,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 2883,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 2892,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 3267,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            buffers.accepted_prefix_len,"
+      },
+      {
+        "line": 3300,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=buffers.accepted_prefix_len,"
+      },
+      {
+        "line": 3535,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len=torch.empty((int(x0_draft.shape[0]),), device=device, dtype=torch.int64),"
+      },
+      {
+        "line": 3567,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 3588,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(device)"
+      },
+      {
+        "line": 3688,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len, dist = _compute_radius_prefix_acceptance("
+      },
+      {
+        "line": 3699,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 3711,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = torch.where("
+      },
+      {
+        "line": 3713,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                torch.zeros_like(accepted_prefix_len),"
+      },
+      {
+        "line": 3714,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len,"
+      },
+      {
+        "line": 3720,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 3724,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = torch.where(gripper_verify_stop_mask, accepted_prefix_len, accepted_after_cut)"
+      },
+      {
+        "line": 3729,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len_mean=accepted_prefix_len.to(dtype=torch.float32).mean(),"
+      },
+      {
+        "line": 3740,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len,"
+      }
+    ],
+    "scripts/spec/triton/triton_pi0_runtime.py": [
+      {
+        "line": 981,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "            torch.cuda.synchronize(self._device)"
+      },
+      {
+        "line": 982,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "        t0 = time.perf_counter()"
+      },
+      {
+        "line": 985,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "            torch.cuda.synchronize(self._device)"
+      },
+      {
+        "line": 986,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "        return out, (time.perf_counter() - t0) * 1000.0"
+      },
+      {
+        "line": 1287,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        (actions, metrics, accepted_prefix_len), action_verify_ms = self._time_region(_run)"
+      },
+      {
+        "line": 1291,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len.to(device=output_device),"
+      },
+      {
+        "line": 1522,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions_with_timing("
+      },
+      {
+        "line": 1616,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len = verify_result.accepted_prefix_len"
+      },
+      {
+        "line": 1620,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 1654,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        timing[\"accepted_prefix_len_mean\"] = float(metrics[1].item())"
+      },
+      {
+        "line": 1660,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        timing[\"accepted_prefix_len\"] = float(accepted_prefix_len.to(dtype=torch.float32).mean().item())"
+      },
+      {
+        "line": 1704,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "            torch.cuda.synchronize()"
+      },
+      {
+        "line": 1705,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "        t0 = time.perf_counter()"
+      },
+      {
+        "line": 1708,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "            torch.cuda.synchronize()"
+      },
+      {
+        "line": 1709,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "        return (time.perf_counter() - t0) * 1000.0"
+      }
+    ],
+    "scripts/train_pytorch.py": [
+      {
+        "line": 176,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "            \"timestamp\": time.time(),"
+      },
+      {
+        "line": 483,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "    start_time = time.time()"
+      },
+      {
+        "line": 569,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                elapsed = time.time() - start_time"
+      },
+      {
+        "line": 600,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                start_time = time.time()"
+      }
+    ],
+    "src/openpi/models/model.py": [
+      {
+        "line": 283,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions(self, rng: at.KeyArrayLike, observation: Observation, **kwargs) -> Actions: ..."
+      }
+    ],
+    "src/openpi/models/model_test.py": [
+      {
+        "line": 23,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    actions = nnx_utils.module_jit(model.sample_actions)(key, obs, num_steps=10)"
+      },
+      {
+        "line": 38,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    actions = nnx_utils.module_jit(model.sample_actions)(key, obs, num_steps=10)"
+      },
+      {
+        "line": 53,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    actions = nnx_utils.module_jit(model.sample_actions)(key, obs)"
+      },
+      {
+        "line": 68,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    actions = nnx_utils.module_jit(model.sample_actions)(key, obs)"
+      },
+      {
+        "line": 93,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    actions = model.sample_actions(key, obs, num_steps=10)"
+      }
+    ],
+    "src/openpi/models/pi0.py": [
+      {
+        "line": 217,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions("
+      },
+      {
+        "line": 296,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        # Keep the same convention as `sample_actions`."
+      }
+    ],
+    "src/openpi/models/pi0_fast.py": [
+      {
+        "line": 236,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions("
+      }
+    ],
+    "src/openpi/models_pytorch/pi0_pytorch.py": [
+      {
+        "line": 90,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(dev)"
+      },
+      {
+        "line": 97,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "    t0 = time.time()"
+      },
+      {
+        "line": 100,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "    t1 = time.time()"
+      },
+      {
+        "line": 134,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "            self.sample_actions = torch.compile(self.sample_actions, mode=\"max-autotune\")"
+      },
+      {
+        "line": 136,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        # Stage-level compilation toggles used by sample_actions_with_timing."
+      },
+      {
+        "line": 414,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions(self, device, observation, noise=None, num_steps=10) -> Tensor:"
+      },
+      {
+        "line": 460,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions_with_timing(self, device, observation, noise=None, num_steps=10) -> tuple[Tensor, dict[str, float]]:"
+      },
+      {
+        "line": 500,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    # ---- Stage implementations (used by sample_actions_with_timing; may be torch.compile'd) ----"
+      },
+      {
+        "line": 520,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        # Keep original while-loop semantics (as implemented in sample_actions)."
+      }
+    ],
+    "src/openpi/models_pytorch/spec_pi0_pytorch.py": [
+      {
+        "line": 22,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "        torch.cuda.synchronize(dev)"
+      },
+      {
+        "line": 27,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "    t0 = time.time()"
+      },
+      {
+        "line": 30,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "    t1 = time.time()"
+      },
+      {
+        "line": 42,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "def _accepted_prefix_len_from_mask(accept_mask: torch.Tensor) -> torch.Tensor:"
+      },
+      {
+        "line": 53,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len: torch.Tensor,"
+      },
+      {
+        "line": 59,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    if accepted_prefix_len.ndim != 1 or int(accepted_prefix_len.shape[0]) != int(x0_out.shape[0]):"
+      },
+      {
+        "line": 61,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            f\"accepted_prefix_len must have shape (B,)={(int(x0_out.shape[0]),)}, got {tuple(accepted_prefix_len.shape)}\""
+      },
+      {
+        "line": 65,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len = accepted_prefix_len.to(device=x0_out.device, dtype=torch.int64)"
+      },
+      {
+        "line": 68,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        return accepted_prefix_len, cut_mask"
+      },
+      {
+        "line": 85,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    active_mask = step_idx < accepted_prefix_len[:, None]"
+      },
+      {
+        "line": 89,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    truncated_prefix_len = torch.where(cut_mask, first_switch_idx, accepted_prefix_len)"
+      },
+      {
+        "line": 156,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len = prefix_len_k.min(dim=1).values.to(dtype=torch.int64)"
+      },
+      {
+        "line": 157,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    return accepted_prefix_len, dist"
+      },
+      {
+        "line": 164,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len: torch.Tensor,"
+      },
+      {
+        "line": 170,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    if accepted_prefix_len.ndim != 1 or int(accepted_prefix_len.shape[0]) != int(x0_draft.shape[0]):"
+      },
+      {
+        "line": 172,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            f\"accepted_prefix_len must have shape (B,)={(int(x0_draft.shape[0]),)}, got {tuple(accepted_prefix_len.shape)}\""
+      },
+      {
+        "line": 175,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len = accepted_prefix_len.to(device=x0_draft.device, dtype=torch.int64)"
+      },
+      {
+        "line": 177,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accept_mask = (idx < accepted_prefix_len[:, None])[:, :, None]"
+      },
+      {
+        "line": 184,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len: torch.Tensor,"
+      },
+      {
+        "line": 189,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    zero_accept = bool((accepted_prefix_len <= 0).any().item())"
+      },
+      {
+        "line": 211,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "def _full_round_accepted_prefix_len(*, action_horizon: int, max_exec_steps: int) -> int:"
+      },
+      {
+        "line": 228,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len_mean: torch.Tensor,"
+      },
+      {
+        "line": 236,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len_mean.to(dtype=torch.float32),"
+      },
+      {
+        "line": 254,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    accepted_prefix_len = float("
+      },
+      {
+        "line": 255,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        _full_round_accepted_prefix_len(action_horizon=action_horizon, max_exec_steps=max_exec_steps)"
+      },
+      {
+        "line": 269,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    timing[\"accepted_prefix_len_mean\"] = accepted_prefix_len"
+      },
+      {
+        "line": 275,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    timing[\"accepted_prefix_len\"] = accepted_prefix_len"
+      },
+      {
+        "line": 276,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    return accepted_prefix_len"
+      },
+      {
+        "line": 304,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "    # Full pipeline fallback (when accepted_prefix_len==0)."
+      },
+      {
+        "line": 711,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len, dist = _compute_radius_prefix_acceptance("
+      },
+      {
+        "line": 722,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 735,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = torch.where("
+      },
+      {
+        "line": 737,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                torch.zeros_like(accepted_prefix_len),"
+      },
+      {
+        "line": 738,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len,"
+      },
+      {
+        "line": 744,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "                accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 748,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len = torch.where(gripper_verify_stop_mask, accepted_prefix_len, accepted_after_cut)"
+      },
+      {
+        "line": 754,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len_mean=accepted_prefix_len.to(dtype=torch.float32).mean(),"
+      },
+      {
+        "line": 762,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        return x0_out, metrics, accepted_prefix_len"
+      },
+      {
+        "line": 784,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        accepted_prefix_len = _accepted_prefix_len_from_mask(accept_mask)"
+      },
+      {
+        "line": 788,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len_mean=accepted_prefix_len.to(dtype=torch.float32).mean(),"
+      },
+      {
+        "line": 794,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        return x0_draft, metrics, accepted_prefix_len"
+      },
+      {
+        "line": 799,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def _sample_actions_impl("
+      },
+      {
+        "line": 940,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            actions, metrics, accepted_prefix_len = self._action_stage(state, prefix_pad_masks, past_key_values, noise, x0, last_gripper)"
+      },
+      {
+        "line": 942,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            (actions, metrics, accepted_prefix_len), ms = _time_ms("
+      },
+      {
+        "line": 957,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "            accepted_prefix_len=accepted_prefix_len,"
+      },
+      {
+        "line": 990,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        timing[\"accepted_prefix_len_mean\"] = float(metrics[1].item())"
+      },
+      {
+        "line": 996,
+        "terms": [
+          "accepted_prefix_len"
+        ],
+        "excerpt": "        timing[\"accepted_prefix_len\"] = float(accepted_prefix_len.to(dtype=torch.float32).mean().item())"
+      },
+      {
+        "line": 1000,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions_with_timing(self, device, observation, noise=None, num_steps=10, executed_steps: int | None = None):"
+      },
+      {
+        "line": 1002,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        return self._sample_actions_impl("
+      },
+      {
+        "line": 1012,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "    def sample_actions(self, device, observation, noise=None, num_steps=10, executed_steps: int | None = None):"
+      },
+      {
+        "line": 1014,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        return self._sample_actions_impl("
+      }
+    ],
+    "src/openpi/policies/policy.py": [
+      {
+        "line": 45,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "            sample_kwargs: Additional keyword arguments to pass to model.sample_actions."
+      },
+      {
+        "line": 62,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "            self._sample_actions = model.sample_actions"
+      },
+      {
+        "line": 65,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "            self._sample_actions = nnx_utils.module_jit(model.sample_actions)"
+      },
+      {
+        "line": 89,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        # Prepare kwargs for sample_actions"
+      },
+      {
+        "line": 105,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        if enable_stage_timing and self._is_pytorch_model and hasattr(self._model, \"sample_actions_with_timing\"):"
+      },
+      {
+        "line": 106,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "            actions, stage_timing = self._model.sample_actions_with_timing(  # type: ignore[attr-defined]"
+      },
+      {
+        "line": 109,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            sample_actions_ms = float(stage_timing.get(\"total_ms\", float(\"nan\")))"
+      },
+      {
+        "line": 111,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "            # Time only sample_actions, with CUDA sync for accurate measurement."
+      },
+      {
+        "line": 113,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "                torch.cuda.synchronize()"
+      },
+      {
+        "line": 114,
+        "terms": [
+          "time.perf_counter"
+        ],
+        "excerpt": "            t0 = time.perf_counter()"
+      },
+      {
+        "line": 115,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "            actions = self._sample_actions(sample_rng_or_pytorch_device, observation, **sample_kwargs)"
+      },
+      {
+        "line": 117,
+        "terms": [
+          "torch.cuda.synchronize"
+        ],
+        "excerpt": "                torch.cuda.synchronize()"
+      },
+      {
+        "line": 118,
+        "terms": [
+          "sample_actions_ms",
+          "time.perf_counter",
+          "sample_actions"
+        ],
+        "excerpt": "            sample_actions_ms = (time.perf_counter() - t0) * 1000.0"
+      },
+      {
+        "line": 132,
+        "terms": [
+          "sample_actions_ms",
+          "sample_actions"
+        ],
+        "excerpt": "            \"sample_actions_ms\": sample_actions_ms,"
+      }
+    ],
+    "src/openpi/policies/policy_config.py": [
+      {
+        "line": 32,
+        "terms": [
+          "sample_actions"
+        ],
+        "excerpt": "        sample_kwargs: The kwargs to pass to the `sample_actions` method. If not provided, the default"
+      }
+    ],
+    "src/openpi/serving/websocket_policy_server.py": [
+      {
+        "line": 24,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "    - ``infer_ms`` / ``policy_time_ms``: wall time inside ``policy.infer`` (including policy preprocessing)."
+      },
+      {
+        "line": 26,
+        "terms": [
+          "serve_time_ms"
+        ],
+        "excerpt": "    - ``serve_time_ms``: server-side request handling time excluding network wait/send (unpack + policy + pack)."
+      },
+      {
+        "line": 82,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                    recv_timestamp_s = time.time()"
+      },
+      {
+        "line": 102,
+        "terms": [
+          "policy_time_ms"
+        ],
+        "excerpt": "                    st[\"policy_time_ms\"] = st[\"infer_ms\"]"
+      },
+      {
+        "line": 116,
+        "terms": [
+          "policy_time_ms",
+          "serve_time_ms"
+        ],
+        "excerpt": "                    st[\"serve_time_ms\"] = st[\"ws_unpack_ms\"] + st[\"policy_time_ms\"] + st[\"ws_pack_ms\"]"
+      },
+      {
+        "line": 117,
+        "terms": [
+          "time.time"
+        ],
+        "excerpt": "                    st[\"server_response_timestamp_s\"] = time.time()"
+      }
+    ]
+  },
+  "existing_gpu_sync_present": true,
+  "recommended_patch_file": [
+    "scripts/spec/spec_serve_policy.py",
+    "scripts/spec/spec_client_libero.py"
+  ],
+  "recommended_patch_function_or_region": [
+    "TritonServerPolicy._run_spec_session full and draft branches",
+    "TritonServerPolicy.infer sample_actions_with_timing and fallback branches",
+    "spec_client_libero._make_infer_record"
+  ],
+  "confidence": "high",
+  "interpretation": "Existing action-generation paths already use torch.cuda.synchronize in several places, but the public infer.jsonl rows do not expose explicit Stage 6 GPU-sync timing fields. Patch should preserve behavior and add policy_time_gpu_sync_ms/policy_time_wall_ms."
+}

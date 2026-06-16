@@ -1,0 +1,34 @@
+{
+  "warmup_first_inference": {
+    "policy_time_gpu_sync_ms": 16654.737755001406,
+    "serve_time_ms": 20914.653469997575,
+    "client_roundtrip_ms": 20915.985573999933
+  },
+  "first_inference_per_run": {
+    "stage6_libero_goal_task0_seed7_n3": {
+      "policy_time_gpu_sync_ms": 32.77577799599385,
+      "serve_time_ms": 34.81528900010744,
+      "client_roundtrip_ms": 36.545457005559,
+      "route_type": "full"
+    },
+    "stage6_libero_goal_task1_seed7_n3": {
+      "policy_time_gpu_sync_ms": 3825.4606269983924,
+      "serve_time_ms": 3828.0864030020894,
+      "client_roundtrip_ms": 3829.9995839988696,
+      "route_type": "full"
+    },
+    "stage6_libero_goal_task2_seed7_n3": {
+      "policy_time_gpu_sync_ms": 4483.438201001263,
+      "serve_time_ms": 4486.170997995941,
+      "client_roundtrip_ms": 4488.199778999842,
+      "route_type": "full"
+    },
+    "stage6_warmup_task0_seed7_n1": {
+      "policy_time_gpu_sync_ms": 16654.737755001406,
+      "serve_time_ms": 20914.653469997575,
+      "client_roundtrip_ms": 20915.985573999933,
+      "route_type": "full"
+    }
+  },
+  "cold_start_excluded_from_steady_state": true
+}

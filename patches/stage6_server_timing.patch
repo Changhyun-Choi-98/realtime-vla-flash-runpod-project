@@ -1,0 +1,180 @@
+diff --git a/scripts/spec/spec_client_libero.py b/scripts/spec/spec_client_libero.py
+index e8be902..f8324f7 100644
+--- a/scripts/spec/spec_client_libero.py
++++ b/scripts/spec/spec_client_libero.py
+@@ -538,6 +538,11 @@ def _make_infer_record(
+         "chunk_exec_len": int(chunk_exec_len),
+         "chunk_actions": np.asarray(chunk_actions, dtype=np.float32).tolist(),
+         "sample_actions_ms": _float_or_none(policy_timing.get("sample_actions_ms")),
++        "policy_time_gpu_sync_ms": _float_or_none(policy_timing.get("policy_time_gpu_sync_ms")),
++        "policy_time_wall_ms": _float_or_none(policy_timing.get("policy_time_wall_ms")),
++        "gpu_sync_before_after_used": int(round(float(policy_timing.get("gpu_sync_before_after_used", 0.0)))),
++        "timing_patch_stage": str(policy_timing.get("timing_patch_stage", "")),
++        "timing_patch_note": str(policy_timing.get("timing_patch_note", "")),
+         "policy_time_ms": policy_time_ms,
+         "serve_time_ms": serve_time_ms,
+         "ws_unpack_ms": _float_or_none(server_timing.get("ws_unpack_ms")),
+diff --git a/scripts/spec/spec_serve_policy.py b/scripts/spec/spec_serve_policy.py
+index 8524879..e932900 100644
+--- a/scripts/spec/spec_serve_policy.py
++++ b/scripts/spec/spec_serve_policy.py
+@@ -293,7 +293,8 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+         state: torch.Tensor,
+         noise: torch.Tensor,
+     ) -> tuple[torch.Tensor, float, dict[str, float]]:
+-        if torch.cuda.is_available() and self._device.startswith("cuda"):
++        sync_used = self._stage6_sync_if_needed()
++        if not sync_used and torch.cuda.is_available() and self._device.startswith("cuda"):
+             torch.cuda.synchronize()
+         t0 = time.perf_counter()
+         stage_timing: dict[str, float] = {}
+@@ -319,9 +320,39 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+             actions, stage_timing = runtime_out
+         else:
+             actions = runtime_out
+-        if torch.cuda.is_available() and self._device.startswith("cuda"):
++        if sync_used:
++            self._stage6_sync_if_needed()
++        elif torch.cuda.is_available() and self._device.startswith("cuda"):
+             torch.cuda.synchronize()
+-        return actions, (time.perf_counter() - t0) * 1000.0, stage_timing
++        elapsed_ms = (time.perf_counter() - t0) * 1000.0
++        self._stage6_add_sync_timing(
++            stage_timing,
++            sync_ms=elapsed_ms,
++            wall_ms=elapsed_ms,
++            sync_used=sync_used or (torch.cuda.is_available() and self._device.startswith("cuda")),
++        )
++        return actions, elapsed_ms, stage_timing
++
++
++    @staticmethod
++    def _stage6_sync_profile_enabled() -> bool:
++        return os.environ.get("STAGE6_SYNC_PROFILE", "").strip().lower() in {"1", "true", "yes", "on"}
++
++    def _stage6_sync_if_needed(self) -> bool:
++        if self._stage6_sync_profile_enabled() and torch.cuda.is_available() and self._device.startswith("cuda"):
++            torch.cuda.synchronize()
++            return True
++        return False
++
++    @staticmethod
++    def _stage6_add_sync_timing(timing: dict[str, Any], *, sync_ms: float, wall_ms: float, sync_used: bool) -> None:
++        if not TritonServerPolicy._stage6_sync_profile_enabled():
++            return
++        timing["policy_time_gpu_sync_ms"] = float(sync_ms)
++        timing["policy_time_wall_ms"] = float(wall_ms)
++        timing["gpu_sync_before_after_used"] = 1.0 if sync_used else 0.0
++        timing["timing_patch_stage"] = "stage6"
++        timing["timing_patch_note"] = "torch.cuda.synchronize before and after server-side action generation when CUDA is available"
+
+     def _run_spec_session(
+         self,
+@@ -333,7 +364,8 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+         state: torch.Tensor,
+         noise: torch.Tensor,
+     ) -> dict[str, Any]:
+-        if torch.cuda.is_available() and self._device.startswith("cuda"):
++        sync_used = self._stage6_sync_if_needed()
++        if not sync_used and torch.cuda.is_available() and self._device.startswith("cuda"):
+             torch.cuda.synchronize()
+         t0 = time.perf_counter()
+
+@@ -362,11 +394,19 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+                 max_exec_steps=self._max_exec_steps,
+             )
+             outputs["accepted_prefix_len"] = accepted_prefix_len
++            if sync_used:
++                self._stage6_sync_if_needed()
+             sample_actions_ms = (time.perf_counter() - t0) * 1000.0
+             timing = {
+                 "sample_actions_ms": float(sample_actions_ms),
+                 "encoder_ms": float(stage_timing.get("encoder_ms", float("nan"))),
+             }
++            self._stage6_add_sync_timing(
++                timing,
++                sync_ms=sample_actions_ms,
++                wall_ms=sample_actions_ms,
++                sync_used=sync_used,
++            )
+             _populate_full_round_timing(
+                 timing,
+                 verify_mode="radius",
+@@ -455,6 +495,8 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+         outputs = self._format_outputs(transformed=transformed, actions=x0_out)
+         accepted_prefix_len_scalar = float(accepted_prefix_len.to(dtype=torch.float32).mean().item())
+         outputs["accepted_prefix_len"] = int(round(accepted_prefix_len_scalar))
++        if sync_used:
++            self._stage6_sync_if_needed()
+         sample_actions_ms = (time.perf_counter() - t0) * 1000.0
+         encoder_ms = float(draft_timing.get("encoder_ms", float("nan")))
+         draft_ms = float(draft_timing.get("draft_ms", float("nan")))
+@@ -483,6 +525,12 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+             "gripper_verify_stop_rate": float(gripper_verify_stop_mask.to(dtype=torch.float32).mean().item()),
+             "route_type": "draft",
+         }
++        self._stage6_add_sync_timing(
++            timing,
++            sync_ms=sample_actions_ms,
++            wall_ms=sample_actions_ms,
++            sync_used=sync_used,
++        )
+         _set_legacy_timing_compat_fields(timing)
+         outputs["policy_timing"] = timing
+         self._log_response(outputs)
+@@ -542,7 +590,8 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+         self._advance_last_gripper(executed_steps)
+
+         if hasattr(self._runtime_pool, "sample_actions_with_timing"):
+-            if torch.cuda.is_available() and self._device.startswith("cuda"):
++            sync_used = self._stage6_sync_if_needed()
++            if not sync_used and torch.cuda.is_available() and self._device.startswith("cuda"):
+                 torch.cuda.synchronize()
+             t0 = time.perf_counter()
+             try:
+@@ -570,7 +619,9 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+                     tokenized_prompt_mask=tokenized_prompt_mask,
+                     executed_steps=executed_steps,
+                 )
+-            if torch.cuda.is_available() and self._device.startswith("cuda"):
++            if sync_used:
++                self._stage6_sync_if_needed()
++            elif torch.cuda.is_available() and self._device.startswith("cuda"):
+                 torch.cuda.synchronize()
+             sample_actions_ms = (time.perf_counter() - t0) * 1000.0
+             outputs = self._format_outputs(transformed=transformed, actions=self._as_action_batch(actions))
+@@ -579,6 +630,12 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+                 "sample_actions_ms": float(sample_actions_ms),
+                 **stage_timing,
+             }
++            self._stage6_add_sync_timing(
++                policy_timing,
++                sync_ms=sample_actions_ms,
++                wall_ms=sample_actions_ms,
++                sync_used=sync_used or (torch.cuda.is_available() and self._device.startswith("cuda")),
++            )
+             if "route_type" not in policy_timing:
+                 policy_timing["route_type"] = self._route_type_from_timing(policy_timing)
+             outputs["policy_timing"] = policy_timing
+@@ -615,7 +672,7 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+             max_exec_steps=self._max_exec_steps,
+         )
+         outputs["accepted_prefix_len"] = accepted_prefix_len
+-        outputs["policy_timing"] = {
++        policy_timing = {
+             "sample_actions_ms": float(sample_actions_ms),
+             "encoder_ms": float(stage_timing.get("encoder_ms", float("nan"))),
+             "vlm_prefill_ms": float(stage_timing.get("vlm_prefill_ms", float("nan"))),
+@@ -636,6 +693,13 @@ class TritonServerPolicy(_base_policy.BasePolicy):
+             "include_in_draft_accept_metrics": 0.0,
+             "route_type": "full",
+         }
++        self._stage6_add_sync_timing(
++            policy_timing,
++            sync_ms=float(sample_actions_ms),
++            wall_ms=float(sample_actions_ms),
++            sync_used=bool(policy_timing.get("gpu_sync_before_after_used", 0.0)) or (torch.cuda.is_available() and self._device.startswith("cuda")),
++        )
++        outputs["policy_timing"] = policy_timing
+         self._log_response(outputs)
+         return outputs

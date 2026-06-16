@@ -1,0 +1,15 @@
+{
+  "decision": "PROCEED_TO_STAGE5_ROBUSTNESS_PROBE",
+  "decision_reason": "Synchronized timing fields were present for at least 80% of measured infer rows.",
+  "episodes_requested_measured": 9,
+  "episodes_completed_measured": 9,
+  "success_count": 9,
+  "success_rate": 1.0,
+  "sync_field_present_ratio": 1.0,
+  "route_summary_path": "/workspace/realtime_vla_flash_project/results/stage6_route_summary.json",
+  "latency_summary_path": "/workspace/realtime_vla_flash_project/results/stage6_latency_summary.json",
+  "claim_assessment_path": "/workspace/realtime_vla_flash_project/results/stage6_claim_assessment.json",
+  "full_benchmark_attempted": false,
+  "paper_reproduction_claimed": false,
+  "robustness_probe_attempted": false
+}

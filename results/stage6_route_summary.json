@@ -1,0 +1,37 @@
+{
+  "infer_log_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task0_seed7_n3/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task0_seed7_n3/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task0_seed7_n3/episodes/task00_ep002_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task1_seed7_n3/episodes/task01_ep000_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task1_seed7_n3/episodes/task01_ep001_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task1_seed7_n3/episodes/task01_ep002_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task2_seed7_n3/episodes/task02_ep000_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task2_seed7_n3/episodes/task02_ep001_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_libero_goal_task2_seed7_n3/episodes/task02_ep002_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage6_sync_profile/stage6_warmup_task0_seed7_n1/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl"
+  ],
+  "infer_log_file_count": 10,
+  "trace_file_count": 10,
+  "route_counts": {
+    "full": 18,
+    "draft": 65
+  },
+  "draft_ratio": 0.7831325301204819,
+  "full_ratio": 0.21686746987951808,
+  "accepted_prefix_len": {
+    "mean": 10.698795180722891,
+    "p50": 12.0,
+    "p90": 12.0,
+    "p95": 12.0,
+    "p99": 12.0
+  },
+  "chunk_exec_len": {
+    "mean": 10.698795180722891,
+    "p50": 12.0,
+    "p90": 12.0,
+    "p95": 12.0,
+    "p99": 12.0
+  },
+  "missing_fields": []
+}

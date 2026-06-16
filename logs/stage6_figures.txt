@@ -1,0 +1,4 @@
+/workspace/realtime_vla_flash_project/figures/stage6_latency_by_route_boxplot.png
+/workspace/realtime_vla_flash_project/figures/stage6_latency_cdf.png
+/workspace/realtime_vla_flash_project/figures/stage6_accepted_prefix_hist.png
+/workspace/realtime_vla_flash_project/figures/stage6_cold_start_vs_steady_state.png

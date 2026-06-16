@@ -1,0 +1,13 @@
+Stage 6 orchestration completed all bounded runs, then hit a preliminary decision JSON self-read bug.
+The script has been patched to avoid reading an empty just-created decision file.
+
+{
+  "server_ready": true,
+  "server_alive_before_cleanup": true,
+  "exit_status": {
+    "warmup": 0,
+    "task0": 0,
+    "task1": 0,
+    "task2": 0
+  }
+}
