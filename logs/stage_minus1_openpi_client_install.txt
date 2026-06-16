@@ -1,0 +1,15 @@
+Using Python 3.8.20 environment at: /workspace/realtime_vla_flash_project/.venv-libero
+Resolved 10 packages in 14.41s
+   Building tree==0.2.4
+   Building openpi-client @ file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash/packages/openpi-client
+      Built tree==0.2.4
+      Built openpi-client @ file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash/packages/openpi-client
+Prepared 7 packages in 8.06s
+Installed 7 packages in 494ms
+ + click==8.1.8
+ + dm-tree==0.1.8
+ + msgpack==1.1.1
+ + openpi-client==0.1.0 (from file:///workspace/realtime_vla_flash_project/repos/realtime-vla-flash/packages/openpi-client)
+ + svgwrite==1.4.3
+ + tree==0.2.4
+ + websockets==13.1

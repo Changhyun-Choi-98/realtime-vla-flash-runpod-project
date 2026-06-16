@@ -1,0 +1,72 @@
+== date UTC ==
+Tue Jun 16 00:02:59 UTC 2026
+
+== whoami ==
+root
+
+== hostname ==
+redacted-container-hostname
+
+== uname ==
+Linux redacted-container-hostname 6.17.0-29-generic #29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 11 10:30:58 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+== os-release ==
+PRETTY_NAME="Ubuntu 24.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+== nvidia-smi ==
+Tue Jun 16 00:02:59 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.159.03             Driver Version: 580.159.03     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    On  |   00000000:C3:00.0 Off |                    0 |
+| N/A   36C    P8             37W /  262W |       0MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+== workspace df ==
+Filesystem                   Size  Used Avail Use% Mounted on
+redacted-workspace-filesystem  378T  253T  125T  68% /workspace
+
+== workspace ls ==
+total 2940
+drwxrwxrwx  5 root root 1004625 Jun 16 00:02 .
+drwxr-xr-x  1 root root     124 Jun 15 17:29 ..
+drwxrwxrwx 12 root root       1 Jun 15 23:41 flashwam_project
+drwxrwxrwx 13 root root 1000284 Jun 16 00:02 realtime_vla_flash_project
+drwxrwxrwx  3 root root 1004340 Jun 15 23:48 server_manifest
+
+== python ==
+/usr/local/bin/python
+Python 3.12.3
+/usr/bin/python3
+Python 3.12.3
+
+== env graphics variables ==
+LD_LIBRARY_PATH=/usr/local/cuda/lib64
+
+== vulkaninfo summary ==
+/bin/bash: line 39: vulkaninfo: command not found

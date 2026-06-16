@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "suite": "libero_goal",
+  "task_id": 0,
+  "task_language": "open the middle drawer of the cabinet",
+  "bddl_file": "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/third_party/libero/libero/libero/bddl_files/libero_goal/open_the_middle_drawer_of_the_cabinet.bddl",
+  "mujoco_gl": "egl",
+  "pyopengl_platform": "egl",
+  "resolution": 128,
+  "steps_requested": 20,
+  "reset_ms": 18794.97397399973,
+  "steps_completed": 20,
+  "done": false,
+  "reward_sum": 0.0,
+  "obs_keys": [
+    "agentview_image",
+    "akita_black_bowl_1_pos",
+    "akita_black_bowl_1_quat",
+    "akita_black_bowl_1_to_robot0_eef_pos",
+    "akita_black_bowl_1_to_robot0_eef_quat",
+    "cream_cheese_1_pos",
+    "cream_cheese_1_quat",
+    "cream_cheese_1_to_robot0_eef_pos",
+    "cream_cheese_1_to_robot0_eef_quat",
+    "object-state",
+    "plate_1_pos",
+    "plate_1_quat",
+    "plate_1_to_robot0_eef_pos",
+    "plate_1_to_robot0_eef_quat",
+    "robot0_eef_pos",
+    "robot0_eef_quat",
+    "robot0_eye_in_hand_image",
+    "robot0_gripper_qpos",
+    "robot0_gripper_qvel",
+    "robot0_joint_pos",
+    "robot0_joint_pos_cos",
+    "robot0_joint_pos_sin",
+    "robot0_joint_vel",
+    "robot0_proprio-state",
+    "wine_bottle_1_pos",
+    "wine_bottle_1_quat",
+    "wine_bottle_1_to_robot0_eef_pos",
+    "wine_bottle_1_to_robot0_eef_quat"
+  ],
+  "initial_image_shapes": {
+    "agentview_image": [
+      128,
+      128,
+      3
+    ],
+    "robot0_eye_in_hand_image": [
+      128,
+      128,
+      3
+    ]
+  },
+  "initial_image_dtypes": {
+    "agentview_image": "uint8",
+    "robot0_eye_in_hand_image": "uint8"
+  },
+  "initial_image_minmax": {
+    "agentview_image": [
+      0.0,
+      229.0
+    ],
+    "robot0_eye_in_hand_image": [
+      0.0,
+      209.0
+    ]
+  },
+  "final_image_shapes": {
+    "agentview_image": [
+      128,
+      128,
+      3
+    ],
+    "robot0_eye_in_hand_image": [
+      128,
+      128,
+      3
+    ]
+  },
+  "step_ms_mean": 144.53219329989224,
+  "step_ms_p50": 12.092935001419391,
+  "step_ms_p95": 152.39557194691048
+}

@@ -1,0 +1,9 @@
+{
+  "project_root": "/workspace/realtime_vla_flash_project",
+  "official_repo_url": "https://github.com/dexmal/realtime-vla-flash.git",
+  "official_repo_path": "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash",
+  "official_commit": "da6ceccad603695a8a3d6fa14dd410c3aadb536f",
+  "official_branch": "main",
+  "official_status": "",
+  "submodules": "d1dc83afd89ded4379851257fe5d85632d31d5ec third_party/aloha (d1dc83a)\n f78abd68ee283de9f9be3c8f7e2a9ad60246e95c third_party/libero (f78abd6)"
+}

@@ -1,0 +1,15 @@
+== python ==
+Python 3.8.20
+/workspace/realtime_vla_flash_project/.venv-libero/bin/python
+
+== import mujoco ==
+mujoco import ok 3.2.3
+
+== import robosuite ==
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /workspace/realtime_vla_flash_project/.venv-libero/lib/python3.8/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+robosuite import ok 1.4.1
+
+== import libero ==
+libero import ok
