@@ -1,13 +1,2 @@
- M README.md
-?? artifact_manifest_stage8.txt
-?? logs/stage8_git_status.txt
-?? notes/stage8_artifact_index.md
-?? notes/stage8_blog_draft.md
-?? notes/stage8_career_takeaway.md
-?? notes/stage8_claim_matrix.md
-?? notes/stage8_final_project_report.md
-?? notes/stage8_negative_results_and_caveats.md
-?? notes/stage8_reproducibility_checklist.md
-?? results/stage8_claim_matrix.json
-?? results/stage8_final_metrics.json
-?? results/stage8_project_summary.json
+ M artifact_manifest_stage8.txt
+ M logs/stage8_git_status.txt
