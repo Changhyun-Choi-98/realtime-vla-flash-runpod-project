@@ -14,7 +14,7 @@ I successfully ran Realtime-VLA FLASH on Runpod L40S through the official repo a
 
 ## Project Scope
 
-이 프로젝트는 Realtime-VLA FLASH를 "논문 전체 재현"으로 다루지 않고, Runpod L40S에서 official repo와 public checkpoint를 어디까지 검증할 수 있는지 단계별로 확인했다. 최종 산출물은 limited closed-loop baseline, synchronized profiling, synthetic wrist-camera dropout probe, 그리고 minimal local extension이다.
+This project did not treat Realtime-VLA FLASH as a full-paper reproduction. Instead, it checked step by step how far the official repo and public checkpoints could be verified on Runpod L40S. The final outputs are a limited closed-loop baseline, synchronized profiling, a synthetic wrist-camera dropout probe, and a minimal local extension.
 
 ## Stage Summary
 

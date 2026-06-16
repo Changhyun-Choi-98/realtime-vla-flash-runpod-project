@@ -1,6 +1,6 @@
 # Stage 8 Negative Results And Caveats
 
-## 주요 negative result
+## Main Negative Results
 
 - Stage 5 synthetic wrist-camera dropout caused strong degradation.
 - `wrist_zero_every4` dropped from Stage 4 clean 27/30 aggregate success to 4/15 in the matched perturbation probe.

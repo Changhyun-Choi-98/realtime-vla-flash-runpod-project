@@ -1,6 +1,6 @@
 # Stage 8 Reproducibility Checklist
 
-## 고정된 입력
+## Fixed Inputs
 
 - Official repo: `https://github.com/dexmal/realtime-vla-flash`
 - Official commit: `da6ceccad603695a8a3d6fa14dd410c3aadb536f`
