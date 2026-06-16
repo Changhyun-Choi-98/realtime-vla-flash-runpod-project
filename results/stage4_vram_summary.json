@@ -1,0 +1,8 @@
+{
+  "sample_count": 585,
+  "peak_memory_used_mib": 7506.0,
+  "mean_memory_used_mib": 3883.876923076923,
+  "memory_total_mib": 46068.0,
+  "peak_gpu_utilization": 78.0,
+  "peak_power_draw": 149.89
+}

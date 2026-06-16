@@ -1,0 +1,54 @@
+{
+  "failure_count": 3,
+  "failure_modes": {
+    "policy behavior/no success": 3
+  },
+  "failures": [
+    {
+      "episode_global": 5,
+      "task_suite_name": "libero_goal",
+      "task_id": 0,
+      "episode_idx": 5,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 31,
+      "failure_reason": null,
+      "failure_mode": "policy behavior/no success",
+      "video_path": "episodes/task00_ep005_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "run_name": "stage4_libero_goal_task0_seed7_n10",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episode_log.json"
+    },
+    {
+      "episode_global": 11,
+      "task_suite_name": "libero_goal",
+      "task_id": 1,
+      "episode_idx": 1,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 44,
+      "failure_reason": null,
+      "failure_mode": "policy behavior/no success",
+      "video_path": "episodes/task01_ep001_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "run_name": "stage4_libero_goal_task1_seed7_n10",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episode_log.json"
+    },
+    {
+      "episode_global": 24,
+      "task_suite_name": "libero_goal",
+      "task_id": 2,
+      "episode_idx": 4,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 28,
+      "failure_reason": null,
+      "failure_mode": "policy behavior/no success",
+      "video_path": "episodes/task02_ep004_put_the_wine_bottle_on_top_of_the_cabinet_failure/rollout_failure.mp4",
+      "run_name": "stage4_libero_goal_task2_seed7_n10",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episode_log.json"
+    }
+  ],
+  "warmup_episode_count": 1
+}

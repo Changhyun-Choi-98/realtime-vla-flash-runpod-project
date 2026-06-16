@@ -1,0 +1,25 @@
+{
+  "stage": "stage4_limited_baseline",
+  "suite": "libero_goal",
+  "tasks": [0, 1, 2],
+  "warmup": {
+    "enabled": true,
+    "task_id": 0,
+    "num_trials": 1,
+    "exclude_from_metrics": true
+  },
+  "num_trials_per_task": 10,
+  "seed": 7,
+  "render_backend": "egl",
+  "camera_resolution": 256,
+  "server_backend": "triton",
+  "config": "pi0_libero",
+  "base_triton_path": "/workspace/realtime_vla_flash_project/converted/base",
+  "draft_triton_path": "/workspace/realtime_vla_flash_project/converted/draft_goal",
+  "video_out_path": "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline",
+  "measured_episode_count": 30,
+  "full_benchmark_allowed": false,
+  "paper_reproduction_claim_allowed": false,
+  "latency_claim_allowed": false,
+  "result_interpretation": "limited closed-loop baseline only"
+}

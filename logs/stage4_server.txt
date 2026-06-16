@@ -1,0 +1,1513 @@
+INFO:root:Norm stats not found in /workspace/realtime_vla_flash_project/repos/realtime-vla-flash/assets/pi0_libero/physical-intelligence/libero, skipping.
+INFO:root:Loaded norm stats from /workspace/realtime_vla_flash_project/converted/base/assets/physical-intelligence/libero
+INFO:root:Loaded 10 LIBERO prompts from local BDDL files for libero_goal
+INFO:root:Creating Triton server (host: redacted, ip: redacted, port: 8000)
+INFO:websockets.server:server listening on 0.0.0.0:8000
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 36622) opened
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=65337.22 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.29 prefill=15.62 draft=0.00 verify=0.00 denoise=13.82 total=33.73
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=21226.60 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.25 prefill=0.00 draft=8682.85 verify=12400.09 denoise=0.00 total=21087.19
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.23 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.05 verify=2.17 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.41 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.05 verify=2.18 denoise=0.00 total=7.42
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.41 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.08 verify=2.21 denoise=0.00 total=7.50
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.21 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.03 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.37 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.04 verify=2.19 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.35 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.04 verify=2.16 denoise=0.00 total=7.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.23 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.03 verify=2.16 denoise=0.00 total=7.38
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 36622) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 53708) opened
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.82 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.48 draft=0.00 verify=0.00 denoise=12.57 total=32.18
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.20 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.02 verify=2.19 denoise=0.00 total=7.44
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.15 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.24 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.00 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.68 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.96 verify=2.07 denoise=0.00 total=7.23
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.80 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.15 prefill=15.55 draft=0.00 verify=0.00 denoise=12.72 total=32.42
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.69 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.96 verify=2.09 denoise=0.00 total=7.24
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.73 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=0.96 verify=2.07 denoise=0.00 total=7.24
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.18 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.14 prefill=15.54 draft=0.00 verify=0.00 denoise=12.85 total=32.54
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.17 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.24 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.03 verify=2.13 denoise=0.00 total=7.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.56 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.51 draft=0.00 verify=0.00 denoise=12.56 total=32.20
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.67 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.95 verify=2.08 denoise=0.00 total=7.19
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.85 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.98 verify=2.09 denoise=0.00 total=7.26
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.34 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.41 prefill=0.00 draft=1.03 verify=2.15 denoise=0.00 total=7.59
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.03 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.03 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.00 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.93 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.55 draft=0.00 verify=0.00 denoise=12.78 total=32.45
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.18 denoise=0.00 total=7.42
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.12 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.62 draft=0.00 verify=0.00 denoise=12.59 total=32.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.17 denoise=0.00 total=7.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.03 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=5 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=11 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=11 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.53 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.50 draft=0.00 verify=0.00 denoise=13.11 total=32.73
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.21 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.17 denoise=0.00 total=7.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.91 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.14 prefill=15.59 draft=0.00 verify=0.00 denoise=12.59 total=32.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.02 verify=2.18 denoise=0.00 total=7.43
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.48 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.58 draft=0.00 verify=0.00 denoise=13.14 total=32.85
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=2 max_exec=12 total_ms=9.57 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=2.18 verify=2.27 denoise=0.00 total=8.67
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.46 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.59 draft=0.00 verify=0.00 denoise=13.09 total=32.81
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.33 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.05 verify=2.21 denoise=0.00 total=7.48
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.55 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.15 prefill=15.61 draft=0.00 verify=0.00 denoise=13.21 total=32.97
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.17 denoise=0.00 total=7.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.52 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.15 prefill=15.60 draft=0.00 verify=0.00 denoise=13.23 total=32.98
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.04 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.56 draft=0.00 verify=0.00 denoise=12.75 total=32.44
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.21 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.24 prefill=0.00 draft=1.02 verify=2.18 denoise=0.00 total=7.44
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.25 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.77 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.14 prefill=15.56 draft=0.00 verify=0.00 denoise=12.68 total=32.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.70 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.95 verify=2.09 denoise=0.00 total=7.23
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.93 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=0.98 verify=2.11 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=14.54 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=10.04 prefill=0.00 draft=1.25 verify=2.16 denoise=0.00 total=13.45
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.27 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.06 verify=2.15 denoise=0.00 total=7.43
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.33 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.06 verify=2.16 denoise=0.00 total=7.42
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.68 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.15 prefill=15.58 draft=0.00 verify=0.00 denoise=12.57 total=32.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.69 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.95 verify=2.09 denoise=0.00 total=7.24
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.86 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.98 verify=2.10 denoise=0.00 total=7.27
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.52 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.59 draft=0.00 verify=0.00 denoise=13.01 total=32.73
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.16 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.00 verify=2.14 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.36
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 53708) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 59014) opened
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=26919.32 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.28 prefill=15.43 draft=0.00 verify=0.00 denoise=13.62 total=33.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=2867.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1677.01 verify=1185.29 denoise=0.00 total=2866.48
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.68 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.96 verify=2.05 denoise=0.00 total=7.22
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.73 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.96 verify=2.05 denoise=0.00 total=7.19
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.25 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.27 draft=0.00 verify=0.00 denoise=13.53 total=32.90
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.67 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.96 verify=2.07 denoise=0.00 total=7.21
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.87 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.00 verify=2.09 denoise=0.00 total=7.27
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.12 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.03 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=45.14 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.14 prefill=15.28 draft=0.00 verify=0.00 denoise=25.14 total=44.56
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.17 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.15 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.03 verify=2.13 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.28 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.36 draft=0.00 verify=0.00 denoise=13.23 total=32.71
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.02 verify=2.16 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.04 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.75 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.26 draft=0.00 verify=0.00 denoise=12.77 total=32.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.36 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.32 draft=0.00 verify=0.00 denoise=13.33 total=32.77
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.24 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.43 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.32 draft=0.00 verify=0.00 denoise=13.44 total=32.89
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.39 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.14 prefill=15.42 draft=0.00 verify=0.00 denoise=13.18 total=32.74
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.14 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.29 draft=0.00 verify=0.00 denoise=13.15 total=32.56
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.20 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.17 denoise=0.00 total=7.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.45 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.36 draft=0.00 verify=0.00 denoise=13.36 total=32.86
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.21 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.03 verify=2.15 denoise=0.00 total=7.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.31 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.15 prefill=15.36 draft=0.00 verify=0.00 denoise=13.20 total=32.70
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.18 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.17 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.31 draft=0.00 verify=0.00 denoise=13.16 total=32.61
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.12 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.16 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.92 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.31 draft=0.00 verify=0.00 denoise=12.84 total=32.26
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.15 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.17 denoise=0.00 total=7.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.16 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.45 draft=0.00 verify=0.00 denoise=13.03 total=32.61
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.91 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=0.99 verify=2.11 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.31 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.16 prefill=15.54 draft=0.00 verify=0.00 denoise=13.04 total=32.74
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.91 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.99 verify=2.11 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.83 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.36 draft=0.00 verify=0.00 denoise=12.77 total=32.25
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.17 denoise=0.00 total=7.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.96 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.14 prefill=15.35 draft=0.00 verify=0.00 denoise=12.85 total=32.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.88 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.35 draft=0.00 verify=0.00 denoise=12.79 total=32.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.93 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.33 draft=0.00 verify=0.00 denoise=12.87 total=32.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.16 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.18 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.34 draft=0.00 verify=0.00 denoise=13.09 total=32.56
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.21 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.33 draft=0.00 verify=0.00 denoise=13.17 total=32.62
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.15 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.88 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.35 draft=0.00 verify=0.00 denoise=12.79 total=32.26
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.56 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.28 draft=0.00 verify=0.00 denoise=12.77 total=32.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.68 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.96 verify=2.07 denoise=0.00 total=7.22
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.62 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.19
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.24 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.41 draft=0.00 verify=0.00 denoise=13.15 total=32.68
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=22.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=15.00 verify=2.16 denoise=0.00 total=21.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.11 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.98 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.42 draft=0.00 verify=0.00 denoise=12.88 total=32.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.13 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.28 draft=0.00 verify=0.00 denoise=13.14 total=32.54
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.35 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.28 draft=0.00 verify=0.00 denoise=13.37 total=32.76
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.03 verify=2.11 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.11 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.24 draft=0.00 verify=0.00 denoise=13.27 total=32.63
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.90 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.98 verify=2.11 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.41 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.29 draft=0.00 verify=0.00 denoise=13.49 total=32.90
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.10 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.28 draft=0.00 verify=0.00 denoise=13.04 total=32.46
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.03 verify=2.12 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.84 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.27 draft=0.00 verify=0.00 denoise=12.89 total=32.27
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.04 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=39.53 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.40 draft=0.00 verify=0.00 denoise=19.47 total=38.97
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.27 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.27 draft=0.00 verify=0.00 denoise=13.28 total=32.69
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.16 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.08 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.24 draft=0.00 verify=0.00 denoise=13.17 total=32.51
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.15 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.16 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.74 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.29 draft=0.00 verify=0.00 denoise=12.78 total=32.17
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.21 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.25 draft=0.00 verify=0.00 denoise=13.24 total=32.61
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.15 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.03 verify=2.15 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.20 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.39 draft=0.00 verify=0.00 denoise=13.11 total=32.61
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.27 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.37 draft=0.00 verify=0.00 denoise=13.23 total=32.70
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.83 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.35 draft=0.00 verify=0.00 denoise=12.92 total=32.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.88 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.98 verify=2.11 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.88 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.25 draft=0.00 verify=0.00 denoise=12.92 total=32.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.66 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.95 verify=2.07 denoise=0.00 total=7.20
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.60 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.95 verify=2.04 denoise=0.00 total=7.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=10.70 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=7.24 prefill=0.00 draft=0.97 verify=2.04 denoise=0.00 total=10.25
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.59 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.95 verify=2.04 denoise=0.00 total=7.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.57 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.95 verify=2.04 denoise=0.00 total=7.15
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.81 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.45 draft=0.00 verify=0.00 denoise=12.91 total=32.47
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.78 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.28 draft=0.00 verify=0.00 denoise=13.01 total=32.41
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.66 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.96 verify=2.07 denoise=0.00 total=7.20
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.73 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.59 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.95 verify=2.04 denoise=0.00 total=7.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.74 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.40 draft=0.00 verify=0.00 denoise=12.91 total=32.42
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.67 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=0.95 verify=2.07 denoise=0.00 total=7.22
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.66 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.95 verify=2.06 denoise=0.00 total=7.20
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.60 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.95 verify=2.04 denoise=0.00 total=7.15
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.60 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.95 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.23 draft=0.00 verify=0.00 denoise=13.31 total=32.63
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 59014) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 40002) opened
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=17085.26 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.25 prefill=19.12 draft=0.00 verify=0.00 denoise=13.95 total=37.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=3625.68 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1509.38 verify=2111.60 denoise=0.00 total=3625.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.60 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.96 verify=2.03 denoise=0.00 total=7.15
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.71 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.58 draft=0.00 verify=0.00 denoise=12.71 total=32.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.62 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.96 verify=2.06 denoise=0.00 total=7.18
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.80 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.98 verify=2.07 denoise=0.00 total=7.21
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.02 verify=2.12 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.38 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.59 draft=0.00 verify=0.00 denoise=13.04 total=32.76
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.40
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.03 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.08 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.68 draft=0.00 verify=0.00 denoise=12.69 total=32.46
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.89 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.98 verify=2.11 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.27
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.02 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.27
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.42 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.58 draft=0.00 verify=0.00 denoise=13.14 total=32.82
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.08 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.62 draft=0.00 verify=0.00 denoise=12.95 total=32.67
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.66 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.20
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.54 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.13 prefill=0.00 draft=0.95 verify=2.02 denoise=0.00 total=7.10
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.71 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.08 prefill=15.60 draft=0.00 verify=0.00 denoise=12.62 total=32.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.90 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.26 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.04 verify=2.16 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.19 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.04 verify=2.11 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.23 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.03 verify=2.15 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.27 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.61 draft=0.00 verify=0.00 denoise=12.89 total=32.61
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.66 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.54 draft=0.00 verify=0.00 denoise=12.62 total=32.25
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.64 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.17
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.62 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.96 verify=2.03 denoise=0.00 total=7.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.03 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.62 draft=0.00 verify=0.00 denoise=12.92 total=32.63
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.67 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.96 verify=2.06 denoise=0.00 total=7.17
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.66 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.96 verify=2.04 denoise=0.00 total=7.17
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.62 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.14 prefill=0.00 draft=0.96 verify=2.03 denoise=0.00 total=7.14
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.61 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.15 prefill=0.00 draft=0.96 verify=2.03 denoise=0.00 total=7.14
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.61 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.15 prefill=0.00 draft=0.95 verify=2.03 denoise=0.00 total=7.13
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.83 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.08 prefill=15.58 draft=0.00 verify=0.00 denoise=12.79 total=32.45
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.72 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.60 draft=0.00 verify=0.00 denoise=12.62 total=32.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.65 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.96 verify=2.06 denoise=0.00 total=7.20
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=34.30 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.65 draft=0.00 verify=0.00 denoise=13.96 total=33.73
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.04 verify=2.14 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.04 verify=2.10 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.02 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.23 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.08 prefill=15.62 draft=0.00 verify=0.00 denoise=12.95 total=32.65
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.02 verify=2.14 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.02 verify=2.17 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.04 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.03 verify=2.09 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=10 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.09 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.04 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.04 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.11 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.03 verify=2.13 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.02 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.09 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.02 verify=2.11 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.11 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.05 verify=2.10 denoise=0.00 total=7.32
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=10 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=9 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=9 max_exec=12 total_ms=8.12 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.08 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.12 prefill=15.62 draft=0.00 verify=0.00 denoise=12.74 total=32.48
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.23 prefill=0.00 draft=1.01 verify=2.12 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.03 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.62 draft=0.00 verify=0.00 denoise=12.70 total=32.44
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.04 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.09 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.08 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.10 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.43 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.60 draft=0.00 verify=0.00 denoise=13.13 total=32.83
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.32 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.63 draft=0.00 verify=0.00 denoise=13.09 total=32.83
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.63 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.18
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.57 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.95 verify=2.03 denoise=0.00 total=7.14
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.58 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.96 verify=2.03 denoise=0.00 total=7.14
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.84 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.60 draft=0.00 verify=0.00 denoise=12.82 total=32.50
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.63 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.17
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.58 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.15 prefill=0.00 draft=0.95 verify=2.03 denoise=0.00 total=7.13
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.57 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.15 prefill=0.00 draft=0.95 verify=2.03 denoise=0.00 total=7.13
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.60 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.96 verify=2.04 denoise=0.00 total=7.16
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.57 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.16 prefill=0.00 draft=0.95 verify=2.03 denoise=0.00 total=7.14
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.05 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.60 draft=0.00 verify=0.00 denoise=13.02 total=32.70
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.72 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.63 draft=0.00 verify=0.00 denoise=12.62 total=32.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.66 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=0.95 verify=2.05 denoise=0.00 total=7.20
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=7.82 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=0.98 verify=2.06 denoise=0.00 total=7.22
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.45 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.65 draft=0.00 verify=0.00 denoise=13.17 total=32.91
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=7.91 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=0.98 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.06 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.01 verify=2.09 denoise=0.00 total=7.28
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.04 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.02 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.17 prefill=0.00 draft=1.04 verify=2.09 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=32.90 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.09 prefill=15.60 draft=0.00 verify=0.00 denoise=12.62 total=32.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.03 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.13 prefill=15.62 draft=0.00 verify=0.00 denoise=12.63 total=32.38
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.15 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.01 verify=2.14 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.30 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.64 draft=0.00 verify=0.00 denoise=12.98 total=32.73
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.14 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.22 prefill=0.00 draft=1.02 verify=2.13 denoise=0.00 total=7.37
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.23 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.05 verify=2.14 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.10 denoise=0.00 total=7.29
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.05 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.31
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.21 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.04 verify=2.10 denoise=0.00 total=7.34
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.19 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.11 prefill=15.63 draft=0.00 verify=0.00 denoise=12.70 total=32.44
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.35 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.14 prefill=15.65 draft=0.00 verify=0.00 denoise=12.95 total=32.73
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.12 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.01 verify=2.13 denoise=0.00 total=7.33
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=0 max_exec=12 total_ms=8.16 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.03 verify=2.14 denoise=0.00 total=7.36
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=33.02 prefill=1 fallback=1 random_verify=0
+INFO:root:timing enc=4.10 prefill=15.58 draft=0.00 verify=0.00 denoise=12.81 total=32.49
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.17 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.21 prefill=0.00 draft=1.02 verify=2.15 denoise=0.00 total=7.39
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.13 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.18 prefill=0.00 draft=1.04 verify=2.13 denoise=0.00 total=7.35
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.03 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.19 prefill=0.00 draft=1.01 verify=2.09 denoise=0.00 total=7.30
+INFO:root:Response
+INFO:root:actions shape=(50, 7)
+INFO:root:summary accepted=12 max_exec=12 total_ms=8.07 prefill=0 fallback=0 random_verify=0
+INFO:root:timing enc=4.20 prefill=0.00 draft=1.02 verify=2.10 denoise=0.00 total=7.32
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 40002) closed

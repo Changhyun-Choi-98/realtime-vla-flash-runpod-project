@@ -1,0 +1,20 @@
+{
+  "is_full_paper_reproduction": false,
+  "is_full_libero_benchmark": false,
+  "suite": "libero_goal",
+  "tasks": [
+    0,
+    1,
+    2
+  ],
+  "measured_episode_count": 30,
+  "requested_measured_episode_count": 30,
+  "paper_comparison_allowed": false,
+  "caveats": [
+    "Limited LIBERO Goal subset only.",
+    "Does not cover all LIBERO suites or tasks.",
+    "Does not reproduce real-world conveyor results.",
+    "Latency is preliminary without GPU-synchronized profiling.",
+    "Hardware and container may differ from the paper setup."
+  ]
+}

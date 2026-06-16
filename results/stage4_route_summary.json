@@ -1,0 +1,101 @@
+{
+  "infer_log_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep002_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep003_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep004_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep005_open_the_middle_drawer_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep006_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep007_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep008_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep009_open_the_middle_drawer_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep000_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep001_put_the_bowl_on_the_stove_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep002_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep003_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep004_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep005_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep006_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep007_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep008_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep009_put_the_bowl_on_the_stove_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep000_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep001_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep002_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep003_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep004_put_the_wine_bottle_on_top_of_the_cabinet_failure/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep005_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep006_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep007_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep008_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep009_put_the_wine_bottle_on_top_of_the_cabinet_success/infer.jsonl"
+  ],
+  "trace_files": [
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep002_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep003_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep004_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep005_open_the_middle_drawer_of_the_cabinet_failure/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep006_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep007_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep008_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task0_seed7_n10/episodes/task00_ep009_open_the_middle_drawer_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep000_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep001_put_the_bowl_on_the_stove_failure/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep002_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep003_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep004_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep005_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep006_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep007_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep008_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task1_seed7_n10/episodes/task01_ep009_put_the_bowl_on_the_stove_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep000_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep001_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep002_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep003_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep004_put_the_wine_bottle_on_top_of_the_cabinet_failure/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep005_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep006_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep007_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep008_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl",
+    "/workspace/realtime_vla_flash_project/videos/stage4_limited_baseline/stage4_libero_goal_task2_seed7_n10/episodes/task02_ep009_put_the_wine_bottle_on_top_of_the_cabinet_success/trace.jsonl"
+  ],
+  "route_counts": {
+    "full": 88,
+    "draft": 276
+  },
+  "route_counts_by_task": {
+    "0": {
+      "full": 16,
+      "draft": 104
+    },
+    "1": {
+      "full": 44,
+      "draft": 84
+    },
+    "2": {
+      "full": 28,
+      "draft": 88
+    }
+  },
+  "draft_ratio": 0.7582417582417582,
+  "full_ratio": 0.24175824175824176,
+  "accepted_prefix_len": {
+    "mean": 10.074175824175825,
+    "p50": 12.0,
+    "p90": 12.0,
+    "p95": 12.0,
+    "p99": 12.0
+  },
+  "chunk_exec_len": {
+    "mean": 10.074175824175825,
+    "p50": 12.0,
+    "p90": 12.0,
+    "p95": 12.0,
+    "p99": 12.0
+  },
+  "missing_fields": []
+}

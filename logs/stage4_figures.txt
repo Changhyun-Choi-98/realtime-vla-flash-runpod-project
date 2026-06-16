@@ -1,0 +1,4 @@
+/workspace/realtime_vla_flash_project/figures/stage4_success_by_task.png
+/workspace/realtime_vla_flash_project/figures/stage4_latency_boxplot.png
+/workspace/realtime_vla_flash_project/figures/stage4_accepted_prefix_hist.png
+/workspace/realtime_vla_flash_project/figures/stage4_route_ratio_by_task.png

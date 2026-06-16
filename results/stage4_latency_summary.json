@@ -1,0 +1,62 @@
+{
+  "first_inference_cold_start_ms": {
+    "warmup_policy_time_ms": 72174.5660029992,
+    "warmup_serve_time_ms": 72175.05731800338,
+    "warmup_client_roundtrip_ms": 72177.65359500481,
+    "measured_run_first_policy_time_ms": [
+      35.09668200422311,
+      26922.240733001672,
+      17088.11735600466
+    ],
+    "measured_run_first_client_roundtrip_ms": [
+      36.66702800546773,
+      26923.978320999595,
+      17090.19098799763
+    ]
+  },
+  "steady_state_policy_time_ms": {
+    "mean": 34.53230893878212,
+    "p50": 10.676229998352937,
+    "p90": 35.25130399793852,
+    "p95": 35.6274870064226,
+    "p99": 41.963687201496185
+  },
+  "steady_state_serve_time_ms": {
+    "mean": 34.65429364478343,
+    "p50": 10.810271996888332,
+    "p90": 35.35006600577617,
+    "p95": 35.760808998020366,
+    "p99": 42.0589292029035
+  },
+  "steady_state_client_roundtrip_ms": {
+    "mean": 35.80304337428013,
+    "p50": 11.996444001852069,
+    "p90": 36.273356003221124,
+    "p95": 37.204802996711805,
+    "p99": 43.287045000761225
+  },
+  "all_measured_policy_time_ms": {
+    "mean": 155.25169862063433,
+    "p50": 10.681225499865832,
+    "p90": 35.26636699680239,
+    "p95": 35.68860650048009,
+    "p99": 1091.6849624580336
+  },
+  "all_measured_serve_time_ms": {
+    "mean": 155.37373939772365,
+    "p50": 10.814281995408237,
+    "p90": 35.36481399642071,
+    "p95": 35.814130854123505,
+    "p99": 1092.0330062609119
+  },
+  "all_measured_client_roundtrip_ms": {
+    "mean": 156.52674449208192,
+    "p50": 12.002743500488577,
+    "p90": 36.38143999996828,
+    "p95": 37.4689006479457,
+    "p99": 1093.6058808276848
+  },
+  "steady_state_sample_count": 361,
+  "measured_infer_count": 364,
+  "caveat": "Stage 4 timing is preliminary and is not paper-level latency reproduction because GPU-synchronized profiling is not implemented here."
+}
