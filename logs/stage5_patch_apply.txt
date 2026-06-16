@@ -1,0 +1,17 @@
+{
+  "status": "patched",
+  "target_file": "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/scripts/spec/spec_client_libero.py",
+  "patch_file": "/workspace/realtime_vla_flash_project/patches/stage5_client_camera_perturb.patch",
+  "target_image_key": "robot0_eye_in_hand_image",
+  "default_behavior_unchanged": true,
+  "preserved_stage6_timing_fields": true,
+  "added_log_fields": [
+    "stage5_perturb_enabled",
+    "stage5_perturb_condition",
+    "stage5_perturb_target_key",
+    "stage5_perturb_applied",
+    "stage5_perturb_query_index",
+    "stage5_perturb_mode",
+    "stage5_perturb_period"
+  ]
+}

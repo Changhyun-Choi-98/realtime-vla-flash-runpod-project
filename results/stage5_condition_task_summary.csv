@@ -1,0 +1,7 @@
+condition,task_id,episodes_requested,episodes_completed,success_count,success_rate,stage4_task_success_rate,stage4_first5_success_rate,success_drop_vs_stage4,success_drop_vs_stage4_first5,main_failure_mode
+wrist_zero_every4,0,5,5,0,0.0,0.9,1.0,0.9,1.0,perturbation-induced perception failure
+wrist_zero_every4,1,5,5,0,0.0,0.9,0.8,0.9,0.8,perturbation-induced perception failure
+wrist_zero_every4,2,5,5,4,0.8,0.9,0.8,0.09999999999999998,0.0,perturbation-induced perception failure
+wrist_zero_all,0,5,5,0,0.0,0.9,1.0,0.9,1.0,perturbation-induced perception failure
+wrist_zero_all,1,5,5,0,0.0,0.9,0.8,0.9,0.8,perturbation-induced perception failure
+wrist_zero_all,2,5,5,0,0.0,0.9,0.8,0.9,0.8,perturbation-induced perception failure

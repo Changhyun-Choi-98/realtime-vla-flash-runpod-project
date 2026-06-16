@@ -1,0 +1,43 @@
+{
+  "stage": "stage5_camera_dropout_robustness_probe",
+  "suite": "libero_goal",
+  "tasks": [0, 1, 2],
+  "conditions": [
+    {
+      "name": "wrist_zero_every4",
+      "target_image_key": "robot0_eye_in_hand_image",
+      "mode": "zero_periodic",
+      "period": 4,
+      "num_trials_per_task": 5
+    },
+    {
+      "name": "wrist_zero_all",
+      "target_image_key": "robot0_eye_in_hand_image",
+      "mode": "zero_all",
+      "period": 1,
+      "num_trials_per_task": 5
+    }
+  ],
+  "sanity_clean": {
+    "enabled": true,
+    "task_id": 0,
+    "num_trials": 1,
+    "exclude_from_metrics": true
+  },
+  "seed": 7,
+  "render_backend": "egl",
+  "server_backend": "triton",
+  "config": "pi0_libero",
+  "base_triton_path": "/workspace/realtime_vla_flash_project/converted/base",
+  "draft_triton_path": "/workspace/realtime_vla_flash_project/converted/draft_goal",
+  "video_out_path": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout",
+  "clean_reference": {
+    "source": "Stage 4 limited baseline",
+    "episode_summary": "/workspace/realtime_vla_flash_project/results/stage4_episode_summary.csv",
+    "infer_summary": "/workspace/realtime_vla_flash_project/results/stage4_infer_summary.csv",
+    "task_summary": "/workspace/realtime_vla_flash_project/results/stage4_task_summary.csv"
+  },
+  "full_benchmark_allowed": false,
+  "paper_reproduction_claim_allowed": false,
+  "robustness_claim_scope": "limited to LIBERO Goal tasks 0-2 under wrist-camera zeroing"
+}

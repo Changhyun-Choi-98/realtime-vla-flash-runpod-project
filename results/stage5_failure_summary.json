@@ -1,0 +1,363 @@
+{
+  "failure_count": 26,
+  "failure_types_by_condition_task": {
+    "wrist_zero_every4_task0": {
+      "perturbation-induced perception failure": 5
+    },
+    "wrist_zero_every4_task1": {
+      "perturbation-induced perception failure": 5
+    },
+    "wrist_zero_every4_task2": {
+      "perturbation-induced perception failure": 1
+    },
+    "wrist_zero_all_task0": {
+      "perturbation-induced perception failure": 5
+    },
+    "wrist_zero_all_task1": {
+      "perturbation-induced perception failure": 5
+    },
+    "wrist_zero_all_task2": {
+      "perturbation-induced perception failure": 5
+    }
+  },
+  "failures": [
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 0,
+      "episode_idx": 0,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 49,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 0,
+      "episode_idx": 1,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 55,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 0,
+      "episode_idx": 2,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 48,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep002_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 0,
+      "episode_idx": 3,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 43,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep003_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 0,
+      "episode_idx": 4,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 49,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep004_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 1,
+      "episode_idx": 0,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 48,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep000_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 1,
+      "episode_idx": 1,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 50,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep001_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 1,
+      "episode_idx": 2,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 47,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep002_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 1,
+      "episode_idx": 3,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 48,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep003_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 1,
+      "episode_idx": 4,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 47,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep004_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 2,
+      "episode_idx": 0,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 45,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task02_ep000_put_the_wine_bottle_on_top_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task2_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 2,
+      "episode_idx": 1,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 45,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task02_ep001_put_the_wine_bottle_on_top_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task2_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 2,
+      "episode_idx": 2,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 37,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task02_ep002_put_the_wine_bottle_on_top_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task2_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 2,
+      "episode_idx": 3,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 40,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task02_ep003_put_the_wine_bottle_on_top_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task2_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 2,
+      "episode_idx": 4,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 42,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task02_ep004_put_the_wine_bottle_on_top_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_all_task2_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 0,
+      "episode_idx": 0,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 31,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep000_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 0,
+      "episode_idx": 1,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 41,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep001_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 0,
+      "episode_idx": 2,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 39,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep002_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 0,
+      "episode_idx": 3,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 33,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep003_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 0,
+      "episode_idx": 4,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 30,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task00_ep004_open_the_middle_drawer_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task0_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 1,
+      "episode_idx": 0,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 41,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep000_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 1,
+      "episode_idx": 1,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 45,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep001_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 1,
+      "episode_idx": 2,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 43,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep002_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 1,
+      "episode_idx": 3,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 41,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep003_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 1,
+      "episode_idx": 4,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 40,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task01_ep004_put_the_bowl_on_the_stove_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task1_seed7_n5/episode_log.json"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 2,
+      "episode_idx": 1,
+      "completed": true,
+      "success": false,
+      "steps": 310,
+      "infer_calls": 45,
+      "failure_reason": null,
+      "failure_mode": "perturbation-induced perception failure",
+      "video_path": "episodes/task02_ep001_put_the_wine_bottle_on_top_of_the_cabinet_failure/rollout_failure.mp4",
+      "source": "/workspace/realtime_vla_flash_project/videos/stage5_camera_dropout/stage5_wrist_zero_every4_task2_seed7_n5/episode_log.json"
+    }
+  ]
+}

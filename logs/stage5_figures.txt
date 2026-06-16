@@ -1,0 +1,5 @@
+/workspace/realtime_vla_flash_project/figures/stage5_success_by_condition_task.png
+/workspace/realtime_vla_flash_project/figures/stage5_success_drop_vs_baseline.png
+/workspace/realtime_vla_flash_project/figures/stage5_accepted_prefix_by_condition.png
+/workspace/realtime_vla_flash_project/figures/stage5_route_ratio_by_condition.png
+/workspace/realtime_vla_flash_project/figures/stage5_latency_by_condition.png

@@ -1,0 +1,1017 @@
+{
+  "target_file": "/workspace/realtime_vla_flash_project/repos/realtime-vla-flash/scripts/spec/spec_client_libero.py",
+  "matched_lines": [
+    {
+      "line": 17,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "from openpi_client import image_tools"
+    },
+    {
+      "line": 18,
+      "terms": [
+        "policy",
+        "client",
+        "websocket"
+      ],
+      "excerpt": "from openpi_client import websocket_client_policy as _websocket_client_policy"
+    },
+    {
+      "line": 34,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "replan_steps: int = 12  # client-side upper bound"
+    },
+    {
+      "line": 64,
+      "terms": [
+        "episode_log.json"
+      ],
+      "excerpt": "episode_log_path = run_dir / \"episode_log.json\""
+    },
+    {
+      "line": 101,
+      "terms": [
+        "policy",
+        "client",
+        "websocket"
+      ],
+      "excerpt": "client = _websocket_client_policy.WebsocketClientPolicy(args.host, args.port)"
+    },
+    {
+      "line": 115,
+      "terms": [
+        "obs"
+      ],
+      "excerpt": "obs = env.set_init_state(initial_states[episode_idx])"
+    },
+    {
+      "line": 121,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_calls = 0"
+    },
+    {
+      "line": 122,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_latency_sum_ms = 0.0"
+    },
+    {
+      "line": 123,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_sum_ms = 0.0"
+    },
+    {
+      "line": 124,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_count = 0"
+    },
+    {
+      "line": 131,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_id_next = 0"
+    },
+    {
+      "line": 133,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "episode_infers: List[Dict[str, Any]] = []"
+    },
+    {
+      "line": 142,
+      "terms": [
+        "obs"
+      ],
+      "excerpt": "obs, reward, done, info = env.step(LIBERO_DUMMY_ACTION)"
+    },
+    {
+      "line": 147,
+      "terms": [
+        "agentview_image",
+        "obs"
+      ],
+      "excerpt": "img = np.ascontiguousarray(obs[\"agentview_image\"][::-1, ::-1])"
+    },
+    {
+      "line": 148,
+      "terms": [
+        "robot0_eye_in_hand_image",
+        "obs"
+      ],
+      "excerpt": "wrist_img = np.ascontiguousarray(obs[\"robot0_eye_in_hand_image\"][::-1, ::-1])"
+    },
+    {
+      "line": 157,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_id = int(infer_id_next)"
+    },
+    {
+      "line": 158,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_id_next += 1"
+    },
+    {
+      "line": 160,
+      "terms": [
+        "observation",
+        "obs"
+      ],
+      "excerpt": "\"observation/image\": img,"
+    },
+    {
+      "line": 161,
+      "terms": [
+        "observation",
+        "obs"
+      ],
+      "excerpt": "\"observation/wrist_image\": wrist_img,"
+    },
+    {
+      "line": 162,
+      "terms": [
+        "observation",
+        "obs"
+      ],
+      "excerpt": "\"observation/state\": np.concatenate("
+    },
+    {
+      "line": 164,
+      "terms": [
+        "obs"
+      ],
+      "excerpt": "obs[\"robot0_eef_pos\"],"
+    },
+    {
+      "line": 165,
+      "terms": [
+        "obs"
+      ],
+      "excerpt": "_quat2axisangle(obs[\"robot0_eef_quat\"]),"
+    },
+    {
+      "line": 166,
+      "terms": [
+        "obs"
+      ],
+      "excerpt": "obs[\"robot0_gripper_qpos\"],"
+    },
+    {
+      "line": 174,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"__trace_infer_id__\": int(infer_id),"
+    },
+    {
+      "line": 177,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "element[\"__reset_policy_state__\"] = True"
+    },
+    {
+      "line": 180,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_send_timestamp_s = time.time()"
+    },
+    {
+      "line": 181,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_t0 = time.perf_counter()"
+    },
+    {
+      "line": 182,
+      "terms": [
+        "infer",
+        "client"
+      ],
+      "excerpt": "out = client.infer(element)"
+    },
+    {
+      "line": 183,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_roundtrip_ms = (time.perf_counter() - client_t0) * 1000.0"
+    },
+    {
+      "line": 184,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_recv_timestamp_s = time.time()"
+    },
+    {
+      "line": 186,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_timing = out.get(\"policy_timing\", {})"
+    },
+    {
+      "line": 190,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_calls += 1"
+    },
+    {
+      "line": 191,
+      "terms": [
+        "policy",
+        "infer"
+      ],
+      "excerpt": "infer_latency_ms = policy_timing.get(\"sample_actions_ms\", None)"
+    },
+    {
+      "line": 192,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "if infer_latency_ms is not None:"
+    },
+    {
+      "line": 193,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_latency_sum_ms += float(infer_latency_ms)"
+    },
+    {
+      "line": 194,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_ms, serve_time_ms = _policy_and_serve_time_ms(server_timing)"
+    },
+    {
+      "line": 195,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "if policy_time_ms is not None:"
+    },
+    {
+      "line": 196,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_sum_ms += float(policy_time_ms)"
+    },
+    {
+      "line": 197,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_count += 1"
+    },
+    {
+      "line": 201,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "route_type = _route_type_from_timing(policy_timing)"
+    },
+    {
+      "line": 208,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "if bool(round(float(policy_timing.get(\"include_in_draft_accept_metrics\", 1.0)))):"
+    },
+    {
+      "line": 212,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_record = _make_infer_record("
+    },
+    {
+      "line": 217,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_id=infer_id,"
+    },
+    {
+      "line": 223,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_timing=policy_timing,"
+    },
+    {
+      "line": 225,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_send_timestamp_s=client_send_timestamp_s,"
+    },
+    {
+      "line": 226,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_recv_timestamp_s=client_recv_timestamp_s,"
+    },
+    {
+      "line": 227,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_roundtrip_ms=client_roundtrip_ms,"
+    },
+    {
+      "line": 230,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "episode_infers.append(infer_record)"
+    },
+    {
+      "line": 240,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_record=infer_record,"
+    },
+    {
+      "line": 243,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_start_frame=True,"
+    },
+    {
+      "line": 254,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_record\": infer_record,"
+    },
+    {
+      "line": 256,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_start_frame\": bool(action_offset == 0),"
+    },
+    {
+      "line": 264,
+      "terms": [
+        "obs"
+      ],
+      "excerpt": "obs, reward, done, info = env.step(action.tolist())"
+    },
+    {
+      "line": 273,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_record=action_meta[\"infer_record\"],"
+    },
+    {
+      "line": 276,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_start_frame=bool(action_meta[\"infer_start_frame\"]),"
+    },
+    {
+      "line": 309,
+      "terms": [
+        "trace.jsonl"
+      ],
+      "excerpt": "trace_path = episode_dir / \"trace.jsonl\""
+    },
+    {
+      "line": 310,
+      "terms": [
+        "infer",
+        "infer.jsonl"
+      ],
+      "excerpt": "infer_path = episode_dir / \"infer.jsonl\""
+    },
+    {
+      "line": 312,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "_write_jsonl(infer_path, episode_infers)"
+    },
+    {
+      "line": 313,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "mean_infer_latency_ms = (infer_latency_sum_ms / float(infer_calls)) if infer_calls > 0 else None"
+    },
+    {
+      "line": 314,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "mean_policy_time_ms = ("
+    },
+    {
+      "line": 315,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_sum_ms / float(policy_time_count)"
+    },
+    {
+      "line": 316,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": ") if policy_time_count > 0 else None"
+    },
+    {
+      "line": 324,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_route_counts = _count_by_key(episode_infers, \"route_type\")"
+    },
+    {
+      "line": 342,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_calls\": int(infer_calls),"
+    },
+    {
+      "line": 347,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_latency_mean_ms\": None if mean_infer_latency_ms is None else float(mean_infer_latency_ms),"
+    },
+    {
+      "line": 348,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_latency_sum_ms\": float(infer_latency_sum_ms),"
+    },
+    {
+      "line": 349,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"policy_time_mean_ms\": None if mean_policy_time_ms is None else float(mean_policy_time_ms),"
+    },
+    {
+      "line": 350,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"policy_time_sum_ms\": float(policy_time_sum_ms),"
+    },
+    {
+      "line": 351,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"policy_time_count\": int(policy_time_count),"
+    },
+    {
+      "line": 356,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "float(infer_latency_sum_ms) / float(executed_action_count) if executed_action_count > 0 else None"
+    },
+    {
+      "line": 358,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"avg_policy_time_per_action_ms\": ("
+    },
+    {
+      "line": 359,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "float(policy_time_sum_ms) / float(executed_action_count)"
+    },
+    {
+      "line": 360,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "if policy_time_count > 0 and executed_action_count > 0"
+    },
+    {
+      "line": 369,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"route_ratio_by_infer\": _ratio_dict(infer_route_counts, denom=int(len(episode_infers))),"
+    },
+    {
+      "line": 373,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_path\": str(infer_path.relative_to(run_dir)),"
+    },
+    {
+      "line": 376,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_record_count\": int(len(episode_infers)),"
+    },
+    {
+      "line": 472,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "def _route_type_from_timing(policy_timing: Dict[str, Any]) -> str:"
+    },
+    {
+      "line": 473,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "is_full_round = bool(round(float(policy_timing.get(\"is_full_pipeline_round\", 0.0))))"
+    },
+    {
+      "line": 488,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "def _policy_and_serve_time_ms(server_timing: Dict[str, Any]) -> Tuple[Optional[float], Optional[float]]:"
+    },
+    {
+      "line": 489,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_ms = _float_or_none(server_timing.get(\"policy_time_ms\"))"
+    },
+    {
+      "line": 490,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "if policy_time_ms is None:"
+    },
+    {
+      "line": 491,
+      "terms": [
+        "policy",
+        "infer"
+      ],
+      "excerpt": "policy_time_ms = _float_or_none(server_timing.get(\"infer_ms\"))"
+    },
+    {
+      "line": 494,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "if serve_time_ms is None and policy_time_ms is not None:"
+    },
+    {
+      "line": 498,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "serve_time_ms = float(ws_unpack_ms) + float(policy_time_ms) + float(ws_pack_ms)"
+    },
+    {
+      "line": 499,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "return policy_time_ms, serve_time_ms"
+    },
+    {
+      "line": 502,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "def _make_infer_record("
+    },
+    {
+      "line": 508,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_id: int,"
+    },
+    {
+      "line": 514,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_timing: Dict[str, Any],"
+    },
+    {
+      "line": 516,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_send_timestamp_s: float,"
+    },
+    {
+      "line": 517,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_recv_timestamp_s: float,"
+    },
+    {
+      "line": 518,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "client_roundtrip_ms: float,"
+    },
+    {
+      "line": 521,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "policy_time_ms, serve_time_ms = _policy_and_serve_time_ms(server_timing)"
+    },
+    {
+      "line": 523,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "\"timestamp\": float(client_recv_timestamp_s),"
+    },
+    {
+      "line": 524,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "\"client_send_timestamp_s\": float(client_send_timestamp_s),"
+    },
+    {
+      "line": 525,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "\"client_recv_timestamp_s\": float(client_recv_timestamp_s),"
+    },
+    {
+      "line": 526,
+      "terms": [
+        "client"
+      ],
+      "excerpt": "\"client_roundtrip_ms\": float(client_roundtrip_ms),"
+    },
+    {
+      "line": 533,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_id\": int(infer_id),"
+    },
+    {
+      "line": 540,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"sample_actions_ms\": _float_or_none(policy_timing.get(\"sample_actions_ms\")),"
+    },
+    {
+      "line": 541,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"policy_time_gpu_sync_ms\": _float_or_none(policy_timing.get(\"policy_time_gpu_sync_ms\")),"
+    },
+    {
+      "line": 542,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"policy_time_wall_ms\": _float_or_none(policy_timing.get(\"policy_time_wall_ms\")),"
+    },
+    {
+      "line": 543,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"gpu_sync_before_after_used\": int(round(float(policy_timing.get(\"gpu_sync_before_after_used\", 0.0)))),"
+    },
+    {
+      "line": 544,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"timing_patch_stage\": str(policy_timing.get(\"timing_patch_stage\", \"\")),"
+    },
+    {
+      "line": 545,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"timing_patch_note\": str(policy_timing.get(\"timing_patch_note\", \"\")),"
+    },
+    {
+      "line": 546,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"policy_time_ms\": policy_time_ms,"
+    },
+    {
+      "line": 550,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"encoder_ms\": _float_or_none(policy_timing.get(\"encoder_ms\")),"
+    },
+    {
+      "line": 551,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"vlm_prefill_ms\": _float_or_none(policy_timing.get(\"vlm_prefill_ms\")),"
+    },
+    {
+      "line": 552,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"draft_ms\": _float_or_none(policy_timing.get(\"draft_ms\")),"
+    },
+    {
+      "line": 553,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"action_verify_ms\": _float_or_none(policy_timing.get(\"action_verify_ms\")),"
+    },
+    {
+      "line": 554,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"full_fallback_ms\": _float_or_none(policy_timing.get(\"full_fallback_ms\")),"
+    },
+    {
+      "line": 555,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"total_ms\": _float_or_none(policy_timing.get(\"total_ms\")),"
+    },
+    {
+      "line": 556,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"accepted_prefix_len_mean\": _float_or_none(policy_timing.get(\"accepted_prefix_len_mean\")),"
+    },
+    {
+      "line": 557,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"radius_dist_mean\": _float_or_none(policy_timing.get(\"radius_dist_mean\")),"
+    },
+    {
+      "line": 558,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"gripper_override_rate\": _float_or_none(policy_timing.get(\"gripper_override_rate\")),"
+    },
+    {
+      "line": 559,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"did_prefill\": int(round(float(policy_timing.get(\"did_prefill\", 0.0)))),"
+    },
+    {
+      "line": 560,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"is_full_pipeline_round\": int(round(float(policy_timing.get(\"is_full_pipeline_round\", 0.0)))),"
+    },
+    {
+      "line": 561,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"used_full_fallback\": int(round(float(policy_timing.get(\"used_full_fallback\", 0.0)))),"
+    },
+    {
+      "line": 562,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"scheduled_full_fallback\": int(round(float(policy_timing.get(\"scheduled_full_fallback\", 0.0)))),"
+    },
+    {
+      "line": 563,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"verify_mode_random\": int(round(float(policy_timing.get(\"verify_mode_random\", 0.0)))),"
+    },
+    {
+      "line": 564,
+      "terms": [
+        "policy"
+      ],
+      "excerpt": "\"gripper_verify_enabled\": int(round(float(policy_timing.get(\"gripper_verify_enabled\", 0.0)))),"
+    },
+    {
+      "line": 576,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_record: Dict[str, Any],"
+    },
+    {
+      "line": 579,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "infer_start_frame: bool,"
+    },
+    {
+      "line": 590,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_id\": int(infer_record[\"infer_id\"]),"
+    },
+    {
+      "line": 591,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"infer_start_frame\": bool(infer_start_frame),"
+    },
+    {
+      "line": 594,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"route_type\": str(infer_record[\"route_type\"]),"
+    },
+    {
+      "line": 595,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"accepted_prefix_len\": int(infer_record[\"accepted_prefix_len\"]),"
+    },
+    {
+      "line": 596,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"chunk_exec_len\": int(infer_record[\"chunk_exec_len\"]),"
+    },
+    {
+      "line": 597,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"sample_actions_ms\": infer_record[\"sample_actions_ms\"],"
+    },
+    {
+      "line": 598,
+      "terms": [
+        "policy",
+        "infer"
+      ],
+      "excerpt": "\"policy_time_ms\": infer_record.get(\"policy_time_ms\"),"
+    },
+    {
+      "line": 599,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"serve_time_ms\": infer_record.get(\"serve_time_ms\"),"
+    },
+    {
+      "line": 600,
+      "terms": [
+        "infer",
+        "client"
+      ],
+      "excerpt": "\"client_roundtrip_ms\": infer_record.get(\"client_roundtrip_ms\"),"
+    },
+    {
+      "line": 601,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"total_ms\": infer_record[\"total_ms\"],"
+    },
+    {
+      "line": 602,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"radius_dist_mean\": infer_record[\"radius_dist_mean\"],"
+    },
+    {
+      "line": 603,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"did_prefill\": int(infer_record[\"did_prefill\"]),"
+    },
+    {
+      "line": 604,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"is_full_pipeline_round\": int(infer_record[\"is_full_pipeline_round\"]),"
+    },
+    {
+      "line": 605,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"used_full_fallback\": int(infer_record[\"used_full_fallback\"]),"
+    },
+    {
+      "line": 606,
+      "terms": [
+        "infer"
+      ],
+      "excerpt": "\"scheduled_full_fallback\": int(infer_record[\"scheduled_full_fallback\"]),"
+    }
+  ],
+  "candidate_patch_regions": [
+    {
+      "start_line": 143,
+      "end_line": 156,
+      "excerpt": [
+        "143:                         t += 1",
+        "144:                         continue",
+        "145: ",
+        "146:                     # IMPORTANT: rotate 180 degrees to match train preprocessing",
+        "147:                     img = np.ascontiguousarray(obs[\"agentview_image\"][::-1, ::-1])",
+        "148:                     wrist_img = np.ascontiguousarray(obs[\"robot0_eye_in_hand_image\"][::-1, ::-1])",
+        "149:                     img = image_tools.convert_to_uint8(image_tools.resize_with_pad(img, args.resize_size, args.resize_size))",
+        "150:                     wrist_img = image_tools.convert_to_uint8(",
+        "151:                         image_tools.resize_with_pad(wrist_img, args.resize_size, args.resize_size)",
+        "152:                     )",
+        "153:                     replay_images.append(img)",
+        "154:                     frame_idx = int(len(replay_images) - 1)",
+        "155: ",
+        "156:                     if not action_plan:"
+      ]
+    },
+    {
+      "start_line": 156,
+      "end_line": 169,
+      "excerpt": [
+        "156:                     if not action_plan:",
+        "157:                         infer_id = int(infer_id_next)",
+        "158:                         infer_id_next += 1",
+        "159:                         element = {",
+        "160:                             \"observation/image\": img,",
+        "161:                             \"observation/wrist_image\": wrist_img,",
+        "162:                             \"observation/state\": np.concatenate(",
+        "163:                                 (",
+        "164:                                     obs[\"robot0_eef_pos\"],",
+        "165:                                     _quat2axisangle(obs[\"robot0_eef_quat\"]),",
+        "166:                                     obs[\"robot0_gripper_qpos\"],",
+        "167:                                 )",
+        "168:                             ),",
+        "169:                             \"prompt\": str(task_description),"
+      ]
+    }
+  ],
+  "recommended_patch_region": "After wrist image resize and before the policy request element is sent via client.infer.",
+  "confidence": "high",
+  "existing_stage6_timing_patch_detected": true
+}

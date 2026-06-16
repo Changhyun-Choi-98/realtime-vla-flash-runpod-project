@@ -1,0 +1,31 @@
+{
+  "decision": "PROCEED_TO_STAGE7_MINIMAL_EXTENSION",
+  "decision_reason": "Robustness perturbation changed measured outcomes versus Stage 4.",
+  "measured_conditions": [
+    "wrist_zero_every4",
+    "wrist_zero_all"
+  ],
+  "episodes_requested_measured": 30,
+  "episodes_completed_measured": 30,
+  "condition_aggregate": {
+    "wrist_zero_every4": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 4,
+      "success_rate": 0.26666666666666666,
+      "success_drop_vs_stage4_clean": 0.6333333333333333
+    },
+    "wrist_zero_all": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "success_drop_vs_stage4_clean": 0.9
+    }
+  },
+  "missing_fields": [],
+  "video_count": 30,
+  "full_benchmark_attempted": false,
+  "paper_reproduction_claimed": false,
+  "robustness_claim_scope": "limited to LIBERO Goal tasks 0-2 under wrist-camera zeroing"
+}

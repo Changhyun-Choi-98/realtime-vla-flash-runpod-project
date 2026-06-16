@@ -1,0 +1,13 @@
+{
+  "server_ready": true,
+  "server_alive_before_cleanup": true,
+  "exit_status": {
+    "sanity": 0,
+    "wrist_zero_every4_task0": 0,
+    "wrist_zero_every4_task1": 0,
+    "wrist_zero_every4_task2": 0,
+    "wrist_zero_all_task0": 0,
+    "wrist_zero_all_task1": 0,
+    "wrist_zero_all_task2": 0
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "stage4_clean_baseline": {
+    "stage4_task_success_rate": {
+      "0": 0.9,
+      "1": 0.9,
+      "2": 0.9
+    },
+    "stage4_first5_by_task": {
+      "0": {
+        "episodes": 5,
+        "success": 5,
+        "success_rate": 1.0
+      },
+      "1": {
+        "episodes": 5,
+        "success": 4,
+        "success_rate": 0.8
+      },
+      "2": {
+        "episodes": 5,
+        "success": 4,
+        "success_rate": 0.8
+      }
+    },
+    "stage4_aggregate_success_rate": 0.9,
+    "stage4_success_count": 27,
+    "stage4_completed": 30
+  },
+  "condition_aggregate": {
+    "wrist_zero_every4": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 4,
+      "success_rate": 0.26666666666666666,
+      "success_drop_vs_stage4_clean": 0.6333333333333333
+    },
+    "wrist_zero_all": {
+      "episodes_requested": 15,
+      "episodes_completed": 15,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "success_drop_vs_stage4_clean": 0.9
+    }
+  },
+  "condition_task_rows": [
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 0,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage4_task_success_rate": 0.9,
+      "stage4_first5_success_rate": 1.0,
+      "success_drop_vs_stage4": 0.9,
+      "success_drop_vs_stage4_first5": 1.0,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 1,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage4_task_success_rate": 0.9,
+      "stage4_first5_success_rate": 0.8,
+      "success_drop_vs_stage4": 0.9,
+      "success_drop_vs_stage4_first5": 0.8,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "wrist_zero_every4",
+      "task_id": 2,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 4,
+      "success_rate": 0.8,
+      "stage4_task_success_rate": 0.9,
+      "stage4_first5_success_rate": 0.8,
+      "success_drop_vs_stage4": 0.09999999999999998,
+      "success_drop_vs_stage4_first5": 0.0,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 0,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage4_task_success_rate": 0.9,
+      "stage4_first5_success_rate": 1.0,
+      "success_drop_vs_stage4": 0.9,
+      "success_drop_vs_stage4_first5": 1.0,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 1,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage4_task_success_rate": 0.9,
+      "stage4_first5_success_rate": 0.8,
+      "success_drop_vs_stage4": 0.9,
+      "success_drop_vs_stage4_first5": 0.8,
+      "main_failure_mode": "perturbation-induced perception failure"
+    },
+    {
+      "condition": "wrist_zero_all",
+      "task_id": 2,
+      "episodes_requested": 5,
+      "episodes_completed": 5,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "stage4_task_success_rate": 0.9,
+      "stage4_first5_success_rate": 0.8,
+      "success_drop_vs_stage4": 0.9,
+      "success_drop_vs_stage4_first5": 0.8,
+      "main_failure_mode": "perturbation-induced perception failure"
+    }
+  ],
+  "route_summary_by_condition": {
+    "wrist_zero_every4": {
+      "route_counts": {
+        "full": 154,
+        "draft": 325
+      },
+      "draft_ratio": 0.6784968684759917,
+      "full_ratio": 0.32150313152400833,
+      "accepted_prefix_len": {
+        "mean": 7.92901878914405,
+        "p50": 12.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "chunk_exec_len": {
+        "mean": 7.92901878914405,
+        "p50": 12.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "perturb_applied_count": 127,
+      "infer_count": 479
+    },
+    "wrist_zero_all": {
+      "route_counts": {
+        "full": 269,
+        "draft": 424
+      },
+      "draft_ratio": 0.6118326118326118,
+      "full_ratio": 0.38816738816738816,
+      "accepted_prefix_len": {
+        "mean": 6.54978354978355,
+        "p50": 9.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "chunk_exec_len": {
+        "mean": 6.54978354978355,
+        "p50": 9.0,
+        "p90": 12.0,
+        "p95": 12.0,
+        "p99": 12.0
+      },
+      "perturb_applied_count": 693,
+      "infer_count": 693
+    }
+  },
+  "interpretation": "Compare condition aggregate and task rows against Stage 4 clean baseline; this is a limited perturbation probe only."
+}
